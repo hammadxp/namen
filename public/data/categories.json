@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "cities",
+    "name": "Cities",
+    "description": "Place names from around the world, ranked for sound and shape.",
+    "accent": "#35B8D4",
+    "count": 161103,
+    "samples": ["Shanghai", "Chongqing", "Chengdu", "Beijing", "Guangzhou"]
+  },
+  {
+    "slug": "countries",
+    "name": "Countries",
+    "description": "Country names with flags, regions, and sortable city counts.",
+    "accent": "#FFD166",
+    "count": 242,
+    "samples": ["France", "United States", "Germany", "Italy", "Mexico"]
+  },
+  {
+    "slug": "fruits",
+    "name": "Fruit names",
+    "description": "Fruit names paired with their documented region of origin.",
+    "accent": "#FF6B35",
+    "count": 40,
+    "samples": ["Feijoa", "Rambutan", "Mangosteen", "Açaí", "Soursop"]
+  },
+  {
+    "slug": "colors",
+    "name": "Color names",
+    "description": "Evocative names grouped into ten main color families.",
+    "accent": "#7657FF",
+    "count": 248,
+    "samples": ["Crimson", "Ruby", "Scarlet", "Carmine", "Burgundy"]
+  },
+  {
+    "slug": "scientific-words",
+    "name": "Scientific words",
+    "description": "Distinctive terms from astronomy, biology, chemistry, earth science, and physics.",
+    "accent": "#43C59E",
+    "count": 98,
+    "samples": ["Aphelion", "Azimuth", "Bolide", "Chromosphere", "Eclipse"]
+  },
+  {
+    "slug": "elements",
+    "name": "Periodic elements",
+    "description": "All 118 element names with symbols, atomic numbers, and classifications.",
+    "accent": "#F19C2B",
+    "count": 118,
+    "samples": ["Hydrogen", "Helium", "Lithium", "Beryllium", "Boron"]
+  },
+  {
+    "slug": "stars",
+    "name": "Star names",
+    "description": "Proper star names from the HYG stellar database.",
+    "accent": "#5956E9",
+    "count": 465,
+    "samples": ["Acrab B", "Acubens", "Aladfar", "Albireo", "Alchiba"]
+  }
+]

@@ -10,7 +10,9 @@
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "data:build": "node scripts/build-city-data.mjs"
+    "data:build": "node scripts/build-city-data.mjs",
+    "data:categories": "node scripts/update-category-data.mjs",
+    "data:update": "node scripts/update-all-data.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-09-15T07:39:27.878Z",
+  "sources": {
+    "fruits": "https://raw.githubusercontent.com/Franqsanz/fruits-api/main/src/data/data.js",
+    "colors": "https://thecolorpalettestudio.com/pages/color-name-ideas",
+    "elements": "https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json",
+    "stars": "https://raw.githubusercontent.com/astronexus/HYG-Database/main/hyg/CURRENT/hygdata_v41.csv"
+  }
+}

@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "element-1",
+    "name": "Hydrogen",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 1",
+    "symbol": "H",
+    "atomicNumber": 1,
+    "score": 0.93
+  },
+  {
+    "id": "element-2",
+    "name": "Helium",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 2",
+    "symbol": "He",
+    "atomicNumber": 2,
+    "score": 0.93
+  },
+  {
+    "id": "element-3",
+    "name": "Lithium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 3",
+    "symbol": "Li",
+    "atomicNumber": 3,
+    "score": 1
+  },
+  {
+    "id": "element-4",
+    "name": "Beryllium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 4",
+    "symbol": "Be",
+    "atomicNumber": 4,
+    "score": 0.86
+  },
+  {
+    "id": "element-5",
+    "name": "Boron",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 5",
+    "symbol": "B",
+    "atomicNumber": 5,
+    "score": 0.86
+  },
+  {
+    "id": "element-6",
+    "name": "Carbon",
+    "category": "elements",
+    "group": "polyatomic nonmetal",
+    "subtitle": "Atomic number 6",
+    "symbol": "C",
+    "atomicNumber": 6,
+    "score": 0.93
+  },
+  {
+    "id": "element-7",
+    "name": "Nitrogen",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 7",
+    "symbol": "N",
+    "atomicNumber": 7,
+    "score": 0.93
+  },
+  {
+    "id": "element-8",
+    "name": "Oxygen",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 8",
+    "symbol": "O",
+    "atomicNumber": 8,
+    "score": 0.93
+  },
+  {
+    "id": "element-9",
+    "name": "Fluorine",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 9",
+    "symbol": "F",
+    "atomicNumber": 9,
+    "score": 0.93
+  },
+  {
+    "id": "element-10",
+    "name": "Neon",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 10",
+    "symbol": "Ne",
+    "atomicNumber": 10,
+    "score": 0.79
+  },
+  {
+    "id": "element-11",
+    "name": "Sodium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 11",
+    "symbol": "Na",
+    "atomicNumber": 11,
+    "score": 0.93
+  },
+  {
+    "id": "element-12",
+    "name": "Magnesium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 12",
+    "symbol": "Mg",
+    "atomicNumber": 12,
+    "score": 0.86
+  },
+  {
+    "id": "element-13",
+    "name": "Aluminium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 13",
+    "symbol": "Al",
+    "atomicNumber": 13,
+    "score": 0.86
+  },
+  {
+    "id": "element-14",
+    "name": "Silicon",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 14",
+    "symbol": "Si",
+    "atomicNumber": 14,
+    "score": 1
+  },
+  {
+    "id": "element-15",
+    "name": "Phosphorus",
+    "category": "elements",
+    "group": "polyatomic nonmetal",
+    "subtitle": "Atomic number 15",
+    "symbol": "P",
+    "atomicNumber": 15,
+    "score": 0.79
+  },
+  {
+    "id": "element-16",
+    "name": "Sulfur",
+    "category": "elements",
+    "group": "polyatomic nonmetal",
+    "subtitle": "Atomic number 16",
+    "symbol": "S",
+    "atomicNumber": 16,
+    "score": 0.93
+  },
+  {
+    "id": "element-17",
+    "name": "Chlorine",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 17",
+    "symbol": "Cl",
+    "atomicNumber": 17,
+    "score": 0.93
+  },
+  {
+    "id": "element-18",
+    "name": "Argon",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 18",
+    "symbol": "Ar",
+    "atomicNumber": 18,
+    "score": 0.86
+  },
+  {
+    "id": "element-19",
+    "name": "Potassium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 19",
+    "symbol": "K",
+    "atomicNumber": 19,
+    "score": 0.86
+  },
+  {
+    "id": "element-20",
+    "name": "Calcium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 20",
+    "symbol": "Ca",
+    "atomicNumber": 20,
+    "score": 1
+  },
+  {
+    "id": "element-21",
+    "name": "Scandium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 21",
+    "symbol": "Sc",
+    "atomicNumber": 21,
+    "score": 0.93
+  },
+  {
+    "id": "element-22",
+    "name": "Titanium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 22",
+    "symbol": "Ti",
+    "atomicNumber": 22,
+    "score": 0.93
+  },
+  {
+    "id": "element-23",
+    "name": "Vanadium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 23",
+    "symbol": "V",
+    "atomicNumber": 23,
+    "score": 0.93
+  },
+  {
+    "id": "element-24",
+    "name": "Chromium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 24",
+    "symbol": "Cr",
+    "atomicNumber": 24,
+    "score": 0.93
+  },
+  {
+    "id": "element-25",
+    "name": "Manganese",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 25",
+    "symbol": "Mn",
+    "atomicNumber": 25,
+    "score": 0.86
+  },
+  {
+    "id": "element-26",
+    "name": "Iron",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 26",
+    "symbol": "Fe",
+    "atomicNumber": 26,
+    "score": 0.79
+  },
+  {
+    "id": "element-27",
+    "name": "Cobalt",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 27",
+    "symbol": "Co",
+    "atomicNumber": 27,
+    "score": 0.93
+  },
+  {
+    "id": "element-28",
+    "name": "Nickel",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 28",
+    "symbol": "Ni",
+    "atomicNumber": 28,
+    "score": 0.93
+  },
+  {
+    "id": "element-29",
+    "name": "Copper",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 29",
+    "symbol": "Cu",
+    "atomicNumber": 29,
+    "score": 0.93
+  },
+  {
+    "id": "element-30",
+    "name": "Zinc",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 30",
+    "symbol": "Zn",
+    "atomicNumber": 30,
+    "score": 0.79
+  },
+  {
+    "id": "element-31",
+    "name": "Gallium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 31",
+    "symbol": "Ga",
+    "atomicNumber": 31,
+    "score": 1
+  },
+  {
+    "id": "element-32",
+    "name": "Germanium",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 32",
+    "symbol": "Ge",
+    "atomicNumber": 32,
+    "score": 0.86
+  },
+  {
+    "id": "element-33",
+    "name": "Arsenic",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 33",
+    "symbol": "As",
+    "atomicNumber": 33,
+    "score": 1
+  },
+  {
+    "id": "element-34",
+    "name": "Selenium",
+    "category": "elements",
+    "group": "polyatomic nonmetal",
+    "subtitle": "Atomic number 34",
+    "symbol": "Se",
+    "atomicNumber": 34,
+    "score": 0.93
+  },
+  {
+    "id": "element-35",
+    "name": "Bromine",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 35",
+    "symbol": "Br",
+    "atomicNumber": 35,
+    "score": 1
+  },
+  {
+    "id": "element-36",
+    "name": "Krypton",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 36",
+    "symbol": "Kr",
+    "atomicNumber": 36,
+    "score": 1
+  },
+  {
+    "id": "element-37",
+    "name": "Rubidium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 37",
+    "symbol": "Rb",
+    "atomicNumber": 37,
+    "score": 0.93
+  },
+  {
+    "id": "element-38",
+    "name": "Strontium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 38",
+    "symbol": "Sr",
+    "atomicNumber": 38,
+    "score": 0.86
+  },
+  {
+    "id": "element-39",
+    "name": "Yttrium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 39",
+    "symbol": "Y",
+    "atomicNumber": 39,
+    "score": 1
+  },
+  {
+    "id": "element-40",
+    "name": "Zirconium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 40",
+    "symbol": "Zr",
+    "atomicNumber": 40,
+    "score": 0.86
+  },
+  {
+    "id": "element-41",
+    "name": "Niobium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 41",
+    "symbol": "Nb",
+    "atomicNumber": 41,
+    "score": 1
+  },
+  {
+    "id": "element-42",
+    "name": "Molybdenum",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 42",
+    "symbol": "Mo",
+    "atomicNumber": 42,
+    "score": 0.79
+  },
+  {
+    "id": "element-43",
+    "name": "Technetium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 43",
+    "symbol": "Tc",
+    "atomicNumber": 43,
+    "score": 0.79
+  },
+  {
+    "id": "element-44",
+    "name": "Ruthenium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 44",
+    "symbol": "Ru",
+    "atomicNumber": 44,
+    "score": 0.86
+  },
+  {
+    "id": "element-45",
+    "name": "Rhodium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 45",
+    "symbol": "Rh",
+    "atomicNumber": 45,
+    "score": 1
+  },
+  {
+    "id": "element-46",
+    "name": "Palladium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 46",
+    "symbol": "Pd",
+    "atomicNumber": 46,
+    "score": 0.86
+  },
+  {
+    "id": "element-47",
+    "name": "Silver",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 47",
+    "symbol": "Ag",
+    "atomicNumber": 47,
+    "score": 0.93
+  },
+  {
+    "id": "element-48",
+    "name": "Cadmium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 48",
+    "symbol": "Cd",
+    "atomicNumber": 48,
+    "score": 1
+  },
+  {
+    "id": "element-49",
+    "name": "Indium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 49",
+    "symbol": "In",
+    "atomicNumber": 49,
+    "score": 0.93
+  },
+  {
+    "id": "element-50",
+    "name": "Tin",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 50",
+    "symbol": "Sn",
+    "atomicNumber": 50,
+    "score": 0.71
+  },
+  {
+    "id": "element-51",
+    "name": "Antimony",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 51",
+    "symbol": "Sb",
+    "atomicNumber": 51,
+    "score": 0.93
+  },
+  {
+    "id": "element-52",
+    "name": "Tellurium",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 52",
+    "symbol": "Te",
+    "atomicNumber": 52,
+    "score": 0.86
+  },
+  {
+    "id": "element-53",
+    "name": "Iodine",
+    "category": "elements",
+    "group": "diatomic nonmetal",
+    "subtitle": "Atomic number 53",
+    "symbol": "I",
+    "atomicNumber": 53,
+    "score": 0.93
+  },
+  {
+    "id": "element-54",
+    "name": "Xenon",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 54",
+    "symbol": "Xe",
+    "atomicNumber": 54,
+    "score": 0.86
+  },
+  {
+    "id": "element-55",
+    "name": "Cesium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 55",
+    "symbol": "Cs",
+    "atomicNumber": 55,
+    "score": 0.93
+  },
+  {
+    "id": "element-56",
+    "name": "Barium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 56",
+    "symbol": "Ba",
+    "atomicNumber": 56,
+    "score": 0.93
+  },
+  {
+    "id": "element-57",
+    "name": "Lanthanum",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 57",
+    "symbol": "La",
+    "atomicNumber": 57,
+    "score": 0.86
+  },
+  {
+    "id": "element-58",
+    "name": "Cerium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 58",
+    "symbol": "Ce",
+    "atomicNumber": 58,
+    "score": 0.93
+  },
+  {
+    "id": "element-59",
+    "name": "Praseodymium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 59",
+    "symbol": "Pr",
+    "atomicNumber": 59,
+    "score": 0.64
+  },
+  {
+    "id": "element-60",
+    "name": "Neodymium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 60",
+    "symbol": "Nd",
+    "atomicNumber": 60,
+    "score": 0.86
+  },
+  {
+    "id": "element-61",
+    "name": "Promethium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 61",
+    "symbol": "Pm",
+    "atomicNumber": 61,
+    "score": 0.79
+  },
+  {
+    "id": "element-62",
+    "name": "Samarium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 62",
+    "symbol": "Sm",
+    "atomicNumber": 62,
+    "score": 0.93
+  },
+  {
+    "id": "element-63",
+    "name": "Europium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 63",
+    "symbol": "Eu",
+    "atomicNumber": 63,
+    "score": 0.93
+  },
+  {
+    "id": "element-64",
+    "name": "Gadolinium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 64",
+    "symbol": "Gd",
+    "atomicNumber": 64,
+    "score": 0.79
+  },
+  {
+    "id": "element-65",
+    "name": "Terbium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 65",
+    "symbol": "Tb",
+    "atomicNumber": 65,
+    "score": 1
+  },
+  {
+    "id": "element-66",
+    "name": "Dysprosium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 66",
+    "symbol": "Dy",
+    "atomicNumber": 66,
+    "score": 0.79
+  },
+  {
+    "id": "element-67",
+    "name": "Holmium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 67",
+    "symbol": "Ho",
+    "atomicNumber": 67,
+    "score": 1
+  },
+  {
+    "id": "element-68",
+    "name": "Erbium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 68",
+    "symbol": "Er",
+    "atomicNumber": 68,
+    "score": 0.93
+  },
+  {
+    "id": "element-69",
+    "name": "Thulium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 69",
+    "symbol": "Tm",
+    "atomicNumber": 69,
+    "score": 1
+  },
+  {
+    "id": "element-70",
+    "name": "Ytterbium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 70",
+    "symbol": "Yb",
+    "atomicNumber": 70,
+    "score": 0.86
+  },
+  {
+    "id": "element-71",
+    "name": "Lutetium",
+    "category": "elements",
+    "group": "lanthanide",
+    "subtitle": "Atomic number 71",
+    "symbol": "Lu",
+    "atomicNumber": 71,
+    "score": 0.93
+  },
+  {
+    "id": "element-72",
+    "name": "Hafnium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 72",
+    "symbol": "Hf",
+    "atomicNumber": 72,
+    "score": 1
+  },
+  {
+    "id": "element-73",
+    "name": "Tantalum",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 73",
+    "symbol": "Ta",
+    "atomicNumber": 73,
+    "score": 0.93
+  },
+  {
+    "id": "element-74",
+    "name": "Tungsten",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 74",
+    "symbol": "W",
+    "atomicNumber": 74,
+    "score": 0.93
+  },
+  {
+    "id": "element-75",
+    "name": "Rhenium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 75",
+    "symbol": "Re",
+    "atomicNumber": 75,
+    "score": 1
+  },
+  {
+    "id": "element-76",
+    "name": "Osmium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 76",
+    "symbol": "Os",
+    "atomicNumber": 76,
+    "score": 0.93
+  },
+  {
+    "id": "element-77",
+    "name": "Iridium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 77",
+    "symbol": "Ir",
+    "atomicNumber": 77,
+    "score": 1
+  },
+  {
+    "id": "element-78",
+    "name": "Platinum",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 78",
+    "symbol": "Pt",
+    "atomicNumber": 78,
+    "score": 0.93
+  },
+  {
+    "id": "element-79",
+    "name": "Gold",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 79",
+    "symbol": "Au",
+    "atomicNumber": 79,
+    "score": 0.79
+  },
+  {
+    "id": "element-80",
+    "name": "Mercury",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 80",
+    "symbol": "Hg",
+    "atomicNumber": 80,
+    "score": 1
+  },
+  {
+    "id": "element-81",
+    "name": "Thallium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 81",
+    "symbol": "Tl",
+    "atomicNumber": 81,
+    "score": 0.93
+  },
+  {
+    "id": "element-82",
+    "name": "Lead",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 82",
+    "symbol": "Pb",
+    "atomicNumber": 82,
+    "score": 0.79
+  },
+  {
+    "id": "element-83",
+    "name": "Bismuth",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 83",
+    "symbol": "Bi",
+    "atomicNumber": 83,
+    "score": 1
+  },
+  {
+    "id": "element-84",
+    "name": "Polonium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 84",
+    "symbol": "Po",
+    "atomicNumber": 84,
+    "score": 0.93
+  },
+  {
+    "id": "element-85",
+    "name": "Astatine",
+    "category": "elements",
+    "group": "metalloid",
+    "subtitle": "Atomic number 85",
+    "symbol": "At",
+    "atomicNumber": 85,
+    "score": 0.93
+  },
+  {
+    "id": "element-86",
+    "name": "Radon",
+    "category": "elements",
+    "group": "noble gas",
+    "subtitle": "Atomic number 86",
+    "symbol": "Rn",
+    "atomicNumber": 86,
+    "score": 0.86
+  },
+  {
+    "id": "element-87",
+    "name": "Francium",
+    "category": "elements",
+    "group": "alkali metal",
+    "subtitle": "Atomic number 87",
+    "symbol": "Fr",
+    "atomicNumber": 87,
+    "score": 0.93
+  },
+  {
+    "id": "element-88",
+    "name": "Radium",
+    "category": "elements",
+    "group": "alkaline earth metal",
+    "subtitle": "Atomic number 88",
+    "symbol": "Ra",
+    "atomicNumber": 88,
+    "score": 0.93
+  },
+  {
+    "id": "element-89",
+    "name": "Actinium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 89",
+    "symbol": "Ac",
+    "atomicNumber": 89,
+    "score": 0.93
+  },
+  {
+    "id": "element-90",
+    "name": "Thorium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 90",
+    "symbol": "Th",
+    "atomicNumber": 90,
+    "score": 1
+  },
+  {
+    "id": "element-91",
+    "name": "Protactinium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 91",
+    "symbol": "Pa",
+    "atomicNumber": 91,
+    "score": 0.64
+  },
+  {
+    "id": "element-92",
+    "name": "Uranium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 92",
+    "symbol": "U",
+    "atomicNumber": 92,
+    "score": 1
+  },
+  {
+    "id": "element-93",
+    "name": "Neptunium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 93",
+    "symbol": "Np",
+    "atomicNumber": 93,
+    "score": 0.86
+  },
+  {
+    "id": "element-94",
+    "name": "Plutonium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 94",
+    "symbol": "Pu",
+    "atomicNumber": 94,
+    "score": 0.86
+  },
+  {
+    "id": "element-95",
+    "name": "Americium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 95",
+    "symbol": "Am",
+    "atomicNumber": 95,
+    "score": 0.86
+  },
+  {
+    "id": "element-96",
+    "name": "Curium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 96",
+    "symbol": "Cm",
+    "atomicNumber": 96,
+    "score": 0.93
+  },
+  {
+    "id": "element-97",
+    "name": "Berkelium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 97",
+    "symbol": "Bk",
+    "atomicNumber": 97,
+    "score": 0.86
+  },
+  {
+    "id": "element-98",
+    "name": "Californium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 98",
+    "symbol": "Cf",
+    "atomicNumber": 98,
+    "score": 0.71
+  },
+  {
+    "id": "element-99",
+    "name": "Einsteinium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 99",
+    "symbol": "Es",
+    "atomicNumber": 99,
+    "score": 0.71
+  },
+  {
+    "id": "element-100",
+    "name": "Fermium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 100",
+    "symbol": "Fm",
+    "atomicNumber": 100,
+    "score": 1
+  },
+  {
+    "id": "element-101",
+    "name": "Mendelevium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 101",
+    "symbol": "Md",
+    "atomicNumber": 101,
+    "score": 0.71
+  },
+  {
+    "id": "element-102",
+    "name": "Nobelium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 102",
+    "symbol": "No",
+    "atomicNumber": 102,
+    "score": 0.93
+  },
+  {
+    "id": "element-103",
+    "name": "Lawrencium",
+    "category": "elements",
+    "group": "actinide",
+    "subtitle": "Atomic number 103",
+    "symbol": "Lr",
+    "atomicNumber": 103,
+    "score": 0.79
+  },
+  {
+    "id": "element-104",
+    "name": "Rutherfordium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 104",
+    "symbol": "Rf",
+    "atomicNumber": 104,
+    "score": 0.57
+  },
+  {
+    "id": "element-105",
+    "name": "Dubnium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 105",
+    "symbol": "Db",
+    "atomicNumber": 105,
+    "score": 1
+  },
+  {
+    "id": "element-106",
+    "name": "Seaborgium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 106",
+    "symbol": "Sg",
+    "atomicNumber": 106,
+    "score": 0.79
+  },
+  {
+    "id": "element-107",
+    "name": "Bohrium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 107",
+    "symbol": "Bh",
+    "atomicNumber": 107,
+    "score": 1
+  },
+  {
+    "id": "element-108",
+    "name": "Hassium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 108",
+    "symbol": "Hs",
+    "atomicNumber": 108,
+    "score": 1
+  },
+  {
+    "id": "element-109",
+    "name": "Meitnerium",
+    "category": "elements",
+    "group": "unknown, probably transition metal",
+    "subtitle": "Atomic number 109",
+    "symbol": "Mt",
+    "atomicNumber": 109,
+    "score": 0.79
+  },
+  {
+    "id": "element-110",
+    "name": "Darmstadtium",
+    "category": "elements",
+    "group": "unknown, probably transition metal",
+    "subtitle": "Atomic number 110",
+    "symbol": "Ds",
+    "atomicNumber": 110,
+    "score": 0.64
+  },
+  {
+    "id": "element-111",
+    "name": "Roentgenium",
+    "category": "elements",
+    "group": "unknown, probably transition metal",
+    "subtitle": "Atomic number 111",
+    "symbol": "Rg",
+    "atomicNumber": 111,
+    "score": 0.71
+  },
+  {
+    "id": "element-112",
+    "name": "Copernicium",
+    "category": "elements",
+    "group": "transition metal",
+    "subtitle": "Atomic number 112",
+    "symbol": "Cn",
+    "atomicNumber": 112,
+    "score": 0.71
+  },
+  {
+    "id": "element-113",
+    "name": "Nihonium",
+    "category": "elements",
+    "group": "unknown, probably transition metal",
+    "subtitle": "Atomic number 113",
+    "symbol": "Nh",
+    "atomicNumber": 113,
+    "score": 0.93
+  },
+  {
+    "id": "element-114",
+    "name": "Flerovium",
+    "category": "elements",
+    "group": "post-transition metal",
+    "subtitle": "Atomic number 114",
+    "symbol": "Fl",
+    "atomicNumber": 114,
+    "score": 0.86
+  },
+  {
+    "id": "element-115",
+    "name": "Moscovium",
+    "category": "elements",
+    "group": "unknown, probably post-transition metal",
+    "subtitle": "Atomic number 115",
+    "symbol": "Mc",
+    "atomicNumber": 115,
+    "score": 0.86
+  },
+  {
+    "id": "element-116",
+    "name": "Livermorium",
+    "category": "elements",
+    "group": "unknown, probably post-transition metal",
+    "subtitle": "Atomic number 116",
+    "symbol": "Lv",
+    "atomicNumber": 116,
+    "score": 0.71
+  },
+  {
+    "id": "element-117",
+    "name": "Tennessine",
+    "category": "elements",
+    "group": "unknown, probably metalloid",
+    "subtitle": "Atomic number 117",
+    "symbol": "Ts",
+    "atomicNumber": 117,
+    "score": 0.79
+  },
+  {
+    "id": "element-118",
+    "name": "Oganesson",
+    "category": "elements",
+    "group": "unknown, predicted to be noble gas",
+    "subtitle": "Atomic number 118",
+    "symbol": "Og",
+    "atomicNumber": 118,
+    "score": 0.86
+  }
+]

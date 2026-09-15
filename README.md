@@ -1,8 +1,8 @@
 # Coolname
 
-A colorful name-inspiration desk built from real city names. Browse 8,000+ curated
-places, sort them by uniqueness, translate promising words, vote, save a shortlist,
-and share a name or list.
+A searchable name collection built from cities, countries, fruit, colors, scientific
+words, periodic elements, and stars. The browser uses local static data and keeps
+saved names and translation results in localStorage.
 
 ## Run locally
 
@@ -25,21 +25,23 @@ GOOGLE_CLOUD_TRANSLATE_API_KEY="your-key"
 The interface remains usable without a key and explains what is missing when a
 translation is requested.
 
-## Rebuild the city dataset
+## Update local data
+
+```bash
+pnpm data:update
+```
+
+The parent updater runs each source in order and records its completion time in
+`public/data/metadata.json`. It downloads GeoNames `cities500`, REST Countries,
+the HYG star database, the periodic table dataset, fruit-origin source data, and
+verifies the configured color-name source. Generated files live under
+`public/data` and the footer displays the last update date.
+
+Run only one part when needed:
 
 ```bash
 pnpm data:build
-```
-
-The offline script downloads GeoNames `cities15000`, reads country metadata from REST
-Countries or its open dataset fallback, removes duplicate place names, computes a
-uniqueness score, infers tags and word emojis, and writes static files under
-`public/data`.
-
-Optional limits can be changed without editing the script:
-
-```bash
-pnpm data:build --max-per-country=50 --min-population=25000
+pnpm data:categories
 ```
 
 ## Checks
@@ -50,5 +52,4 @@ pnpm typecheck
 pnpm build
 ```
 
-Favorites, votes, and translation cache entries are stored in browser localStorage.
-Share links use URL parameters and do not require an account or database.
+Saved names and translation cache entries are stored in browser localStorage.

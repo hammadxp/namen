@@ -1,0 +1,2234 @@
+[
+  {
+    "id": "color-red-crimson",
+    "name": "Crimson",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.95
+  },
+  {
+    "id": "color-red-ruby",
+    "name": "Ruby",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.94
+  },
+  {
+    "id": "color-red-scarlet",
+    "name": "Scarlet",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.93
+  },
+  {
+    "id": "color-red-carmine",
+    "name": "Carmine",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.93
+  },
+  {
+    "id": "color-red-burgundy",
+    "name": "Burgundy",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.92
+  },
+  {
+    "id": "color-red-vermilion",
+    "name": "Vermilion",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.91
+  },
+  {
+    "id": "color-red-maroon",
+    "name": "Maroon",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.9
+  },
+  {
+    "id": "color-red-cherry",
+    "name": "Cherry",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.89
+  },
+  {
+    "id": "color-red-brick",
+    "name": "Brick",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.89
+  },
+  {
+    "id": "color-red-cranberry",
+    "name": "Cranberry",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.88
+  },
+  {
+    "id": "color-red-rose",
+    "name": "Rose",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.87
+  },
+  {
+    "id": "color-red-garnet",
+    "name": "Garnet",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.86
+  },
+  {
+    "id": "color-red-raspberry",
+    "name": "Raspberry",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.85
+  },
+  {
+    "id": "color-red-mahogany",
+    "name": "Mahogany",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.85
+  },
+  {
+    "id": "color-red-merlot",
+    "name": "Merlot",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.84
+  },
+  {
+    "id": "color-red-auburn",
+    "name": "Auburn",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.83
+  },
+  {
+    "id": "color-red-cinnabar",
+    "name": "Cinnabar",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.82
+  },
+  {
+    "id": "color-red-pomegranate",
+    "name": "Pomegranate",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.81
+  },
+  {
+    "id": "color-red-claret",
+    "name": "Claret",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.81
+  },
+  {
+    "id": "color-red-poppy",
+    "name": "Poppy",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.8
+  },
+  {
+    "id": "color-red-hibiscus",
+    "name": "Hibiscus",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.79
+  },
+  {
+    "id": "color-red-amaranth",
+    "name": "Amaranth",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.78
+  },
+  {
+    "id": "color-red-sangria",
+    "name": "Sangria",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.77
+  },
+  {
+    "id": "color-red-watermelon",
+    "name": "Watermelon",
+    "category": "colors",
+    "group": "red",
+    "subtitle": "red family",
+    "color": "#C8464A",
+    "score": 0.77
+  },
+  {
+    "id": "color-orange-tangerine",
+    "name": "Tangerine",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.95
+  },
+  {
+    "id": "color-orange-apricot",
+    "name": "Apricot",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.94
+  },
+  {
+    "id": "color-orange-peach",
+    "name": "Peach",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.93
+  },
+  {
+    "id": "color-orange-pumpkin",
+    "name": "Pumpkin",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.93
+  },
+  {
+    "id": "color-orange-amber",
+    "name": "Amber",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.92
+  },
+  {
+    "id": "color-orange-carrot",
+    "name": "Carrot",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.91
+  },
+  {
+    "id": "color-orange-citrus",
+    "name": "Citrus",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.9
+  },
+  {
+    "id": "color-orange-mandarin",
+    "name": "Mandarin",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.89
+  },
+  {
+    "id": "color-orange-salmon",
+    "name": "Salmon",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.89
+  },
+  {
+    "id": "color-orange-sunrise",
+    "name": "Sunrise",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.88
+  },
+  {
+    "id": "color-orange-cider",
+    "name": "Cider",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.87
+  },
+  {
+    "id": "color-orange-ginger",
+    "name": "Ginger",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.86
+  },
+  {
+    "id": "color-orange-saffron",
+    "name": "Saffron",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.85
+  },
+  {
+    "id": "color-orange-marigold",
+    "name": "Marigold",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.85
+  },
+  {
+    "id": "color-orange-copper",
+    "name": "Copper",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.84
+  },
+  {
+    "id": "color-orange-papaya",
+    "name": "Papaya",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.83
+  },
+  {
+    "id": "color-orange-terracotta",
+    "name": "Terracotta",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.82
+  },
+  {
+    "id": "color-orange-cantaloupe",
+    "name": "Cantaloupe",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.81
+  },
+  {
+    "id": "color-orange-mango",
+    "name": "Mango",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.81
+  },
+  {
+    "id": "color-orange-bronze",
+    "name": "Bronze",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.8
+  },
+  {
+    "id": "color-orange-clay",
+    "name": "Clay",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.79
+  },
+  {
+    "id": "color-orange-sienna",
+    "name": "Sienna",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.78
+  },
+  {
+    "id": "color-orange-topaz",
+    "name": "Topaz",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.77
+  },
+  {
+    "id": "color-orange-nectarine",
+    "name": "Nectarine",
+    "category": "colors",
+    "group": "orange",
+    "subtitle": "orange family",
+    "color": "#E4833A",
+    "score": 0.77
+  },
+  {
+    "id": "color-yellow-lemon",
+    "name": "Lemon",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.95
+  },
+  {
+    "id": "color-yellow-sunshine",
+    "name": "Sunshine",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.94
+  },
+  {
+    "id": "color-yellow-canary",
+    "name": "Canary",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.93
+  },
+  {
+    "id": "color-yellow-gold",
+    "name": "Gold",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.93
+  },
+  {
+    "id": "color-yellow-butter",
+    "name": "Butter",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.92
+  },
+  {
+    "id": "color-yellow-dandelion",
+    "name": "Dandelion",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.91
+  },
+  {
+    "id": "color-yellow-mustard",
+    "name": "Mustard",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.9
+  },
+  {
+    "id": "color-yellow-honey",
+    "name": "Honey",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.89
+  },
+  {
+    "id": "color-yellow-maize",
+    "name": "Maize",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.89
+  },
+  {
+    "id": "color-yellow-citrine",
+    "name": "Citrine",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.88
+  },
+  {
+    "id": "color-yellow-banana",
+    "name": "Banana",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.87
+  },
+  {
+    "id": "color-yellow-flaxen",
+    "name": "Flaxen",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.86
+  },
+  {
+    "id": "color-yellow-goldenrod",
+    "name": "Goldenrod",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.85
+  },
+  {
+    "id": "color-yellow-pineapple",
+    "name": "Pineapple",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.85
+  },
+  {
+    "id": "color-yellow-primrose",
+    "name": "Primrose",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.84
+  },
+  {
+    "id": "color-yellow-straw",
+    "name": "Straw",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.83
+  },
+  {
+    "id": "color-yellow-sunflower",
+    "name": "Sunflower",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.82
+  },
+  {
+    "id": "color-yellow-mimosa",
+    "name": "Mimosa",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.81
+  },
+  {
+    "id": "color-yellow-champagne",
+    "name": "Champagne",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.81
+  },
+  {
+    "id": "color-yellow-daffodil",
+    "name": "Daffodil",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.8
+  },
+  {
+    "id": "color-yellow-jonquil",
+    "name": "Jonquil",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.79
+  },
+  {
+    "id": "color-yellow-ochre",
+    "name": "Ochre",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.78
+  },
+  {
+    "id": "color-yellow-wattle",
+    "name": "Wattle",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.77
+  },
+  {
+    "id": "color-yellow-cornsilk",
+    "name": "Cornsilk",
+    "category": "colors",
+    "group": "yellow",
+    "subtitle": "yellow family",
+    "color": "#E2B93B",
+    "score": 0.77
+  },
+  {
+    "id": "color-green-emerald",
+    "name": "Emerald",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.95
+  },
+  {
+    "id": "color-green-jade",
+    "name": "Jade",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.94
+  },
+  {
+    "id": "color-green-olive",
+    "name": "Olive",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.93
+  },
+  {
+    "id": "color-green-lime",
+    "name": "Lime",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.93
+  },
+  {
+    "id": "color-green-mint",
+    "name": "Mint",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.92
+  },
+  {
+    "id": "color-green-forest",
+    "name": "Forest",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.91
+  },
+  {
+    "id": "color-green-grass",
+    "name": "Grass",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.9
+  },
+  {
+    "id": "color-green-shamrock",
+    "name": "Shamrock",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.89
+  },
+  {
+    "id": "color-green-fern",
+    "name": "Fern",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.89
+  },
+  {
+    "id": "color-green-moss",
+    "name": "Moss",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.88
+  },
+  {
+    "id": "color-green-pine",
+    "name": "Pine",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.87
+  },
+  {
+    "id": "color-green-sage",
+    "name": "Sage",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.86
+  },
+  {
+    "id": "color-green-chartreuse",
+    "name": "Chartreuse",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.85
+  },
+  {
+    "id": "color-green-celadon",
+    "name": "Celadon",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.85
+  },
+  {
+    "id": "color-green-hunter",
+    "name": "Hunter",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.84
+  },
+  {
+    "id": "color-green-pistachio",
+    "name": "Pistachio",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.83
+  },
+  {
+    "id": "color-green-pear",
+    "name": "Pear",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.82
+  },
+  {
+    "id": "color-green-teal",
+    "name": "Teal",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.81
+  },
+  {
+    "id": "color-green-avocado",
+    "name": "Avocado",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.81
+  },
+  {
+    "id": "color-green-clover",
+    "name": "Clover",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.8
+  },
+  {
+    "id": "color-green-malachite",
+    "name": "Malachite",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.79
+  },
+  {
+    "id": "color-green-cactus",
+    "name": "Cactus",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.78
+  },
+  {
+    "id": "color-green-bamboo",
+    "name": "Bamboo",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.77
+  },
+  {
+    "id": "color-green-ivy",
+    "name": "Ivy",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.77
+  },
+  {
+    "id": "color-green-kiwi",
+    "name": "Kiwi",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.76
+  },
+  {
+    "id": "color-green-verdant",
+    "name": "Verdant",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.75
+  },
+  {
+    "id": "color-green-beryl",
+    "name": "Beryl",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.74
+  },
+  {
+    "id": "color-green-spearmint",
+    "name": "Spearmint",
+    "category": "colors",
+    "group": "green",
+    "subtitle": "green family",
+    "color": "#4D8B62",
+    "score": 0.73
+  },
+  {
+    "id": "color-blue-azure",
+    "name": "Azure",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.95
+  },
+  {
+    "id": "color-blue-cobalt",
+    "name": "Cobalt",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.94
+  },
+  {
+    "id": "color-blue-navy",
+    "name": "Navy",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.93
+  },
+  {
+    "id": "color-blue-sky",
+    "name": "Sky",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.93
+  },
+  {
+    "id": "color-blue-sapphire",
+    "name": "Sapphire",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.92
+  },
+  {
+    "id": "color-blue-turquoise",
+    "name": "Turquoise",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.91
+  },
+  {
+    "id": "color-blue-indigo",
+    "name": "Indigo",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.9
+  },
+  {
+    "id": "color-blue-cerulean",
+    "name": "Cerulean",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.89
+  },
+  {
+    "id": "color-blue-denim",
+    "name": "Denim",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.89
+  },
+  {
+    "id": "color-blue-aqua",
+    "name": "Aqua",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.88
+  },
+  {
+    "id": "color-blue-royal",
+    "name": "Royal",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.87
+  },
+  {
+    "id": "color-blue-steel",
+    "name": "Steel",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.86
+  },
+  {
+    "id": "color-blue-powder",
+    "name": "Powder",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.85
+  },
+  {
+    "id": "color-blue-periwinkle",
+    "name": "Periwinkle",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.85
+  },
+  {
+    "id": "color-blue-cornflower",
+    "name": "Cornflower",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.84
+  },
+  {
+    "id": "color-blue-prussian",
+    "name": "Prussian",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.83
+  },
+  {
+    "id": "color-blue-midnight",
+    "name": "Midnight",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.82
+  },
+  {
+    "id": "color-blue-aegean",
+    "name": "Aegean",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.81
+  },
+  {
+    "id": "color-blue-cyan",
+    "name": "Cyan",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.81
+  },
+  {
+    "id": "color-blue-glaucous",
+    "name": "Glaucous",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.8
+  },
+  {
+    "id": "color-blue-lapis",
+    "name": "Lapis",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.79
+  },
+  {
+    "id": "color-blue-peacock",
+    "name": "Peacock",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.78
+  },
+  {
+    "id": "color-blue-ultramarine",
+    "name": "Ultramarine",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.77
+  },
+  {
+    "id": "color-blue-wedgwood",
+    "name": "Wedgwood",
+    "category": "colors",
+    "group": "blue",
+    "subtitle": "blue family",
+    "color": "#3979A8",
+    "score": 0.77
+  },
+  {
+    "id": "color-purple-lavender",
+    "name": "Lavender",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.95
+  },
+  {
+    "id": "color-purple-amethyst",
+    "name": "Amethyst",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.94
+  },
+  {
+    "id": "color-purple-violet",
+    "name": "Violet",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.93
+  },
+  {
+    "id": "color-purple-plum",
+    "name": "Plum",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.93
+  },
+  {
+    "id": "color-purple-lilac",
+    "name": "Lilac",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.92
+  },
+  {
+    "id": "color-purple-mauve",
+    "name": "Mauve",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.91
+  },
+  {
+    "id": "color-purple-orchid",
+    "name": "Orchid",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.9
+  },
+  {
+    "id": "color-purple-grape",
+    "name": "Grape",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.89
+  },
+  {
+    "id": "color-purple-iris",
+    "name": "Iris",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.89
+  },
+  {
+    "id": "color-purple-magenta",
+    "name": "Magenta",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.88
+  },
+  {
+    "id": "color-purple-eggplant",
+    "name": "Eggplant",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.87
+  },
+  {
+    "id": "color-purple-mulberry",
+    "name": "Mulberry",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.86
+  },
+  {
+    "id": "color-purple-thistle",
+    "name": "Thistle",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.85
+  },
+  {
+    "id": "color-purple-pansy",
+    "name": "Pansy",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.85
+  },
+  {
+    "id": "color-purple-heather",
+    "name": "Heather",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.84
+  },
+  {
+    "id": "color-purple-wisteria",
+    "name": "Wisteria",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.83
+  },
+  {
+    "id": "color-purple-boysenberry",
+    "name": "Boysenberry",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.82
+  },
+  {
+    "id": "color-purple-fuchsia",
+    "name": "Fuchsia",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.81
+  },
+  {
+    "id": "color-purple-twilight",
+    "name": "Twilight",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.81
+  },
+  {
+    "id": "color-purple-velvet",
+    "name": "Velvet",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.8
+  },
+  {
+    "id": "color-purple-grapevine",
+    "name": "Grapevine",
+    "category": "colors",
+    "group": "purple",
+    "subtitle": "purple family",
+    "color": "#795B9D",
+    "score": 0.79
+  },
+  {
+    "id": "color-pink-blush",
+    "name": "Blush",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.95
+  },
+  {
+    "id": "color-pink-bubblegum",
+    "name": "Bubblegum",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.94
+  },
+  {
+    "id": "color-pink-flamingo",
+    "name": "Flamingo",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.93
+  },
+  {
+    "id": "color-pink-carnation",
+    "name": "Carnation",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.93
+  },
+  {
+    "id": "color-pink-peony",
+    "name": "Peony",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.92
+  },
+  {
+    "id": "color-pink-petal",
+    "name": "Petal",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.91
+  },
+  {
+    "id": "color-pink-cotton-candy",
+    "name": "Cotton candy",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.9
+  },
+  {
+    "id": "color-pink-strawberry",
+    "name": "Strawberry",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.89
+  },
+  {
+    "id": "color-pink-azalea",
+    "name": "Azalea",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.89
+  },
+  {
+    "id": "color-pink-candy",
+    "name": "Candy",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.88
+  },
+  {
+    "id": "color-pink-blossom",
+    "name": "Blossom",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.87
+  },
+  {
+    "id": "color-pink-honeysuckle",
+    "name": "Honeysuckle",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.86
+  },
+  {
+    "id": "color-pink-bougainvillea",
+    "name": "Bougainvillea",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.85
+  },
+  {
+    "id": "color-pink-sherbet",
+    "name": "Sherbet",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.85
+  },
+  {
+    "id": "color-pink-tulip",
+    "name": "Tulip",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.84
+  },
+  {
+    "id": "color-pink-rosewood",
+    "name": "Rosewood",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.83
+  },
+  {
+    "id": "color-pink-candyfloss",
+    "name": "Candyfloss",
+    "category": "colors",
+    "group": "pink",
+    "subtitle": "pink family",
+    "color": "#D97893",
+    "score": 0.82
+  },
+  {
+    "id": "color-white-snow",
+    "name": "Snow",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.95
+  },
+  {
+    "id": "color-white-ivory",
+    "name": "Ivory",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.94
+  },
+  {
+    "id": "color-white-pearl",
+    "name": "Pearl",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.93
+  },
+  {
+    "id": "color-white-chalk",
+    "name": "Chalk",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.93
+  },
+  {
+    "id": "color-white-alabaster",
+    "name": "Alabaster",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.92
+  },
+  {
+    "id": "color-white-cotton",
+    "name": "Cotton",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.91
+  },
+  {
+    "id": "color-white-cream",
+    "name": "Cream",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.9
+  },
+  {
+    "id": "color-white-lily",
+    "name": "Lily",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.89
+  },
+  {
+    "id": "color-white-vanilla",
+    "name": "Vanilla",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.89
+  },
+  {
+    "id": "color-white-parchment",
+    "name": "Parchment",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.88
+  },
+  {
+    "id": "color-white-marshmallow",
+    "name": "Marshmallow",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.87
+  },
+  {
+    "id": "color-white-coconut",
+    "name": "Coconut",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.86
+  },
+  {
+    "id": "color-white-frost",
+    "name": "Frost",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.85
+  },
+  {
+    "id": "color-white-bone",
+    "name": "Bone",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.85
+  },
+  {
+    "id": "color-white-blanc",
+    "name": "Blanc",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.84
+  },
+  {
+    "id": "color-white-ghost",
+    "name": "Ghost",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.83
+  },
+  {
+    "id": "color-white-dove",
+    "name": "Dove",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.82
+  },
+  {
+    "id": "color-white-porcelain",
+    "name": "Porcelain",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.81
+  },
+  {
+    "id": "color-white-silica",
+    "name": "Silica",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.81
+  },
+  {
+    "id": "color-white-crystal",
+    "name": "Crystal",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.8
+  },
+  {
+    "id": "color-white-linen",
+    "name": "Linen",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.79
+  },
+  {
+    "id": "color-white-opal",
+    "name": "Opal",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.78
+  },
+  {
+    "id": "color-white-eggshell",
+    "name": "Eggshell",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.77
+  },
+  {
+    "id": "color-white-magnolia",
+    "name": "Magnolia",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.77
+  },
+  {
+    "id": "color-white-oyster",
+    "name": "Oyster",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.76
+  },
+  {
+    "id": "color-white-seashell",
+    "name": "Seashell",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.75
+  },
+  {
+    "id": "color-white-whisper",
+    "name": "Whisper",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.74
+  },
+  {
+    "id": "color-white-cloud",
+    "name": "Cloud",
+    "category": "colors",
+    "group": "white",
+    "subtitle": "white family",
+    "color": "#F2F0E8",
+    "score": 0.73
+  },
+  {
+    "id": "color-beige-sand",
+    "name": "Sand",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.95
+  },
+  {
+    "id": "color-beige-taupe",
+    "name": "Taupe",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.94
+  },
+  {
+    "id": "color-beige-camel",
+    "name": "Camel",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.93
+  },
+  {
+    "id": "color-beige-buff",
+    "name": "Buff",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.93
+  },
+  {
+    "id": "color-beige-fawn",
+    "name": "Fawn",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.92
+  },
+  {
+    "id": "color-beige-oatmeal",
+    "name": "Oatmeal",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.91
+  },
+  {
+    "id": "color-beige-khaki",
+    "name": "Khaki",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.9
+  },
+  {
+    "id": "color-beige-tawny",
+    "name": "Tawny",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.89
+  },
+  {
+    "id": "color-beige-ecru",
+    "name": "Ecru",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.89
+  },
+  {
+    "id": "color-beige-biscuit",
+    "name": "Biscuit",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.88
+  },
+  {
+    "id": "color-beige-hazelnut",
+    "name": "Hazelnut",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.87
+  },
+  {
+    "id": "color-beige-caramel",
+    "name": "Caramel",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.86
+  },
+  {
+    "id": "color-beige-almond",
+    "name": "Almond",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.85
+  },
+  {
+    "id": "color-beige-wheat",
+    "name": "Wheat",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.85
+  },
+  {
+    "id": "color-beige-tan",
+    "name": "Tan",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.84
+  },
+  {
+    "id": "color-beige-mushroom",
+    "name": "Mushroom",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.83
+  },
+  {
+    "id": "color-beige-sepia",
+    "name": "Sepia",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.82
+  },
+  {
+    "id": "color-beige-mocha",
+    "name": "Mocha",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.81
+  },
+  {
+    "id": "color-beige-bisque",
+    "name": "Bisque",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.81
+  },
+  {
+    "id": "color-beige-latte",
+    "name": "Latte",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.8
+  },
+  {
+    "id": "color-beige-sandstone",
+    "name": "Sandstone",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.79
+  },
+  {
+    "id": "color-beige-pebble",
+    "name": "Pebble",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.78
+  },
+  {
+    "id": "color-beige-toffee",
+    "name": "Toffee",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.77
+  },
+  {
+    "id": "color-beige-pecan",
+    "name": "Pecan",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.77
+  },
+  {
+    "id": "color-beige-putty",
+    "name": "Putty",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.76
+  },
+  {
+    "id": "color-beige-sable",
+    "name": "Sable",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.75
+  },
+  {
+    "id": "color-beige-maple",
+    "name": "Maple",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.74
+  },
+  {
+    "id": "color-beige-driftwood",
+    "name": "Driftwood",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.73
+  },
+  {
+    "id": "color-beige-umber",
+    "name": "Umber",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.73
+  },
+  {
+    "id": "color-beige-pumice",
+    "name": "Pumice",
+    "category": "colors",
+    "group": "beige",
+    "subtitle": "beige family",
+    "color": "#C5A982",
+    "score": 0.72
+  },
+  {
+    "id": "color-black-ebony",
+    "name": "Ebony",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.95
+  },
+  {
+    "id": "color-black-onyx",
+    "name": "Onyx",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.94
+  },
+  {
+    "id": "color-black-jet",
+    "name": "Jet",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.93
+  },
+  {
+    "id": "color-black-coal",
+    "name": "Coal",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.93
+  },
+  {
+    "id": "color-black-obsidian",
+    "name": "Obsidian",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.92
+  },
+  {
+    "id": "color-black-raven",
+    "name": "Raven",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.91
+  },
+  {
+    "id": "color-black-pitch",
+    "name": "Pitch",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.9
+  },
+  {
+    "id": "color-black-charcoal",
+    "name": "Charcoal",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.89
+  },
+  {
+    "id": "color-black-ink",
+    "name": "Ink",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.89
+  },
+  {
+    "id": "color-black-soot",
+    "name": "Soot",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.88
+  },
+  {
+    "id": "color-black-shadow",
+    "name": "Shadow",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.87
+  },
+  {
+    "id": "color-black-noir",
+    "name": "Noir",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.86
+  },
+  {
+    "id": "color-black-licorice",
+    "name": "Licorice",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.85
+  },
+  {
+    "id": "color-black-graphite",
+    "name": "Graphite",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.85
+  },
+  {
+    "id": "color-black-carbon",
+    "name": "Carbon",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.84
+  },
+  {
+    "id": "color-black-caviar",
+    "name": "Caviar",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.83
+  },
+  {
+    "id": "color-black-dusk",
+    "name": "Dusk",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.82
+  },
+  {
+    "id": "color-black-crow",
+    "name": "Crow",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.81
+  },
+  {
+    "id": "color-black-void",
+    "name": "Void",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.81
+  },
+  {
+    "id": "color-black-panther",
+    "name": "Panther",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.8
+  },
+  {
+    "id": "color-black-tarmac",
+    "name": "Tarmac",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.79
+  },
+  {
+    "id": "color-black-nightfall",
+    "name": "Nightfall",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.78
+  },
+  {
+    "id": "color-black-abyss",
+    "name": "Abyss",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.77
+  },
+  {
+    "id": "color-black-iron",
+    "name": "Iron",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.77
+  },
+  {
+    "id": "color-black-asphalt",
+    "name": "Asphalt",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.76
+  },
+  {
+    "id": "color-black-thunder",
+    "name": "Thunder",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.75
+  },
+  {
+    "id": "color-black-vanta",
+    "name": "Vanta",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.74
+  },
+  {
+    "id": "color-black-gloom",
+    "name": "Gloom",
+    "category": "colors",
+    "group": "black",
+    "subtitle": "black family",
+    "color": "#24272B",
+    "score": 0.73
+  }
+]

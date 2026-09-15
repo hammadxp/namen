@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fruit-apple",
+    "name": "Apple",
+    "category": "fruits",
+    "group": "Kazakhstan",
+    "subtitle": "Origin: Kazakhstan",
+    "scientificName": "Malus domestica",
+    "score": 0.94
+  },
+  {
+    "id": "fruit-pear",
+    "name": "Pear",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Pyrus communis",
+    "score": 0.93
+  },
+  {
+    "id": "fruit-banana",
+    "name": "Banana",
+    "category": "fruits",
+    "group": "Papua New Guinea",
+    "subtitle": "Origin: Papua New Guinea",
+    "scientificName": "Musa acuminata",
+    "score": 0.92
+  },
+  {
+    "id": "fruit-orange",
+    "name": "Orange",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Citrus sinensis",
+    "score": 0.92
+  },
+  {
+    "id": "fruit-mandarin",
+    "name": "Mandarin",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Citrus reticulata",
+    "score": 0.91
+  },
+  {
+    "id": "fruit-lemon",
+    "name": "Lemon",
+    "category": "fruits",
+    "group": "India",
+    "subtitle": "Origin: India",
+    "scientificName": "Citrus limon",
+    "score": 0.9
+  },
+  {
+    "id": "fruit-lime",
+    "name": "Lime",
+    "category": "fruits",
+    "group": "Indonesia",
+    "subtitle": "Origin: Indonesia",
+    "scientificName": "Citrus aurantiifolia",
+    "score": 0.89
+  },
+  {
+    "id": "fruit-grapefruit",
+    "name": "Grapefruit",
+    "category": "fruits",
+    "group": "Barbados",
+    "subtitle": "Origin: Barbados",
+    "scientificName": "Citrus paradisi",
+    "score": 0.88
+  },
+  {
+    "id": "fruit-apricot",
+    "name": "Apricot",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Prunus armeniaca",
+    "score": 0.88
+  },
+  {
+    "id": "fruit-plum",
+    "name": "Plum",
+    "category": "fruits",
+    "group": "Romania",
+    "subtitle": "Origin: Romania",
+    "scientificName": "Prunus domestica",
+    "score": 0.87
+  },
+  {
+    "id": "fruit-peach",
+    "name": "Peach",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Prunus persica",
+    "score": 0.86
+  },
+  {
+    "id": "fruit-loquat",
+    "name": "Loquat",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Eriobotrya japonica",
+    "score": 0.85
+  },
+  {
+    "id": "fruit-dragon-fruit",
+    "name": "Dragon fruit",
+    "category": "fruits",
+    "group": "Mexico",
+    "subtitle": "Origin: Mexico",
+    "scientificName": "Selenicereus undatus",
+    "score": 0.84
+  },
+  {
+    "id": "fruit-tamarind",
+    "name": "Tamarind",
+    "category": "fruits",
+    "group": "Sudan",
+    "subtitle": "Origin: Sudan",
+    "scientificName": "Tamarindus indica",
+    "score": 0.84
+  },
+  {
+    "id": "fruit-mango",
+    "name": "Mango",
+    "category": "fruits",
+    "group": "India",
+    "subtitle": "Origin: India",
+    "scientificName": "Mangifera indica",
+    "score": 0.83
+  },
+  {
+    "id": "fruit-soursop",
+    "name": "Soursop",
+    "category": "fruits",
+    "group": "Dominican Republic",
+    "subtitle": "Origin: Dominican Republic",
+    "scientificName": "Annona muricata",
+    "score": 0.82
+  },
+  {
+    "id": "fruit-cherry",
+    "name": "Cherry",
+    "category": "fruits",
+    "group": "Turkey",
+    "subtitle": "Origin: Turkey",
+    "scientificName": "Prunus avium",
+    "score": 0.81
+  },
+  {
+    "id": "fruit-guava",
+    "name": "Guava",
+    "category": "fruits",
+    "group": "Mexico",
+    "subtitle": "Origin: Mexico",
+    "scientificName": "Psidium guajava",
+    "score": 0.8
+  },
+  {
+    "id": "fruit-avocado",
+    "name": "Avocado",
+    "category": "fruits",
+    "group": "Mexico",
+    "subtitle": "Origin: Mexico",
+    "scientificName": "Persea americana",
+    "score": 0.8
+  },
+  {
+    "id": "fruit-coconut",
+    "name": "Coconut",
+    "category": "fruits",
+    "group": "Philippines",
+    "subtitle": "Origin: Philippines",
+    "scientificName": "Cocos nucifera",
+    "score": 0.79
+  },
+  {
+    "id": "fruit-starfruit",
+    "name": "Starfruit",
+    "category": "fruits",
+    "group": "Sri Lanka",
+    "subtitle": "Origin: Sri Lanka",
+    "scientificName": "Averrhoa carambola",
+    "score": 0.78
+  },
+  {
+    "id": "fruit-fig",
+    "name": "Fig",
+    "category": "fruits",
+    "group": "Turkey",
+    "subtitle": "Origin: Turkey",
+    "scientificName": "Ficus carica",
+    "score": 0.77
+  },
+  {
+    "id": "fruit-pomegranate",
+    "name": "Pomegranate",
+    "category": "fruits",
+    "group": "Iran",
+    "subtitle": "Origin: Iran",
+    "scientificName": "Punica granatum",
+    "score": 0.76
+  },
+  {
+    "id": "fruit-olive",
+    "name": "Olive",
+    "category": "fruits",
+    "group": "Greece",
+    "subtitle": "Origin: Greece",
+    "scientificName": "Olea europaea",
+    "score": 0.76
+  },
+  {
+    "id": "fruit-lychee",
+    "name": "Lychee",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Litchi chinensis",
+    "score": 0.75
+  },
+  {
+    "id": "fruit-durian",
+    "name": "Durian",
+    "category": "fruits",
+    "group": "Indonesia",
+    "subtitle": "Origin: Indonesia",
+    "scientificName": "Durio zibethinus",
+    "score": 0.74
+  },
+  {
+    "id": "fruit-jackfruit",
+    "name": "Jackfruit",
+    "category": "fruits",
+    "group": "India",
+    "subtitle": "Origin: India",
+    "scientificName": "Artocarpus heterophyllus",
+    "score": 0.73
+  },
+  {
+    "id": "fruit-mangosteen",
+    "name": "Mangosteen",
+    "category": "fruits",
+    "group": "Indonesia",
+    "subtitle": "Origin: Indonesia",
+    "scientificName": "Garcinia mangostana",
+    "score": 0.72
+  },
+  {
+    "id": "fruit-pineapple",
+    "name": "Pineapple",
+    "category": "fruits",
+    "group": "Brazil",
+    "subtitle": "Origin: Brazil",
+    "scientificName": "Ananas comosus",
+    "score": 0.72
+  },
+  {
+    "id": "fruit-persimmon",
+    "name": "Persimmon",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Diospyros kaki",
+    "score": 0.71
+  },
+  {
+    "id": "fruit-kiwi",
+    "name": "Kiwi",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Actinidia deliciosa",
+    "score": 0.7
+  },
+  {
+    "id": "fruit-passion-fruit",
+    "name": "Passion fruit",
+    "category": "fruits",
+    "group": "Brazil",
+    "subtitle": "Origin: Brazil",
+    "scientificName": "Passiflora edulis",
+    "score": 0.69
+  },
+  {
+    "id": "fruit-papaya",
+    "name": "Papaya",
+    "category": "fruits",
+    "group": "Mexico",
+    "subtitle": "Origin: Mexico",
+    "scientificName": "Carica papaya",
+    "score": 0.68
+  },
+  {
+    "id": "fruit-date",
+    "name": "Date",
+    "category": "fruits",
+    "group": "Iraq",
+    "subtitle": "Origin: Iraq",
+    "scientificName": "Phoenix dactylifera",
+    "score": 0.68
+  },
+  {
+    "id": "fruit-rambutan",
+    "name": "Rambutan",
+    "category": "fruits",
+    "group": "Malaysia",
+    "subtitle": "Origin: Malaysia",
+    "scientificName": "Nephelium lappaceum",
+    "score": 0.67
+  },
+  {
+    "id": "fruit-longan",
+    "name": "Longan",
+    "category": "fruits",
+    "group": "China",
+    "subtitle": "Origin: China",
+    "scientificName": "Dimocarpus longan",
+    "score": 0.66
+  },
+  {
+    "id": "fruit-feijoa",
+    "name": "Feijoa",
+    "category": "fruits",
+    "group": "Brazil",
+    "subtitle": "Origin: Brazil",
+    "scientificName": "Acca sellowiana",
+    "score": 0.65
+  },
+  {
+    "id": "fruit-ac-ai",
+    "name": "Açaí",
+    "category": "fruits",
+    "group": "Brazil",
+    "subtitle": "Origin: Brazil",
+    "scientificName": "Euterpe oleracea",
+    "score": 0.64
+  },
+  {
+    "id": "fruit-cranberry",
+    "name": "Cranberry",
+    "category": "fruits",
+    "group": "Canada",
+    "subtitle": "Origin: Canada",
+    "scientificName": "Vaccinium macrocarpon",
+    "score": 0.64
+  },
+  {
+    "id": "fruit-blueberry",
+    "name": "Blueberry",
+    "category": "fruits",
+    "group": "United States",
+    "subtitle": "Origin: United States",
+    "scientificName": "Vaccinium corymbosum",
+    "score": 0.63
+  }
+]

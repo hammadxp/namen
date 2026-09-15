@@ -3,16 +3,17 @@ import path from "node:path"
 import process from "node:process"
 import AdmZip from "adm-zip"
 
-const GEONAMES_URL = "https://download.geonames.org/export/dump/cities15000.zip"
+const GEONAMES_URL = "https://download.geonames.org/export/dump/cities500.zip"
 const COUNTRIES_URL =
   "https://restcountries.com/v3.1/all?fields=name,cca2,flag,region,subregion"
 const COUNTRIES_FALLBACK_URL =
   "https://raw.githubusercontent.com/mledoze/countries/master/countries.json"
 const outputRoot = path.join(process.cwd(), "public", "data")
 const citiesRoot = path.join(outputRoot, "cities")
+const categoriesRoot = path.join(outputRoot, "categories")
 
-const maxPerCountry = Number(readArg("--max-per-country") ?? 70)
-const minPopulation = Number(readArg("--min-population") ?? 15_000)
+const minimumPopulation = Number(readArg("--min-population") ?? 500)
+const maximumPerCountry = Number(readArg("--max-per-country") ?? Infinity)
 
 function readArg(name) {
   const item = process.argv.find((argument) => argument.startsWith(`${name}=`))
@@ -29,6 +30,10 @@ function countryEmoji(countryCode) {
     .join("")
 }
 
+function hasShortName(name) {
+  return name.trim().split(/\s+/).length <= 2
+}
+
 function scoreName(name, population) {
   const normalized = name.toLowerCase().replace(/[^a-z]/g, "")
   const rareLetters = (normalized.match(/[qxzjkvwy]/g) ?? []).length
@@ -43,7 +48,7 @@ function scoreName(name, population) {
   }).length
   const pronounceability = alternations / Math.max(1, normalized.length - 1)
   const idealLength = 1 - Math.min(Math.abs(normalized.length - 7) / 9, 1)
-  const discovery = 1 - clamp(Math.log10(Math.max(population, 15_000)) / 7.4)
+  const discovery = 1 - clamp(Math.log10(Math.max(population, 500)) / 7.4)
 
   return Number(
     clamp(
@@ -53,46 +58,19 @@ function scoreName(name, population) {
         pronounceability * 0.24 +
         idealLength * 0.18 +
         (1 - Math.abs(vowelRatio - 0.43)) * 0.12 +
-        discovery * 0.18,
-    ).toFixed(2),
+        discovery * 0.18
+    ).toFixed(2)
   )
-}
-
-function makeTags(name, population, featureCode) {
-  const normalized = name.toLowerCase().replace(/[^a-z]/g, "")
-  const vowels = (normalized.match(/[aeiouy]/g) ?? []).length
-  const tags = []
-  if (featureCode.startsWith("PPLC")) tags.push("capital")
-  if (population >= 1_000_000) tags.push("metropolis")
-  if (population < 80_000) tags.push("hidden-gem")
-  if (normalized.length <= 6) tags.push("short")
-  if (/[qxzjkvw]/.test(normalized)) tags.push("rare-letter")
-  if (vowels / Math.max(1, normalized.length) > 0.5) tags.push("vowel-rich")
-  if (/([a-z])\1/.test(normalized)) tags.push("double-letter")
-  if (/[lmnrsv][aeiouy]/.test(normalized)) tags.push("soft-sound")
-  if (tags.length < 2) tags.push("place-name")
-  return [...new Set(tags)].slice(0, 3)
-}
-
-function wordEmoji(name, tags) {
-  if (tags.includes("capital")) return "✦"
-  if (tags.includes("metropolis")) return "🌆"
-  let options = ["☀️", "🪩", "🍒", "🌿", "🫧", "🎈"]
-  if (tags.includes("rare-letter")) options = ["⚡", "🪩", "🧊", "🔮"]
-  else if (tags.includes("vowel-rich")) options = ["🌊", "🫧", "☀️", "🪸"]
-  else if (tags.includes("soft-sound")) options = ["🌙", "🌿", "🪶", "🍃"]
-  else if (tags.includes("hidden-gem")) options = ["💎", "🔮", "🍒", "🪺"]
-  const total = [...name].reduce((sum, letter) => sum + letter.codePointAt(0), 0)
-  return options[total % options.length]
 }
 
 async function download(url) {
   const response = await fetch(url)
-  if (!response.ok) throw new Error(`Download failed (${response.status}): ${url}`)
+  if (!response.ok)
+    throw new Error(`Download failed (${response.status}): ${url}`)
   return Buffer.from(await response.arrayBuffer())
 }
 
-console.log("Downloading GeoNames and REST Countries data...")
+console.log("[cities] Downloading GeoNames and country metadata")
 const [zipBuffer, countryResponse] = await Promise.all([
   download(GEONAMES_URL),
   fetch(COUNTRIES_URL),
@@ -103,15 +81,17 @@ if (!countryResponse.ok) {
 
 let countries = await countryResponse.json()
 if (!Array.isArray(countries)) {
-  console.warn("REST Countries API needs a v5 key; using its open source dataset.")
   const fallbackResponse = await fetch(COUNTRIES_FALLBACK_URL)
   if (!fallbackResponse.ok) {
-    throw new Error(`Country metadata request failed (${fallbackResponse.status})`)
+    throw new Error(
+      `Country metadata request failed (${fallbackResponse.status})`
+    )
   }
   countries = await fallbackResponse.json()
 }
+
 const metadataByCode = new Map(
-  countries.map((country) => [country.cca2, country]),
+  countries.map((country) => [country.cca2, country])
 )
 const zip = new AdmZip(zipBuffer)
 const cityEntry = zip
@@ -124,51 +104,54 @@ for (const line of cityEntry.getData().toString("utf8").split("\n")) {
   if (!line.trim()) continue
   const fields = line.split("\t")
   const name = fields[1]?.trim()
-  const country = fields[8]
-  const featureCode = fields[7] ?? ""
+  const countryCode = fields[8]
   const population = Number(fields[14])
   if (
     !name ||
-    !country ||
-    !metadataByCode.has(country) ||
+    !countryCode ||
+    !metadataByCode.has(countryCode) ||
     !Number.isFinite(population) ||
-    population < minPopulation
+    population < minimumPopulation ||
+    !hasShortName(name)
   ) {
     continue
   }
 
-  const tags = makeTags(name, population, featureCode)
+  const country = metadataByCode.get(countryCode)
   const city = {
-    id: `${country.toLowerCase()}-${fields[0]}`,
+    id: `city-${fields[0]}`,
     name,
-    category: "city",
-    country,
-    countryEmoji: metadataByCode.get(country)?.flag || countryEmoji(country),
-    wordEmoji: wordEmoji(name, tags),
+    category: "cities",
+    group: country?.name?.common ?? countryCode,
+    country: country?.name?.common ?? countryCode,
+    countryCode,
+    countryEmoji: country?.flag || countryEmoji(countryCode),
     population,
-    uniquenessScore: scoreName(name, population),
-    tags,
+    score: scoreName(name, population),
   }
-  const existing = grouped.get(country) ?? []
+  const existing = grouped.get(countryCode) ?? []
   existing.push(city)
-  grouped.set(country, existing)
+  grouped.set(countryCode, existing)
 }
 
-await rm(outputRoot, { recursive: true, force: true })
+await rm(citiesRoot, { recursive: true, force: true })
 await mkdir(citiesRoot, { recursive: true })
+await mkdir(categoriesRoot, { recursive: true })
 
 const countryIndex = []
+const allCities = []
 for (const [code, rawCities] of grouped) {
   const seenNames = new Set()
   const selected = rawCities
-    .sort((a, b) => b.uniquenessScore - a.uniquenessScore || b.population - a.population)
+    .sort((a, b) => b.population - a.population || a.name.localeCompare(b.name))
     .filter((city) => {
       const key = city.name.toLocaleLowerCase()
       if (seenNames.has(key)) return false
       seenNames.add(key)
       return true
     })
-    .slice(0, maxPerCountry)
+    .slice(0, maximumPerCountry)
+
   if (!selected.length) continue
   const country = metadataByCode.get(code)
   countryIndex.push({
@@ -179,18 +162,33 @@ for (const [code, rawCities] of grouped) {
     subregion: country.subregion,
     cityCount: selected.length,
   })
+  allCities.push(...selected)
   await writeFile(
     path.join(citiesRoot, `${code}.json`),
-    `${JSON.stringify(selected)}\n`,
+    `${JSON.stringify(selected)}\n`
   )
 }
 
-countryIndex.sort((a, b) => a.name.localeCompare(b.name))
+countryIndex.sort(
+  (a, b) => b.cityCount - a.cityCount || a.name.localeCompare(b.name)
+)
+allCities.sort(
+  (a, b) => b.population - a.population || a.name.localeCompare(b.name)
+)
+
 await writeFile(
   path.join(outputRoot, "countries.json"),
-  `${JSON.stringify(countryIndex, null, 2)}\n`,
+  `${JSON.stringify(countryIndex, null, 2)}\n`
+)
+await writeFile(
+  path.join(categoriesRoot, "cities.json"),
+  `${JSON.stringify(allCities)}\n`
+)
+await writeFile(
+  path.join(categoriesRoot, "cities-top.json"),
+  `${JSON.stringify(allCities.slice(0, 24), null, 2)}\n`
 )
 
 console.log(
-  `Wrote ${countryIndex.length} countries and ${countryIndex.reduce((sum, country) => sum + country.cityCount, 0)} curated cities to public/data.`,
+  `[cities] Stored ${allCities.length.toLocaleString()} cities across ${countryIndex.length} countries`
 )

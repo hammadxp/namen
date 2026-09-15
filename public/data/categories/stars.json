@@ -1,0 +1,4652 @@
+[
+  {
+    "id": "star-acrab-b",
+    "name": "Acrab B",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 122.1001,
+    "magnitude": 4.9,
+    "score": 1
+  },
+  {
+    "id": "star-acubens",
+    "name": "Acubens",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 57.7367,
+    "magnitude": 4.26,
+    "score": 1
+  },
+  {
+    "id": "star-aladfar",
+    "name": "Aladfar",
+    "category": "stars",
+    "group": "Lyr",
+    "subtitle": "Lyr constellation",
+    "distance": 425.5319,
+    "magnitude": 4.43,
+    "score": 1
+  },
+  {
+    "id": "star-albireo",
+    "name": "Albireo",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 133.1558,
+    "magnitude": 3.05,
+    "score": 1
+  },
+  {
+    "id": "star-alchiba",
+    "name": "Alchiba",
+    "category": "stars",
+    "group": "Crv",
+    "subtitle": "Crv constellation",
+    "distance": 14.9365,
+    "magnitude": 4.02,
+    "score": 1
+  },
+  {
+    "id": "star-alcyone",
+    "name": "Alcyone",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 123.6094,
+    "magnitude": 2.85,
+    "score": 1
+  },
+  {
+    "id": "star-algenib",
+    "name": "Algenib",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 120.048,
+    "magnitude": 2.83,
+    "score": 1
+  },
+  {
+    "id": "star-algieba",
+    "name": "Algieba",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 39.8883,
+    "magnitude": 2.01,
+    "score": 1
+  },
+  {
+    "id": "star-algorab",
+    "name": "Algorab",
+    "category": "stars",
+    "group": "Crv",
+    "subtitle": "Crv constellation",
+    "distance": 26.6312,
+    "magnitude": 2.94,
+    "score": 1
+  },
+  {
+    "id": "star-aljanah",
+    "name": "Aljanah",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 22.2916,
+    "magnitude": 2.48,
+    "score": 1
+  },
+  {
+    "id": "star-alkarab",
+    "name": "Alkarab",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 52.2466,
+    "magnitude": 4.42,
+    "score": 1
+  },
+  {
+    "id": "star-alnilam",
+    "name": "Alnilam",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 606.0606,
+    "magnitude": 1.69,
+    "score": 1
+  },
+  {
+    "id": "star-alnitak",
+    "name": "Alnitak",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 225.7336,
+    "magnitude": 1.74,
+    "score": 1
+  },
+  {
+    "id": "star-alniyat",
+    "name": "Alniyat",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 213.6752,
+    "magnitude": 2.9,
+    "score": 1
+  },
+  {
+    "id": "star-alphard",
+    "name": "Alphard",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 55.2792,
+    "magnitude": 1.99,
+    "score": 1
+  },
+  {
+    "id": "star-alpherg",
+    "name": "Alpherg",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 107.1811,
+    "magnitude": 3.62,
+    "score": 1
+  },
+  {
+    "id": "star-alrakis",
+    "name": "Alrakis",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 23.2558,
+    "magnitude": 5.63,
+    "score": 1
+  },
+  {
+    "id": "star-alshain",
+    "name": "Alshain",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 13.6986,
+    "magnitude": 3.71,
+    "score": 1
+  },
+  {
+    "id": "star-an-an-uca",
+    "name": "Añañuca",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 9.8707,
+    "magnitude": 10.22,
+    "score": 1
+  },
+  {
+    "id": "star-antares",
+    "name": "Antares",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 169.7793,
+    "magnitude": 1.06,
+    "score": 1
+  },
+  {
+    "id": "star-arcali-s",
+    "name": "Arcalís",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 110.011,
+    "magnitude": 7.8,
+    "score": 1
+  },
+  {
+    "id": "star-ascella",
+    "name": "Ascella",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 27.0416,
+    "magnitude": 2.6,
+    "score": 1
+  },
+  {
+    "id": "star-axo-lotl",
+    "name": "Axólotl",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 98.4252,
+    "magnitude": 8.23,
+    "score": 1
+  },
+  {
+    "id": "star-be-le-nos",
+    "name": "Bélénos",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 44.5633,
+    "magnitude": 7.12,
+    "score": 1
+  },
+  {
+    "id": "star-bharani",
+    "name": "Bharani",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 50.7872,
+    "magnitude": 3.61,
+    "score": 1
+  },
+  {
+    "id": "star-canopus",
+    "name": "Canopus",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 94.7867,
+    "magnitude": -0.62,
+    "score": 1
+  },
+  {
+    "id": "star-capella",
+    "name": "Capella",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 13.1234,
+    "magnitude": 0.08,
+    "score": 1
+  },
+  {
+    "id": "star-castula",
+    "name": "Castula",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 61.2745,
+    "magnitude": 4.62,
+    "score": 1
+  },
+  {
+    "id": "star-celaeno",
+    "name": "Celaeno",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 115.6069,
+    "magnitude": 5.45,
+    "score": 1
+  },
+  {
+    "id": "star-chechia",
+    "name": "Chechia",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 65.6168,
+    "magnitude": 6.44,
+    "score": 1
+  },
+  {
+    "id": "star-chertan",
+    "name": "Chertan",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 50.6073,
+    "magnitude": 3.33,
+    "score": 1
+  },
+  {
+    "id": "star-danfeng",
+    "name": "Danfeng",
+    "category": "stars",
+    "group": "Tuc",
+    "subtitle": "Tuc constellation",
+    "distance": 26.3713,
+    "magnitude": 11.03,
+    "score": 1
+  },
+  {
+    "id": "star-edasich",
+    "name": "Edasich",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 31.027,
+    "magnitude": 3.29,
+    "score": 1
+  },
+  {
+    "id": "star-electra",
+    "name": "Electra",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 124.0695,
+    "magnitude": 3.72,
+    "score": 1
+  },
+  {
+    "id": "star-elgafar",
+    "name": "Elgafar",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 36.2582,
+    "magnitude": 4.81,
+    "score": 1
+  },
+  {
+    "id": "star-elkurud",
+    "name": "Elkurud",
+    "category": "stars",
+    "group": "Col",
+    "subtitle": "Col constellation",
+    "distance": 221.2389,
+    "magnitude": 5,
+    "score": 1
+  },
+  {
+    "id": "star-eltanin",
+    "name": "Eltanin",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 47.3037,
+    "magnitude": 2.24,
+    "score": 1
+  },
+  {
+    "id": "star-fawaris",
+    "name": "Fawaris",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 50.5817,
+    "magnitude": 2.86,
+    "score": 1
+  },
+  {
+    "id": "star-formosa",
+    "name": "Formosa",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 122.2494,
+    "magnitude": 6.45,
+    "score": 1
+  },
+  {
+    "id": "star-giausar",
+    "name": "Giausar",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 102.145,
+    "magnitude": 3.82,
+    "score": 1
+  },
+  {
+    "id": "star-gomeisa",
+    "name": "Gomeisa",
+    "category": "stars",
+    "group": "CMi",
+    "subtitle": "CMi constellation",
+    "distance": 49.5786,
+    "magnitude": 2.89,
+    "score": 1
+  },
+  {
+    "id": "star-grumium",
+    "name": "Grumium",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 34.5066,
+    "magnitude": 3.73,
+    "score": 1
+  },
+  {
+    "id": "star-hunahpu",
+    "name": "Hunahpú",
+    "category": "stars",
+    "group": "Crt",
+    "subtitle": "Crt constellation",
+    "distance": 134.2282,
+    "magnitude": 8.05,
+    "score": 1
+  },
+  {
+    "id": "star-inquill",
+    "name": "Inquill",
+    "category": "stars",
+    "group": "Ara",
+    "subtitle": "Ara constellation",
+    "distance": 54.7945,
+    "magnitude": 6.67,
+    "score": 1
+  },
+  {
+    "id": "star-kalausi",
+    "name": "Kalausi",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 41.1692,
+    "magnitude": 8.23,
+    "score": 1
+  },
+  {
+    "id": "star-larawag",
+    "name": "Larawag",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 19.5351,
+    "magnitude": 2.29,
+    "score": 1
+  },
+  {
+    "id": "star-macondo",
+    "name": "Macondo",
+    "category": "stars",
+    "group": "Ant",
+    "subtitle": "Ant constellation",
+    "distance": 27.8552,
+    "magnitude": 8.3,
+    "score": 1
+  },
+  {
+    "id": "star-mahasim",
+    "name": "Mahasim",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 50.7614,
+    "magnitude": 2.65,
+    "score": 1
+  },
+  {
+    "id": "star-mahsati",
+    "name": "Mahsati",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 185.5288,
+    "magnitude": 8.38,
+    "score": 1
+  },
+  {
+    "id": "star-mebsuta",
+    "name": "Mebsuta",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 259.0674,
+    "magnitude": 3.06,
+    "score": 1
+  },
+  {
+    "id": "star-mekbuda",
+    "name": "Mekbuda",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 421.9409,
+    "magnitude": 4.01,
+    "score": 1
+  },
+  {
+    "id": "star-menkent",
+    "name": "Menkent",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 18.0343,
+    "magnitude": 2.06,
+    "score": 1
+  },
+  {
+    "id": "star-minchir",
+    "name": "Minchir",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 114.2857,
+    "magnitude": 4.45,
+    "score": 1
+  },
+  {
+    "id": "star-mintaka",
+    "name": "Mintaka",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 212.3142,
+    "magnitude": 2.25,
+    "score": 1
+  },
+  {
+    "id": "star-mouhoun",
+    "name": "Mouhoun",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 118.0638,
+    "magnitude": 7.91,
+    "score": 1
+  },
+  {
+    "id": "star-muphrid",
+    "name": "Muphrid",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 11.396,
+    "magnitude": 2.68,
+    "score": 1
+  },
+  {
+    "id": "star-muscida",
+    "name": "Muscida",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 54.9149,
+    "magnitude": 3.35,
+    "score": 1
+  },
+  {
+    "id": "star-nashira",
+    "name": "Nashira",
+    "category": "stars",
+    "group": "Cap",
+    "subtitle": "Cap constellation",
+    "distance": 48.1464,
+    "magnitude": 3.69,
+    "score": 1
+  },
+  {
+    "id": "star-natasha",
+    "name": "Natasha",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 32.3729,
+    "magnitude": 8.54,
+    "score": 1
+  },
+  {
+    "id": "star-nikawiy",
+    "name": "Nikawiy",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 98.2318,
+    "magnitude": 7.88,
+    "score": 1
+  },
+  {
+    "id": "star-noquisi",
+    "name": "Noquisi",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 10.141,
+    "magnitude": 10.67,
+    "score": 1
+  },
+  {
+    "id": "star-nusakan",
+    "name": "Nusakan",
+    "category": "stars",
+    "group": "CrB",
+    "subtitle": "CrB constellation",
+    "distance": 34.2818,
+    "magnitude": 3.66,
+    "score": 1
+  },
+  {
+    "id": "star-onkaria",
+    "name": "Onkaria",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 12.9199,
+    "magnitude": 14.67,
+    "score": 1
+  },
+  {
+    "id": "star-peacock",
+    "name": "Peacock",
+    "category": "stars",
+    "group": "Pav",
+    "subtitle": "Pav constellation",
+    "distance": 54.8246,
+    "magnitude": 1.94,
+    "score": 1
+  },
+  {
+    "id": "star-pherkad",
+    "name": "Pherkad",
+    "category": "stars",
+    "group": "UMi",
+    "subtitle": "UMi constellation",
+    "distance": 149.2537,
+    "magnitude": 3,
+    "score": 1
+  },
+  {
+    "id": "star-piautos",
+    "name": "Piautos",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 140.2525,
+    "magnitude": 5.92,
+    "score": 1
+  },
+  {
+    "id": "star-pincoya",
+    "name": "Pincoya",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 41.0678,
+    "magnitude": 9.62,
+    "score": 1
+  },
+  {
+    "id": "star-pleione",
+    "name": "Pleione",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 117.096,
+    "magnitude": 5.05,
+    "score": 1
+  },
+  {
+    "id": "star-poerava",
+    "name": "Poerava",
+    "category": "stars",
+    "group": "Tuc",
+    "subtitle": "Tuc constellation",
+    "distance": 55.2792,
+    "magnitude": 7.82,
+    "score": 1
+  },
+  {
+    "id": "star-polaris",
+    "name": "Polaris",
+    "category": "stars",
+    "group": "UMi",
+    "subtitle": "UMi constellation",
+    "distance": 132.626,
+    "magnitude": 1.97,
+    "score": 1
+  },
+  {
+    "id": "star-porrima",
+    "name": "Porrima",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 11.685,
+    "magnitude": 2.74,
+    "score": 1
+  },
+  {
+    "id": "star-procyon",
+    "name": "Procyon",
+    "category": "stars",
+    "group": "CMi",
+    "subtitle": "CMi constellation",
+    "distance": 3.5142,
+    "magnitude": 0.4,
+    "score": 1
+  },
+  {
+    "id": "star-rasalas",
+    "name": "Rasalas",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 38.0518,
+    "magnitude": 3.88,
+    "score": 1
+  },
+  {
+    "id": "star-regulus",
+    "name": "Regulus",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 24.3132,
+    "magnitude": 1.36,
+    "score": 1
+  },
+  {
+    "id": "star-rotanev",
+    "name": "Rotanev",
+    "category": "stars",
+    "group": "Del",
+    "subtitle": "Del constellation",
+    "distance": 30.931,
+    "magnitude": 3.64,
+    "score": 1
+  },
+  {
+    "id": "star-ruchbah",
+    "name": "Ruchbah",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 30.4785,
+    "magnitude": 2.66,
+    "score": 1
+  },
+  {
+    "id": "star-schedar",
+    "name": "Schedar",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 69.979,
+    "magnitude": 2.24,
+    "score": 1
+  },
+  {
+    "id": "star-seginus",
+    "name": "Seginus",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 26.6099,
+    "magnitude": 3.04,
+    "score": 1
+  },
+  {
+    "id": "star-sharjah",
+    "name": "Sharjah",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 14.3968,
+    "magnitude": 11.34,
+    "score": 1
+  },
+  {
+    "id": "star-sheliak",
+    "name": "Sheliak",
+    "category": "stars",
+    "group": "Lyr",
+    "subtitle": "Lyr constellation",
+    "distance": 294.9853,
+    "magnitude": 3.52,
+    "score": 1
+  },
+  {
+    "id": "star-solaris",
+    "name": "Solaris",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 48.3559,
+    "magnitude": 9.78,
+    "score": 1
+  },
+  {
+    "id": "star-stribor",
+    "name": "Stribor",
+    "category": "stars",
+    "group": "Lyn",
+    "subtitle": "Lyn constellation",
+    "distance": 75.7576,
+    "magnitude": 8.03,
+    "score": 1
+  },
+  {
+    "id": "star-sulafat",
+    "name": "Sulafat",
+    "category": "stars",
+    "group": "Lyr",
+    "subtitle": "Lyr constellation",
+    "distance": 190.1141,
+    "magnitude": 3.25,
+    "score": 1
+  },
+  {
+    "id": "star-talitha",
+    "name": "Talitha",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 14.5096,
+    "magnitude": 3.12,
+    "score": 1
+  },
+  {
+    "id": "star-tapecue",
+    "name": "Tapecue",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 33.2557,
+    "magnitude": 8.1,
+    "score": 1
+  },
+  {
+    "id": "star-tarazed",
+    "name": "Tarazed",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 121.0654,
+    "magnitude": 2.72,
+    "score": 1
+  },
+  {
+    "id": "star-taygeta",
+    "name": "Taygeta",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 125.4705,
+    "magnitude": 4.3,
+    "score": 1
+  },
+  {
+    "id": "star-tegmine",
+    "name": "Tegmine",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 25.0815,
+    "magnitude": 4.67,
+    "score": 1
+  },
+  {
+    "id": "star-theemin",
+    "name": "Theemin",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 65.5738,
+    "magnitude": 3.81,
+    "score": 1
+  },
+  {
+    "id": "star-titawin",
+    "name": "Titawin",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 13.4916,
+    "magnitude": 4.1,
+    "score": 1
+  },
+  {
+    "id": "star-toliman",
+    "name": "Toliman",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 1.3248,
+    "magnitude": 1.35,
+    "score": 1
+  },
+  {
+    "id": "star-3c-273",
+    "name": "3C 273",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 100000,
+    "magnitude": 12.88,
+    "score": 0.94
+  },
+  {
+    "id": "star-acamar",
+    "name": "Acamar",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 49.4315,
+    "magnitude": 2.88,
+    "score": 0.94
+  },
+  {
+    "id": "star-achernar",
+    "name": "Achernar",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 42.7533,
+    "magnitude": 0.45,
+    "score": 0.94
+  },
+  {
+    "id": "star-achird",
+    "name": "Achird",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 5.9531,
+    "magnitude": 3.46,
+    "score": 0.94
+  },
+  {
+    "id": "star-adhafera",
+    "name": "Adhafera",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 84.0336,
+    "magnitude": 3.43,
+    "score": 0.94
+  },
+  {
+    "id": "star-adhara",
+    "name": "Adhara",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 124.2236,
+    "magnitude": 1.5,
+    "score": 0.94
+  },
+  {
+    "id": "star-aiolos",
+    "name": "Aiolos",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 90.4159,
+    "magnitude": 7.36,
+    "score": 0.94
+  },
+  {
+    "id": "star-alasia",
+    "name": "Alasia",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 42.735,
+    "magnitude": 7.95,
+    "score": 0.94
+  },
+  {
+    "id": "star-albaldah",
+    "name": "Albaldah",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 156.25,
+    "magnitude": 2.88,
+    "score": 0.94
+  },
+  {
+    "id": "star-albali",
+    "name": "Albali",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 63.6943,
+    "magnitude": 3.78,
+    "score": 0.94
+  },
+  {
+    "id": "star-aldhanab",
+    "name": "Aldhanab",
+    "category": "stars",
+    "group": "Gru",
+    "subtitle": "Gru constellation",
+    "distance": 64.7249,
+    "magnitude": 3,
+    "score": 0.94
+  },
+  {
+    "id": "star-aldhibah",
+    "name": "Aldhibah",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 100.7049,
+    "magnitude": 3.17,
+    "score": 0.94
+  },
+  {
+    "id": "star-aldulfin",
+    "name": "Aldulfin",
+    "category": "stars",
+    "group": "Del",
+    "subtitle": "Del constellation",
+    "distance": 101.3171,
+    "magnitude": 4.03,
+    "score": 0.94
+  },
+  {
+    "id": "star-alfirk",
+    "name": "Alfirk",
+    "category": "stars",
+    "group": "Cep",
+    "subtitle": "Cep constellation",
+    "distance": 210.084,
+    "magnitude": 3.23,
+    "score": 0.94
+  },
+  {
+    "id": "star-algedi",
+    "name": "Algedi",
+    "category": "stars",
+    "group": "Cap",
+    "subtitle": "Cap constellation",
+    "distance": 32.4465,
+    "magnitude": 3.58,
+    "score": 0.94
+  },
+  {
+    "id": "star-alhena",
+    "name": "Alhena",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 33.5121,
+    "magnitude": 1.93,
+    "score": 0.94
+  },
+  {
+    "id": "star-alioth",
+    "name": "Alioth",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 25.31,
+    "magnitude": 1.76,
+    "score": 0.94
+  },
+  {
+    "id": "star-alkaid",
+    "name": "Alkaid",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 31.8674,
+    "magnitude": 1.85,
+    "score": 0.94
+  },
+  {
+    "id": "star-almaaz",
+    "name": "Almaaz",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 653.5948,
+    "magnitude": 3.03,
+    "score": 0.94
+  },
+  {
+    "id": "star-almach",
+    "name": "Almach",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 120.4819,
+    "magnitude": 2.1,
+    "score": 0.94
+  },
+  {
+    "id": "star-alnair",
+    "name": "Alnair",
+    "category": "stars",
+    "group": "Gru",
+    "subtitle": "Gru constellation",
+    "distance": 30.9693,
+    "magnitude": 1.73,
+    "score": 0.94
+  },
+  {
+    "id": "star-alnasl",
+    "name": "Alnasl",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 29.7,
+    "magnitude": 2.98,
+    "score": 0.94
+  },
+  {
+    "id": "star-alphecca",
+    "name": "Alphecca",
+    "category": "stars",
+    "group": "CrB",
+    "subtitle": "CrB constellation",
+    "distance": 23.0097,
+    "magnitude": 2.22,
+    "score": 0.94
+  },
+  {
+    "id": "star-alrescha",
+    "name": "Alrescha",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 46.1681,
+    "magnitude": 3.82,
+    "score": 0.94
+  },
+  {
+    "id": "star-alruba",
+    "name": "Alruba",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 163.3987,
+    "magnitude": 5.75,
+    "score": 0.94
+  },
+  {
+    "id": "star-alsafi",
+    "name": "Alsafi",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 5.7547,
+    "magnitude": 4.67,
+    "score": 0.94
+  },
+  {
+    "id": "star-alshat",
+    "name": "Alshat",
+    "category": "stars",
+    "group": "Cap",
+    "subtitle": "Cap constellation",
+    "distance": 77.6398,
+    "magnitude": 4.77,
+    "score": 0.94
+  },
+  {
+    "id": "star-altair",
+    "name": "Altair",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 5.1295,
+    "magnitude": 0.76,
+    "score": 0.94
+  },
+  {
+    "id": "star-altais",
+    "name": "Altais",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 29.8686,
+    "magnitude": 3.07,
+    "score": 0.94
+  },
+  {
+    "id": "star-alterf",
+    "name": "Alterf",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 100.9082,
+    "magnitude": 4.32,
+    "score": 0.94
+  },
+  {
+    "id": "star-aludra",
+    "name": "Aludra",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 609.7561,
+    "magnitude": 2.45,
+    "score": 0.94
+  },
+  {
+    "id": "star-alya-b",
+    "name": "Alya B",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 51.9481,
+    "magnitude": 4.98,
+    "score": 0.94
+  },
+  {
+    "id": "star-alzirr",
+    "name": "Alzirr",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 17.9986,
+    "magnitude": 3.35,
+    "score": 0.94
+  },
+  {
+    "id": "star-amadioha",
+    "name": "Amadioha",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 56.3063,
+    "magnitude": 8.98,
+    "score": 0.94
+  },
+  {
+    "id": "star-aniara",
+    "name": "Aniara",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 126.2626,
+    "magnitude": 7.86,
+    "score": 0.94
+  },
+  {
+    "id": "star-arcturus",
+    "name": "Arcturus",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 11.2575,
+    "magnitude": -0.05,
+    "score": 0.94
+  },
+  {
+    "id": "star-ashlesha",
+    "name": "Ashlesha",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 39.6354,
+    "magnitude": 3.38,
+    "score": 0.94
+  },
+  {
+    "id": "star-asterope",
+    "name": "Asterope",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 114.0251,
+    "magnitude": 5.76,
+    "score": 0.94
+  },
+  {
+    "id": "star-athebyne",
+    "name": "Athebyne",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 28.2326,
+    "magnitude": 2.73,
+    "score": 0.94
+  },
+  {
+    "id": "star-azmidi",
+    "name": "Azmidi",
+    "category": "stars",
+    "group": "Pup",
+    "subtitle": "Pup constellation",
+    "distance": 367.6471,
+    "magnitude": 3.34,
+    "score": 0.94
+  },
+  {
+    "id": "star-baekdu",
+    "name": "Baekdu",
+    "category": "stars",
+    "group": "UMi",
+    "subtitle": "UMi constellation",
+    "distance": 160,
+    "magnitude": 6.83,
+    "score": 0.94
+  },
+  {
+    "id": "star-beemim",
+    "name": "Beemim",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 90.8265,
+    "magnitude": 3.97,
+    "score": 0.94
+  },
+  {
+    "id": "star-bosona",
+    "name": "Bosona",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 193.7984,
+    "magnitude": 8.34,
+    "score": 0.94
+  },
+  {
+    "id": "star-botein",
+    "name": "Botein",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 52.0291,
+    "magnitude": 4.35,
+    "score": 0.94
+  },
+  {
+    "id": "star-brachium",
+    "name": "Brachium",
+    "category": "stars",
+    "group": "Lib",
+    "subtitle": "Lib constellation",
+    "distance": 88.4173,
+    "magnitude": 3.25,
+    "score": 0.94
+  },
+  {
+    "id": "star-castor",
+    "name": "Castor",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 15.5958,
+    "magnitude": 1.58,
+    "score": 0.94
+  },
+  {
+    "id": "star-castor-b",
+    "name": "Castor B",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 15.8053,
+    "magnitude": 2.85,
+    "score": 0.94
+  },
+  {
+    "id": "star-cebalrai",
+    "name": "Cebalrai",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 25.0941,
+    "magnitude": 2.76,
+    "score": 0.94
+  },
+  {
+    "id": "star-chalawan",
+    "name": "Chalawan",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 14.0627,
+    "magnitude": 5.03,
+    "score": 0.94
+  },
+  {
+    "id": "star-chamukuy",
+    "name": "Chamukuy",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 46.1042,
+    "magnitude": 3.4,
+    "score": 0.94
+  },
+  {
+    "id": "star-citala",
+    "name": "Citalá",
+    "category": "stars",
+    "group": "Mon",
+    "subtitle": "Mon constellation",
+    "distance": 28.9603,
+    "magnitude": 6.29,
+    "score": 0.94
+  },
+  {
+    "id": "star-denebola",
+    "name": "Denebola",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 10.9999,
+    "magnitude": 2.14,
+    "score": 0.94
+  },
+  {
+    "id": "star-diadem",
+    "name": "Diadem",
+    "category": "stars",
+    "group": "Com",
+    "subtitle": "Com constellation",
+    "distance": 17.8253,
+    "magnitude": 4.32,
+    "score": 0.94
+  },
+  {
+    "id": "star-dingolay",
+    "name": "Dingolay",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 157.9779,
+    "magnitude": 8.21,
+    "score": 0.94
+  },
+  {
+    "id": "star-diphda",
+    "name": "Diphda",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 29.5334,
+    "magnitude": 2.04,
+    "score": 0.94
+  },
+  {
+    "id": "star-dofida",
+    "name": "Dofida",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 37.9651,
+    "magnitude": 7.17,
+    "score": 0.94
+  },
+  {
+    "id": "star-dschubba",
+    "name": "Dschubba",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 150.6024,
+    "magnitude": 2.29,
+    "score": 0.94
+  },
+  {
+    "id": "star-dziban",
+    "name": "Dziban",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 22.8363,
+    "magnitude": 4.57,
+    "score": 0.94
+  },
+  {
+    "id": "star-dziban-b",
+    "name": "Dziban B",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 23.0627,
+    "magnitude": 5.81,
+    "score": 0.94
+  },
+  {
+    "id": "star-elnath",
+    "name": "Elnath",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 41.0509,
+    "magnitude": 1.65,
+    "score": 0.94
+  },
+  {
+    "id": "star-ez-aqr",
+    "name": "EZ Aqr",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 3.3979,
+    "magnitude": 12.66,
+    "score": 0.94
+  },
+  {
+    "id": "star-fafnir",
+    "name": "Fafnir",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 96.5251,
+    "magnitude": 4.82,
+    "score": 0.94
+  },
+  {
+    "id": "star-gacrux",
+    "name": "Gacrux",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 27.1518,
+    "magnitude": 1.59,
+    "score": 0.94
+  },
+  {
+    "id": "star-gakyid",
+    "name": "Gakyid",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 81.0373,
+    "magnitude": 8.23,
+    "score": 0.94
+  },
+  {
+    "id": "star-gienah",
+    "name": "Gienah",
+    "category": "stars",
+    "group": "Crv",
+    "subtitle": "Crv constellation",
+    "distance": 47.1032,
+    "magnitude": 2.58,
+    "score": 0.94
+  },
+  {
+    "id": "star-graffias",
+    "name": "Graffias",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 24.3309,
+    "magnitude": 4.84,
+    "score": 0.94
+  },
+  {
+    "id": "star-gumala",
+    "name": "Gumala",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 27.5482,
+    "magnitude": 6.25,
+    "score": 0.94
+  },
+  {
+    "id": "star-guniibuu",
+    "name": "Guniibuu",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 5.9333,
+    "magnitude": 4.33,
+    "score": 0.94
+  },
+  {
+    "id": "star-haedus",
+    "name": "Haedus",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 74.6269,
+    "magnitude": 3.18,
+    "score": 0.94
+  },
+  {
+    "id": "star-hassaleh",
+    "name": "Hassaleh",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 151.2859,
+    "magnitude": 2.69,
+    "score": 0.94
+  },
+  {
+    "id": "star-hatysa",
+    "name": "Hatysa",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 714.2857,
+    "magnitude": 2.75,
+    "score": 0.94
+  },
+  {
+    "id": "star-hoggar",
+    "name": "Hoggar",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 226.7574,
+    "magnitude": 8.38,
+    "score": 0.94
+  },
+  {
+    "id": "star-illyrian",
+    "name": "Illyrian",
+    "category": "stars",
+    "group": "LMi",
+    "subtitle": "LMi constellation",
+    "distance": 125.4705,
+    "magnitude": 7.62,
+    "score": 0.94
+  },
+  {
+    "id": "star-itonda",
+    "name": "Itonda",
+    "category": "stars",
+    "group": "Gru",
+    "subtitle": "Gru constellation",
+    "distance": 45.8505,
+    "magnitude": 7.47,
+    "score": 0.94
+  },
+  {
+    "id": "star-jabbah",
+    "name": "Jabbah",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 145.3488,
+    "magnitude": 4,
+    "score": 0.94
+  },
+  {
+    "id": "star-jishui",
+    "name": "Jishui",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 50.9944,
+    "magnitude": 4.89,
+    "score": 0.94
+  },
+  {
+    "id": "star-karaka",
+    "name": "Karaka",
+    "category": "stars",
+    "group": "Aps",
+    "subtitle": "Aps constellation",
+    "distance": 39.2311,
+    "magnitude": 8.71,
+    "score": 0.94
+  },
+  {
+    "id": "star-kitalpha",
+    "name": "Kitalpha",
+    "category": "stars",
+    "group": "Equ",
+    "subtitle": "Equ constellation",
+    "distance": 58.3431,
+    "magnitude": 3.92,
+    "score": 0.94
+  },
+  {
+    "id": "star-kochab",
+    "name": "Kochab",
+    "category": "stars",
+    "group": "UMi",
+    "subtitle": "UMi constellation",
+    "distance": 40.1445,
+    "magnitude": 2.07,
+    "score": 0.94
+  },
+  {
+    "id": "star-kurhah",
+    "name": "Kurhah",
+    "category": "stars",
+    "group": "Cep",
+    "subtitle": "Cep constellation",
+    "distance": 29.5946,
+    "magnitude": 4.26,
+    "score": 0.94
+  },
+  {
+    "id": "star-lesath",
+    "name": "Lesath",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 176.6784,
+    "magnitude": 2.7,
+    "score": 0.94
+  },
+  {
+    "id": "star-libertas",
+    "name": "Libertas",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 56.2746,
+    "magnitude": 4.71,
+    "score": 0.94
+  },
+  {
+    "id": "star-liesma",
+    "name": "Liesma",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 88.574,
+    "magnitude": 8.05,
+    "score": 0.94
+  },
+  {
+    "id": "star-lionrock",
+    "name": "Lionrock",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 131.0616,
+    "magnitude": 7.6,
+    "score": 0.94
+  },
+  {
+    "id": "star-maasym",
+    "name": "Maasym",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 113.2503,
+    "magnitude": 4.41,
+    "score": 0.94
+  },
+  {
+    "id": "star-marfik",
+    "name": "Marfik",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 53.0786,
+    "magnitude": 3.82,
+    "score": 0.94
+  },
+  {
+    "id": "star-markab",
+    "name": "Markab",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 40.8831,
+    "magnitude": 2.49,
+    "score": 0.94
+  },
+  {
+    "id": "star-markeb",
+    "name": "Markeb",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 175.4386,
+    "magnitude": 2.47,
+    "score": 0.94
+  },
+  {
+    "id": "star-marsic",
+    "name": "Marsic",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 112.7396,
+    "magnitude": 5,
+    "score": 0.94
+  },
+  {
+    "id": "star-marsic-b",
+    "name": "Marsic B",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 645.1613,
+    "magnitude": 6.25,
+    "score": 0.94
+  },
+  {
+    "id": "star-megrez",
+    "name": "Megrez",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 24.6853,
+    "magnitude": 3.32,
+    "score": 0.94
+  },
+  {
+    "id": "star-meissa",
+    "name": "Meissa",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 336.7003,
+    "magnitude": 3.39,
+    "score": 0.94
+  },
+  {
+    "id": "star-meleph",
+    "name": "Meleph",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 179.8561,
+    "magnitude": 6.29,
+    "score": 0.94
+  },
+  {
+    "id": "star-menkar",
+    "name": "Menkar",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 76.3942,
+    "magnitude": 2.54,
+    "score": 0.94
+  },
+  {
+    "id": "star-menkib",
+    "name": "Menkib",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 381.6794,
+    "magnitude": 3.98,
+    "score": 0.94
+  },
+  {
+    "id": "star-merope",
+    "name": "Merope",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 116.5501,
+    "magnitude": 4.14,
+    "score": 0.94
+  },
+  {
+    "id": "star-mimosa",
+    "name": "Mimosa",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 85.3971,
+    "magnitude": 1.25,
+    "score": 0.94
+  },
+  {
+    "id": "star-mirach",
+    "name": "Mirach",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 60.5327,
+    "magnitude": 2.07,
+    "score": 0.94
+  },
+  {
+    "id": "star-mirfak",
+    "name": "Mirfak",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 155.2795,
+    "magnitude": 1.79,
+    "score": 0.94
+  },
+  {
+    "id": "star-mirzam",
+    "name": "Mirzam",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 151.0574,
+    "magnitude": 1.98,
+    "score": 0.94
+  },
+  {
+    "id": "star-musica",
+    "name": "Musica",
+    "category": "stars",
+    "group": "Del",
+    "subtitle": "Del constellation",
+    "distance": 75.3012,
+    "magnitude": 5.51,
+    "score": 0.94
+  },
+  {
+    "id": "star-nekkar",
+    "name": "Nekkar",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 69.0608,
+    "magnitude": 3.49,
+    "score": 0.94
+  },
+  {
+    "id": "star-nembus",
+    "name": "Nembus",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 54.3183,
+    "magnitude": 3.59,
+    "score": 0.94
+  },
+  {
+    "id": "star-nenque",
+    "name": "Nenque",
+    "category": "stars",
+    "group": "Phe",
+    "subtitle": "Phe constellation",
+    "distance": 41.3736,
+    "magnitude": 7.72,
+    "score": 0.94
+  },
+  {
+    "id": "star-nervia",
+    "name": "Nervia",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 44.2282,
+    "magnitude": 8.1,
+    "score": 0.94
+  },
+  {
+    "id": "star-nosaxa",
+    "name": "Nosaxa",
+    "category": "stars",
+    "group": "Pup",
+    "subtitle": "Pup constellation",
+    "distance": 85.3971,
+    "magnitude": 8.05,
+    "score": 0.94
+  },
+  {
+    "id": "star-nushagak",
+    "name": "Nushagak",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 75.0188,
+    "magnitude": 8.17,
+    "score": 0.94
+  },
+  {
+    "id": "star-phecda",
+    "name": "Phecda",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 25.5037,
+    "magnitude": 2.41,
+    "score": 0.94
+  },
+  {
+    "id": "star-pipirima",
+    "name": "Pipirima",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 145.3488,
+    "magnitude": 3.56,
+    "score": 0.94
+  },
+  {
+    "id": "star-pollux",
+    "name": "Pollux",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 10.3584,
+    "magnitude": 1.16,
+    "score": 0.94
+  },
+  {
+    "id": "star-propus",
+    "name": "Propus",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 117.9245,
+    "magnitude": 3.31,
+    "score": 0.94
+  },
+  {
+    "id": "star-rapeto",
+    "name": "Rapeto",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 49.5295,
+    "magnitude": 7.39,
+    "score": 0.94
+  },
+  {
+    "id": "star-rastaban",
+    "name": "Rastaban",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 116.5501,
+    "magnitude": 2.79,
+    "score": 0.94
+  },
+  {
+    "id": "star-revati",
+    "name": "Revati",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 53.3049,
+    "magnitude": 5.21,
+    "score": 0.94
+  },
+  {
+    "id": "star-revati-b",
+    "name": "Revati B",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 93.985,
+    "magnitude": 6.44,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-128",
+    "name": "Ross 128",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 3.3553,
+    "magnitude": 11.12,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-154",
+    "name": "Ross 154",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 2.9698,
+    "magnitude": 10.37,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-248",
+    "name": "Ross 248",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 3.1686,
+    "magnitude": 12.29,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-614",
+    "name": "Ross 614",
+    "category": "stars",
+    "group": "Mon",
+    "subtitle": "Mon constellation",
+    "distance": 4.1268,
+    "magnitude": 11.12,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-686",
+    "name": "Ross 686",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 24.5278,
+    "magnitude": 12.68,
+    "score": 0.94
+  },
+  {
+    "id": "star-ross-687",
+    "name": "Ross 687",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 20.9424,
+    "magnitude": 12.37,
+    "score": 0.94
+  },
+  {
+    "id": "star-rukbat",
+    "name": "Rukbat",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 55.7414,
+    "magnitude": 3.96,
+    "score": 0.94
+  },
+  {
+    "id": "star-sa-maya",
+    "name": "Sāmaya",
+    "category": "stars",
+    "group": "PsA",
+    "subtitle": "PsA constellation",
+    "distance": 107.7586,
+    "magnitude": 8.56,
+    "score": 0.94
+  },
+  {
+    "id": "star-sargas",
+    "name": "Sargas",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 92.081,
+    "magnitude": 1.86,
+    "score": 0.94
+  },
+  {
+    "id": "star-sceptrum",
+    "name": "Sceptrum",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 33.6814,
+    "magnitude": 3.86,
+    "score": 0.94
+  },
+  {
+    "id": "star-scheat",
+    "name": "Scheat",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 60.0962,
+    "magnitude": 2.44,
+    "score": 0.94
+  },
+  {
+    "id": "star-shaula",
+    "name": "Shaula",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 175.1313,
+    "magnitude": 1.62,
+    "score": 0.94
+  },
+  {
+    "id": "star-sheratan",
+    "name": "Sheratan",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 17.9856,
+    "magnitude": 2.64,
+    "score": 0.94
+  },
+  {
+    "id": "star-sirius",
+    "name": "Sirius",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 2.6371,
+    "magnitude": -1.44,
+    "score": 0.94
+  },
+  {
+    "id": "star-situla",
+    "name": "Situla",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 65.5738,
+    "magnitude": 5.04,
+    "score": 0.94
+  },
+  {
+    "id": "star-sualocin",
+    "name": "Sualocin",
+    "category": "stars",
+    "group": "Del",
+    "subtitle": "Del constellation",
+    "distance": 77.821,
+    "magnitude": 3.77,
+    "score": 0.94
+  },
+  {
+    "id": "star-suhail",
+    "name": "Suhail",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 166.9449,
+    "magnitude": 2.23,
+    "score": 0.94
+  },
+  {
+    "id": "star-thuban",
+    "name": "Thuban",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 92.9368,
+    "magnitude": 3.67,
+    "score": 0.94
+  },
+  {
+    "id": "star-tianguan",
+    "name": "Tianguan",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 136.4256,
+    "magnitude": 2.97,
+    "score": 0.94
+  },
+  {
+    "id": "star-tianyi",
+    "name": "Tianyi",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 227.2727,
+    "magnitude": 5.43,
+    "score": 0.94
+  },
+  {
+    "id": "star-tonatiuh",
+    "name": "Tonatiuh",
+    "category": "stars",
+    "group": "Cam",
+    "subtitle": "Cam constellation",
+    "distance": 97.0874,
+    "magnitude": 5.78,
+    "score": 0.94
+  },
+  {
+    "id": "star-torcular",
+    "name": "Torcular",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 85.6898,
+    "magnitude": 4.26,
+    "score": 0.94
+  },
+  {
+    "id": "star-tureis",
+    "name": "Tureis",
+    "category": "stars",
+    "group": "Pup",
+    "subtitle": "Pup constellation",
+    "distance": 19.4818,
+    "magnitude": 2.83,
+    "score": 0.94
+  },
+  {
+    "id": "star-veritate",
+    "name": "Veritate",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 79.1766,
+    "magnitude": 5.22,
+    "score": 0.94
+  },
+  {
+    "id": "star-wolf-359",
+    "name": "Wolf 359",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 2.3906,
+    "magnitude": 13.45,
+    "score": 0.94
+  },
+  {
+    "id": "star-wurren",
+    "name": "Wurren",
+    "category": "stars",
+    "group": "Phe",
+    "subtitle": "Phe constellation",
+    "distance": 91.5751,
+    "magnitude": 3.94,
+    "score": 0.94
+  },
+  {
+    "id": "star-xuange",
+    "name": "Xuange",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 30.3582,
+    "magnitude": 4.18,
+    "score": 0.94
+  },
+  {
+    "id": "star-yildun",
+    "name": "Yildun",
+    "category": "stars",
+    "group": "UMi",
+    "subtitle": "UMi constellation",
+    "distance": 52.7704,
+    "magnitude": 4.35,
+    "score": 0.94
+  },
+  {
+    "id": "star-zaniah",
+    "name": "Zaniah",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 81.367,
+    "magnitude": 3.89,
+    "score": 0.94
+  },
+  {
+    "id": "star-zaurak",
+    "name": "Zaurak",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 62.3441,
+    "magnitude": 2.97,
+    "score": 0.94
+  },
+  {
+    "id": "star-zavijava",
+    "name": "Zavijava",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 10.929,
+    "magnitude": 3.59,
+    "score": 0.94
+  },
+  {
+    "id": "star-82-g-eri",
+    "name": "82 G. Eri",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 6.0434,
+    "magnitude": 4.26,
+    "score": 0.88
+  },
+  {
+    "id": "star-96-g-psc",
+    "name": "96 G. Psc",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 7.4549,
+    "magnitude": 5.74,
+    "score": 0.88
+  },
+  {
+    "id": "star-acrab",
+    "name": "Acrab",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 123.9157,
+    "magnitude": 2.56,
+    "score": 0.88
+  },
+  {
+    "id": "star-acrux",
+    "name": "Acrux",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 98.7167,
+    "magnitude": 0.77,
+    "score": 0.88
+  },
+  {
+    "id": "star-adhil",
+    "name": "Adhil",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 65.7462,
+    "magnitude": 4.87,
+    "score": 0.88
+  },
+  {
+    "id": "star-ainalrami",
+    "name": "Ainalrami",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 344.8276,
+    "magnitude": 4.86,
+    "score": 0.88
+  },
+  {
+    "id": "star-albireo-b",
+    "name": "Albireo B",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 122.549,
+    "magnitude": 5.12,
+    "score": 0.88
+  },
+  {
+    "id": "star-alcor",
+    "name": "Alcor",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 25.0564,
+    "magnitude": 3.99,
+    "score": 0.88
+  },
+  {
+    "id": "star-aldebaran",
+    "name": "Aldebaran",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 20.4332,
+    "magnitude": 0.87,
+    "score": 0.88
+  },
+  {
+    "id": "star-alderamin",
+    "name": "Alderamin",
+    "category": "stars",
+    "group": "Cep",
+    "subtitle": "Cep constellation",
+    "distance": 15.0376,
+    "magnitude": 2.45,
+    "score": 0.88
+  },
+  {
+    "id": "star-algol",
+    "name": "Algol",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 27.571,
+    "magnitude": 2.09,
+    "score": 0.88
+  },
+  {
+    "id": "star-alkaphrah",
+    "name": "Alkaphrah",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 109.8901,
+    "magnitude": 3.57,
+    "score": 0.88
+  },
+  {
+    "id": "star-alkes",
+    "name": "Alkes",
+    "category": "stars",
+    "group": "Crt",
+    "subtitle": "Crt constellation",
+    "distance": 48.8043,
+    "magnitude": 4.08,
+    "score": 0.88
+  },
+  {
+    "id": "star-alpheratz",
+    "name": "Alpheratz",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 29.7442,
+    "magnitude": 2.07,
+    "score": 0.88
+  },
+  {
+    "id": "star-alsephina",
+    "name": "Alsephina",
+    "category": "stars",
+    "group": "Vel",
+    "subtitle": "Vel constellation",
+    "distance": 24.6975,
+    "magnitude": 1.93,
+    "score": 0.88
+  },
+  {
+    "id": "star-ancha",
+    "name": "Ancha",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 57.4713,
+    "magnitude": 4.17,
+    "score": 0.88
+  },
+  {
+    "id": "star-angetenar",
+    "name": "Angetenar",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 57.3066,
+    "magnitude": 4.76,
+    "score": 0.88
+  },
+  {
+    "id": "star-ankaa",
+    "name": "Ankaa",
+    "category": "stars",
+    "group": "Phe",
+    "subtitle": "Phe constellation",
+    "distance": 25.974,
+    "magnitude": 2.4,
+    "score": 0.88
+  },
+  {
+    "id": "star-anser",
+    "name": "Anser",
+    "category": "stars",
+    "group": "Vul",
+    "subtitle": "Vul constellation",
+    "distance": 91.1577,
+    "magnitude": 4.44,
+    "score": 0.88
+  },
+  {
+    "id": "star-arneb",
+    "name": "Arneb",
+    "category": "stars",
+    "group": "Lep",
+    "subtitle": "Lep constellation",
+    "distance": 680.2721,
+    "magnitude": 2.58,
+    "score": 0.88
+  },
+  {
+    "id": "star-aspidiske",
+    "name": "Aspidiske",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 234.7418,
+    "magnitude": 2.21,
+    "score": 0.88
+  },
+  {
+    "id": "star-atlas",
+    "name": "Atlas",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 117.2333,
+    "magnitude": 3.62,
+    "score": 0.88
+  },
+  {
+    "id": "star-atria",
+    "name": "Atria",
+    "category": "stars",
+    "group": "TrA",
+    "subtitle": "TrA constellation",
+    "distance": 119.7605,
+    "magnitude": 1.91,
+    "score": 0.88
+  },
+  {
+    "id": "star-avior",
+    "name": "Avior",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 185.5288,
+    "magnitude": 1.86,
+    "score": 0.88
+  },
+  {
+    "id": "star-belel",
+    "name": "Belel",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 110.6195,
+    "magnitude": 7.55,
+    "score": 0.88
+  },
+  {
+    "id": "star-bellatrix",
+    "name": "Bellatrix",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 77.3994,
+    "magnitude": 1.64,
+    "score": 0.88
+  },
+  {
+    "id": "star-bibha",
+    "name": "Bibhā",
+    "category": "stars",
+    "group": "Sex",
+    "subtitle": "Sex constellation",
+    "distance": 95.3289,
+    "magnitude": 8.73,
+    "score": 0.88
+  },
+  {
+    "id": "star-biham",
+    "name": "Biham",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 28.2965,
+    "magnitude": 3.52,
+    "score": 0.88
+  },
+  {
+    "id": "star-bubup",
+    "name": "Bubup",
+    "category": "stars",
+    "group": "Men",
+    "subtitle": "Men constellation",
+    "distance": 38.3142,
+    "magnitude": 6.69,
+    "score": 0.88
+  },
+  {
+    "id": "star-bunda",
+    "name": "Bunda",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 54.7645,
+    "magnitude": 4.68,
+    "score": 0.88
+  },
+  {
+    "id": "star-ceibo",
+    "name": "Ceibo",
+    "category": "stars",
+    "group": "Cha",
+    "subtitle": "Cha constellation",
+    "distance": 34.5423,
+    "magnitude": 9.37,
+    "score": 0.88
+  },
+  {
+    "id": "star-cervantes",
+    "name": "Cervantes",
+    "category": "stars",
+    "group": "Ara",
+    "subtitle": "Ara constellation",
+    "distance": 15.5111,
+    "magnitude": 5.12,
+    "score": 0.88
+  },
+  {
+    "id": "star-chara",
+    "name": "Chara",
+    "category": "stars",
+    "group": "CVn",
+    "subtitle": "CVn constellation",
+    "distance": 8.4395,
+    "magnitude": 4.24,
+    "score": 0.88
+  },
+  {
+    "id": "star-citadelle",
+    "name": "Citadelle",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 159.2357,
+    "magnitude": 8.36,
+    "score": 0.88
+  },
+  {
+    "id": "star-cocibolca",
+    "name": "Cocibolca",
+    "category": "stars",
+    "group": "Scl",
+    "subtitle": "Scl constellation",
+    "distance": 32.3729,
+    "magnitude": 7.78,
+    "score": 0.88
+  },
+  {
+    "id": "star-cujam",
+    "name": "Cujam",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 76.6871,
+    "magnitude": 4.57,
+    "score": 0.88
+  },
+  {
+    "id": "star-cursa",
+    "name": "Cursa",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 27.3973,
+    "magnitude": 2.78,
+    "score": 0.88
+  },
+  {
+    "id": "star-dabih",
+    "name": "Dabih",
+    "category": "stars",
+    "group": "Cap",
+    "subtitle": "Cap constellation",
+    "distance": 100.2004,
+    "magnitude": 3.05,
+    "score": 0.88
+  },
+  {
+    "id": "star-dalim",
+    "name": "Dalim",
+    "category": "stars",
+    "group": "For",
+    "subtitle": "For constellation",
+    "distance": 14.2369,
+    "magnitude": 3.8,
+    "score": 0.88
+  },
+  {
+    "id": "star-deneb",
+    "name": "Deneb",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 432.9004,
+    "magnitude": 1.25,
+    "score": 0.88
+  },
+  {
+    "id": "star-dubhe",
+    "name": "Dubhe",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 37.679,
+    "magnitude": 1.81,
+    "score": 0.88
+  },
+  {
+    "id": "star-errai",
+    "name": "Errai",
+    "category": "stars",
+    "group": "Cep",
+    "subtitle": "Cep constellation",
+    "distance": 14.1024,
+    "magnitude": 3.21,
+    "score": 0.88
+  },
+  {
+    "id": "star-felis",
+    "name": "Felis",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 188.3239,
+    "magnitude": 4.94,
+    "score": 0.88
+  },
+  {
+    "id": "star-fomalhaut",
+    "name": "Fomalhaut",
+    "category": "stars",
+    "group": "PsA",
+    "subtitle": "PsA constellation",
+    "distance": 7.7036,
+    "magnitude": 1.17,
+    "score": 0.88
+  },
+  {
+    "id": "star-furud",
+    "name": "Furud",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 111.1111,
+    "magnitude": 3.02,
+    "score": 0.88
+  },
+  {
+    "id": "star-fuyue",
+    "name": "Fuyue",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 38.5802,
+    "magnitude": 3.19,
+    "score": 0.88
+  },
+  {
+    "id": "star-ginan",
+    "name": "Ginan",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 70.4722,
+    "magnitude": 3.59,
+    "score": 0.88
+  },
+  {
+    "id": "star-gudja",
+    "name": "Gudja",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 117.096,
+    "magnitude": 4.09,
+    "score": 0.88
+  },
+  {
+    "id": "star-hadar",
+    "name": "Hadar",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 120.1923,
+    "magnitude": 0.61,
+    "score": 0.88
+  },
+  {
+    "id": "star-hamal",
+    "name": "Hamal",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 20.1776,
+    "magnitude": 2.01,
+    "score": 0.88
+  },
+  {
+    "id": "star-helvetios",
+    "name": "Helvetios",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 15.6079,
+    "magnitude": 5.45,
+    "score": 0.88
+  },
+  {
+    "id": "star-homam",
+    "name": "Homam",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 62.6566,
+    "magnitude": 3.41,
+    "score": 0.88
+  },
+  {
+    "id": "star-hunor",
+    "name": "Hunor",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 114.4165,
+    "magnitude": 8.72,
+    "score": 0.88
+  },
+  {
+    "id": "star-iklil",
+    "name": "Iklil",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 144.7178,
+    "magnitude": 3.87,
+    "score": 0.88
+  },
+  {
+    "id": "star-intan",
+    "name": "Intan",
+    "category": "stars",
+    "group": "For",
+    "subtitle": "For constellation",
+    "distance": 46.2107,
+    "magnitude": 9.92,
+    "score": 0.88
+  },
+  {
+    "id": "star-intercrus",
+    "name": "Intercrus",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 85.8369,
+    "magnitude": 5.4,
+    "score": 0.88
+  },
+  {
+    "id": "star-kaewkosin",
+    "name": "Kaewkosin",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 23.2558,
+    "magnitude": 12.33,
+    "score": 0.88
+  },
+  {
+    "id": "star-kamuy",
+    "name": "Kamuy",
+    "category": "stars",
+    "group": "CrB",
+    "subtitle": "CrB constellation",
+    "distance": 125.3133,
+    "magnitude": 6.57,
+    "score": 0.88
+  },
+  {
+    "id": "star-kaveh",
+    "name": "Kaveh",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 127.0648,
+    "magnitude": 8.02,
+    "score": 0.88
+  },
+  {
+    "id": "star-khambalia",
+    "name": "Khambalia",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 57.1755,
+    "magnitude": 4.52,
+    "score": 0.88
+  },
+  {
+    "id": "star-koeia",
+    "name": "Koeia",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 23.015,
+    "magnitude": 10.25,
+    "score": 0.88
+  },
+  {
+    "id": "star-kruger-60",
+    "name": "Kruger 60",
+    "category": "stars",
+    "group": "Cep",
+    "subtitle": "Cep constellation",
+    "distance": 4.001,
+    "magnitude": 9.59,
+    "score": 0.88
+  },
+  {
+    "id": "star-lusita-nia",
+    "name": "Lusitânia",
+    "category": "stars",
+    "group": "Mon",
+    "subtitle": "Mon constellation",
+    "distance": 34.3525,
+    "magnitude": 8.1,
+    "score": 0.88
+  },
+  {
+    "id": "star-matar",
+    "name": "Matar",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 65.703,
+    "magnitude": 2.93,
+    "score": 0.88
+  },
+  {
+    "id": "star-matza",
+    "name": "Matza",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 97.9432,
+    "magnitude": 7.01,
+    "score": 0.88
+  },
+  {
+    "id": "star-merak",
+    "name": "Merak",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 24.4499,
+    "magnitude": 2.34,
+    "score": 0.88
+  },
+  {
+    "id": "star-merga",
+    "name": "Merga",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 48.9956,
+    "magnitude": 5.76,
+    "score": 0.88
+  },
+  {
+    "id": "star-meridiana",
+    "name": "Meridiana",
+    "category": "stars",
+    "group": "CrA",
+    "subtitle": "CrA constellation",
+    "distance": 38.432,
+    "magnitude": 4.11,
+    "score": 0.88
+  },
+  {
+    "id": "star-mesarthim",
+    "name": "Mesarthim",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 50.3018,
+    "magnitude": 3.88,
+    "score": 0.88
+  },
+  {
+    "id": "star-minelauva",
+    "name": "Minelauva",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 60.8273,
+    "magnitude": 3.39,
+    "score": 0.88
+  },
+  {
+    "id": "star-miram",
+    "name": "Miram",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 269.5418,
+    "magnitude": 3.77,
+    "score": 0.88
+  },
+  {
+    "id": "star-misam",
+    "name": "Misam",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 34.5662,
+    "magnitude": 3.79,
+    "score": 0.88
+  },
+  {
+    "id": "star-mizar",
+    "name": "Mizar",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 26.3089,
+    "magnitude": 2.23,
+    "score": 0.88
+  },
+  {
+    "id": "star-mo-nch",
+    "name": "Mönch",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 31.7058,
+    "magnitude": 8.04,
+    "score": 0.88
+  },
+  {
+    "id": "star-mothallah",
+    "name": "Mothallah",
+    "category": "stars",
+    "group": "Tri",
+    "subtitle": "Tri constellation",
+    "distance": 19.4175,
+    "magnitude": 3.42,
+    "score": 0.88
+  },
+  {
+    "id": "star-muliphein",
+    "name": "Muliphein",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 135.5014,
+    "magnitude": 4.11,
+    "score": 0.88
+  },
+  {
+    "id": "star-na-sti",
+    "name": "Násti",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 54.5256,
+    "magnitude": 8.2,
+    "score": 0.88
+  },
+  {
+    "id": "star-nihal",
+    "name": "Nihal",
+    "category": "stars",
+    "group": "Lep",
+    "subtitle": "Lep constellation",
+    "distance": 49.1642,
+    "magnitude": 2.81,
+    "score": 0.88
+  },
+  {
+    "id": "star-nunki",
+    "name": "Nunki",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 69.8324,
+    "magnitude": 2.05,
+    "score": 0.88
+  },
+  {
+    "id": "star-p-eridani",
+    "name": "p Eridani",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 7.8223,
+    "magnitude": 5.76,
+    "score": 0.88
+  },
+  {
+    "id": "star-phact",
+    "name": "Phact",
+    "category": "stars",
+    "group": "Col",
+    "subtitle": "Col constellation",
+    "distance": 80.1282,
+    "magnitude": 2.65,
+    "score": 0.88
+  },
+  {
+    "id": "star-polis",
+    "name": "Polis",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 100000,
+    "magnitude": 3.84,
+    "score": 0.88
+  },
+  {
+    "id": "star-praecipua",
+    "name": "Praecipua",
+    "category": "stars",
+    "group": "LMi",
+    "subtitle": "LMi constellation",
+    "distance": 29.0867,
+    "magnitude": 3.79,
+    "score": 0.88
+  },
+  {
+    "id": "star-rigel",
+    "name": "Rigel",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 264.5503,
+    "magnitude": 0.18,
+    "score": 0.88
+  },
+  {
+    "id": "star-sabik",
+    "name": "Sabik",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 27.0929,
+    "magnitude": 2.43,
+    "score": 0.88
+  },
+  {
+    "id": "star-saclateni",
+    "name": "Saclateni",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 240.9639,
+    "magnitude": 3.69,
+    "score": 0.88
+  },
+  {
+    "id": "star-sadachbia",
+    "name": "Sadachbia",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 50.2008,
+    "magnitude": 3.86,
+    "score": 0.88
+  },
+  {
+    "id": "star-sadalbari",
+    "name": "Sadalbari",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 32.5309,
+    "magnitude": 3.51,
+    "score": 0.88
+  },
+  {
+    "id": "star-sadalsuud",
+    "name": "Sadalsuud",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 164.7446,
+    "magnitude": 2.9,
+    "score": 0.88
+  },
+  {
+    "id": "star-saiph",
+    "name": "Saiph",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 198.4127,
+    "magnitude": 2.07,
+    "score": 0.88
+  },
+  {
+    "id": "star-sarin",
+    "name": "Sarin",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 23.0362,
+    "magnitude": 3.12,
+    "score": 0.88
+  },
+  {
+    "id": "star-segin",
+    "name": "Segin",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 126.2626,
+    "magnitude": 3.35,
+    "score": 0.88
+  },
+  {
+    "id": "star-shama",
+    "name": "Shama",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 49.9251,
+    "magnitude": 9.1,
+    "score": 0.88
+  },
+  {
+    "id": "star-spica",
+    "name": "Spica",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 76.5697,
+    "magnitude": 0.98,
+    "score": 0.88
+  },
+  {
+    "id": "star-subra",
+    "name": "Subra",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 39.9521,
+    "magnitude": 3.52,
+    "score": 0.88
+  },
+  {
+    "id": "star-syrma",
+    "name": "Syrma",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 22.237,
+    "magnitude": 4.07,
+    "score": 0.88
+  },
+  {
+    "id": "star-tabit",
+    "name": "Tabit",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 8.0684,
+    "magnitude": 3.19,
+    "score": 0.88
+  },
+  {
+    "id": "star-taiyi",
+    "name": "Taiyi",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 29.2912,
+    "magnitude": 5.23,
+    "score": 0.88
+  },
+  {
+    "id": "star-tejat",
+    "name": "Tejat",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 71.0227,
+    "magnitude": 2.87,
+    "score": 0.88
+  },
+  {
+    "id": "star-tiaki",
+    "name": "Tiaki",
+    "category": "stars",
+    "group": "Gru",
+    "subtitle": "Gru constellation",
+    "distance": 54.2594,
+    "magnitude": 2.07,
+    "score": 0.88
+  },
+  {
+    "id": "star-timir",
+    "name": "Timir",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 59.0319,
+    "magnitude": 6.89,
+    "score": 0.88
+  },
+  {
+    "id": "star-ukdah",
+    "name": "Ukdah",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 80.7103,
+    "magnitude": 3.9,
+    "score": 0.88
+  },
+  {
+    "id": "star-uklun",
+    "name": "Uklun",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 39.6983,
+    "magnitude": 7.47,
+    "score": 0.88
+  },
+  {
+    "id": "star-unukalhai",
+    "name": "Unukalhai",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 22.6757,
+    "magnitude": 2.63,
+    "score": 0.88
+  },
+  {
+    "id": "star-wasat",
+    "name": "Wasat",
+    "category": "stars",
+    "group": "Gem",
+    "subtitle": "Gem constellation",
+    "distance": 18.5391,
+    "magnitude": 3.5,
+    "score": 0.88
+  },
+  {
+    "id": "star-wezen",
+    "name": "Wezen",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 492.6108,
+    "magnitude": 1.83,
+    "score": 0.88
+  },
+  {
+    "id": "star-wolf-1061",
+    "name": "Wolf 1061",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 4.2922,
+    "magnitude": 10.1,
+    "score": 0.88
+  },
+  {
+    "id": "star-yed-prior",
+    "name": "Yed Prior",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 52.4659,
+    "magnitude": 2.73,
+    "score": 0.88
+  },
+  {
+    "id": "star-zhang",
+    "name": "Zhang",
+    "category": "stars",
+    "group": "Hya",
+    "subtitle": "Hya constellation",
+    "distance": 80.9061,
+    "magnitude": 4.11,
+    "score": 0.88
+  },
+  {
+    "id": "star-zibal",
+    "name": "Zibal",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 33.6474,
+    "magnitude": 4.8,
+    "score": 0.88
+  },
+  {
+    "id": "star-zosma",
+    "name": "Zosma",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 17.9147,
+    "magnitude": 2.56,
+    "score": 0.88
+  },
+  {
+    "id": "star-268-g-cet",
+    "name": "268 G. Cet",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 7.1803,
+    "magnitude": 5.79,
+    "score": 0.81
+  },
+  {
+    "id": "star-alkalurops",
+    "name": "Alkalurops",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 34.6861,
+    "magnitude": 4.31,
+    "score": 0.81
+  },
+  {
+    "id": "star-alsciaukat",
+    "name": "Alsciaukat",
+    "category": "stars",
+    "group": "Lyn",
+    "subtitle": "Lyn constellation",
+    "distance": 117.2333,
+    "magnitude": 4.25,
+    "score": 0.81
+  },
+  {
+    "id": "star-alya",
+    "name": "Alya",
+    "category": "stars",
+    "group": "Ser",
+    "subtitle": "Ser constellation",
+    "distance": 47.4158,
+    "magnitude": 4.62,
+    "score": 0.81
+  },
+  {
+    "id": "star-atik",
+    "name": "Atik",
+    "category": "stars",
+    "group": "Per",
+    "subtitle": "Per constellation",
+    "distance": 343.6426,
+    "magnitude": 3.84,
+    "score": 0.81
+  },
+  {
+    "id": "star-ayeyarwady",
+    "name": "Ayeyarwady",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 135.318,
+    "magnitude": 7.81,
+    "score": 0.81
+  },
+  {
+    "id": "star-azelfafage",
+    "name": "Azelfafage",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 529.1005,
+    "magnitude": 4.69,
+    "score": 0.81
+  },
+  {
+    "id": "star-azha",
+    "name": "Azha",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 41.8585,
+    "magnitude": 3.89,
+    "score": 0.81
+  },
+  {
+    "id": "star-beid",
+    "name": "Beid",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 37.3134,
+    "magnitude": 4.04,
+    "score": 0.81
+  },
+  {
+    "id": "star-betelgeuse",
+    "name": "Betelgeuse",
+    "category": "stars",
+    "group": "Ori",
+    "subtitle": "Ori constellation",
+    "distance": 152.6718,
+    "magnitude": 0.45,
+    "score": 0.81
+  },
+  {
+    "id": "star-buna",
+    "name": "Buna",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 57.8704,
+    "magnitude": 7.28,
+    "score": 0.81
+  },
+  {
+    "id": "star-caph",
+    "name": "Caph",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 16.7842,
+    "magnitude": 2.28,
+    "score": 0.81
+  },
+  {
+    "id": "star-copernicus",
+    "name": "Copernicus",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 12.3411,
+    "magnitude": 5.96,
+    "score": 0.81
+  },
+  {
+    "id": "star-cor-caroli",
+    "name": "Cor Caroli",
+    "category": "stars",
+    "group": "CVn",
+    "subtitle": "CVn constellation",
+    "distance": 35.1989,
+    "magnitude": 2.89,
+    "score": 0.81
+  },
+  {
+    "id": "star-cygnus-x-1",
+    "name": "Cygnus X-1",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 595.2381,
+    "magnitude": 8.84,
+    "score": 0.81
+  },
+  {
+    "id": "star-ebla",
+    "name": "Ebla",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 28.5551,
+    "magnitude": 8.59,
+    "score": 0.81
+  },
+  {
+    "id": "star-emiw",
+    "name": "Emiw",
+    "category": "stars",
+    "group": "Tuc",
+    "subtitle": "Tuc constellation",
+    "distance": 35.2983,
+    "magnitude": 8.06,
+    "score": 0.81
+  },
+  {
+    "id": "star-enif",
+    "name": "Enif",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 211.4165,
+    "magnitude": 2.38,
+    "score": 0.81
+  },
+  {
+    "id": "star-fang",
+    "name": "Fang",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 179.5332,
+    "magnitude": 2.89,
+    "score": 0.81
+  },
+  {
+    "id": "star-flegetonte",
+    "name": "Flegetonte",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 29.6384,
+    "magnitude": 8.07,
+    "score": 0.81
+  },
+  {
+    "id": "star-fulu",
+    "name": "Fulu",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 181.8182,
+    "magnitude": 3.69,
+    "score": 0.81
+  },
+  {
+    "id": "star-funi",
+    "name": "Funi",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 66.0502,
+    "magnitude": 8.75,
+    "score": 0.81
+  },
+  {
+    "id": "star-guniibuu-b",
+    "name": "Guniibuu B",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 5.9852,
+    "magnitude": 5.07,
+    "score": 0.81
+  },
+  {
+    "id": "star-heze",
+    "name": "Heze",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 22.7118,
+    "magnitude": 3.38,
+    "score": 0.81
+  },
+  {
+    "id": "star-imai",
+    "name": "Imai",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 105.8201,
+    "magnitude": 2.79,
+    "score": 0.81
+  },
+  {
+    "id": "star-izar",
+    "name": "Izar",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 62.1118,
+    "magnitude": 2.35,
+    "score": 0.81
+  },
+  {
+    "id": "star-kang",
+    "name": "Kang",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 78.125,
+    "magnitude": 4.18,
+    "score": 0.81
+  },
+  {
+    "id": "star-kaus-media",
+    "name": "Kaus Media",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 106.6098,
+    "magnitude": 2.72,
+    "score": 0.81
+  },
+  {
+    "id": "star-keid",
+    "name": "Keid",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 4.9845,
+    "magnitude": 4.43,
+    "score": 0.81
+  },
+  {
+    "id": "star-kraz",
+    "name": "Kraz",
+    "category": "stars",
+    "group": "Crv",
+    "subtitle": "Crv constellation",
+    "distance": 44.6628,
+    "magnitude": 2.65,
+    "score": 0.81
+  },
+  {
+    "id": "star-la-superba",
+    "name": "La Superba",
+    "category": "stars",
+    "group": "CVn",
+    "subtitle": "CVn constellation",
+    "distance": 320.5128,
+    "magnitude": 5.42,
+    "score": 0.81
+  },
+  {
+    "id": "star-mago",
+    "name": "Mago",
+    "category": "stars",
+    "group": "Cam",
+    "subtitle": "Cam constellation",
+    "distance": 120.6273,
+    "magnitude": 6.43,
+    "score": 0.81
+  },
+  {
+    "id": "star-maia",
+    "name": "Maia",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 117.5088,
+    "magnitude": 3.87,
+    "score": 0.81
+  },
+  {
+    "id": "star-maru",
+    "name": "Maru",
+    "category": "stars",
+    "group": "Vol",
+    "subtitle": "Vol constellation",
+    "distance": 23.2558,
+    "magnitude": 13.92,
+    "score": 0.81
+  },
+  {
+    "id": "star-menkalinan",
+    "name": "Menkalinan",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 24.8694,
+    "magnitude": 1.9,
+    "score": 0.81
+  },
+  {
+    "id": "star-mira",
+    "name": "Mira",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 91.659,
+    "magnitude": 6.47,
+    "score": 0.81
+  },
+  {
+    "id": "star-nahn",
+    "name": "Nahn",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 114.4165,
+    "magnitude": 5.16,
+    "score": 0.81
+  },
+  {
+    "id": "star-naos",
+    "name": "Naos",
+    "category": "stars",
+    "group": "Pup",
+    "subtitle": "Pup constellation",
+    "distance": 332.2259,
+    "magnitude": 2.21,
+    "score": 0.81
+  },
+  {
+    "id": "star-ogma",
+    "name": "Ogma",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 79.4281,
+    "magnitude": 8.15,
+    "score": 0.81
+  },
+  {
+    "id": "star-okab",
+    "name": "Okab",
+    "category": "stars",
+    "group": "Aql",
+    "subtitle": "Aql constellation",
+    "distance": 25.4582,
+    "magnitude": 2.99,
+    "score": 0.81
+  },
+  {
+    "id": "star-paikauhale",
+    "name": "Paikauhale",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 145.3488,
+    "magnitude": 2.82,
+    "score": 0.81
+  },
+  {
+    "id": "star-rana",
+    "name": "Rana",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 9.0408,
+    "magnitude": 3.52,
+    "score": 0.81
+  },
+  {
+    "id": "star-rasalgethi",
+    "name": "Rasalgethi",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 110.2536,
+    "magnitude": 2.78,
+    "score": 0.81
+  },
+  {
+    "id": "star-rasalhague",
+    "name": "Rasalhague",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 14.8965,
+    "magnitude": 2.08,
+    "score": 0.81
+  },
+  {
+    "id": "star-sadalmelik",
+    "name": "Sadalmelik",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 160.5136,
+    "magnitude": 2.95,
+    "score": 0.81
+  },
+  {
+    "id": "star-sadr",
+    "name": "Sadr",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 561.7978,
+    "magnitude": 2.23,
+    "score": 0.81
+  },
+  {
+    "id": "star-sagarmatha",
+    "name": "Sagarmatha",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 49.6032,
+    "magnitude": 8.42,
+    "score": 0.81
+  },
+  {
+    "id": "star-salm",
+    "name": "Salm",
+    "category": "stars",
+    "group": "Peg",
+    "subtitle": "Peg constellation",
+    "distance": 49.5786,
+    "magnitude": 4.58,
+    "score": 0.81
+  },
+  {
+    "id": "star-sham",
+    "name": "Sham",
+    "category": "stars",
+    "group": "Sge",
+    "subtitle": "Sge constellation",
+    "distance": 130.3781,
+    "magnitude": 4.39,
+    "score": 0.81
+  },
+  {
+    "id": "star-sika",
+    "name": "Sika",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 58.072,
+    "magnitude": 7.84,
+    "score": 0.81
+  },
+  {
+    "id": "star-skat",
+    "name": "Skat",
+    "category": "stars",
+    "group": "Aqr",
+    "subtitle": "Aqr constellation",
+    "distance": 49.2368,
+    "magnitude": 3.27,
+    "score": 0.81
+  },
+  {
+    "id": "star-tarf",
+    "name": "Tarf",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 93.0233,
+    "magnitude": 3.53,
+    "score": 0.81
+  },
+  {
+    "id": "star-terebellum",
+    "name": "Terebellum",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 25.9875,
+    "magnitude": 4.7,
+    "score": 0.81
+  },
+  {
+    "id": "star-tupa",
+    "name": "Tupã",
+    "category": "stars",
+    "group": "Cru",
+    "subtitle": "Cru constellation",
+    "distance": 38.0807,
+    "magnitude": 6.99,
+    "score": 0.81
+  },
+  {
+    "id": "star-tupi",
+    "name": "Tupi",
+    "category": "stars",
+    "group": "Ret",
+    "subtitle": "Ret constellation",
+    "distance": 33.8868,
+    "magnitude": 7.12,
+    "score": 0.81
+  },
+  {
+    "id": "star-uruk",
+    "name": "Uruk",
+    "category": "stars",
+    "group": "Sge",
+    "subtitle": "Sge constellation",
+    "distance": 118.4834,
+    "magnitude": 8.97,
+    "score": 0.81
+  },
+  {
+    "id": "star-uu-ba",
+    "name": "Uúba",
+    "category": "stars",
+    "group": "Scl",
+    "subtitle": "Scl constellation",
+    "distance": 77.101,
+    "magnitude": 9.79,
+    "score": 0.81
+  },
+  {
+    "id": "star-vega",
+    "name": "Vega",
+    "category": "stars",
+    "group": "Lyr",
+    "subtitle": "Lyr constellation",
+    "distance": 7.6787,
+    "magnitude": 0.03,
+    "score": 0.81
+  },
+  {
+    "id": "star-wazn",
+    "name": "Wazn",
+    "category": "stars",
+    "group": "Col",
+    "subtitle": "Col constellation",
+    "distance": 26.7308,
+    "magnitude": 3.12,
+    "score": 0.81
+  },
+  {
+    "id": "star-xamidimura",
+    "name": "Xamidimura",
+    "category": "stars",
+    "group": "Sco",
+    "subtitle": "Sco constellation",
+    "distance": 153.6098,
+    "magnitude": 3,
+    "score": 0.81
+  },
+  {
+    "id": "star-xihe",
+    "name": "Xihe",
+    "category": "stars",
+    "group": "Lyr",
+    "subtitle": "Lyr constellation",
+    "distance": 139.47,
+    "magnitude": 6.04,
+    "score": 0.81
+  },
+  {
+    "id": "star-ain",
+    "name": "Ain",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 44.964,
+    "magnitude": 3.53,
+    "score": 0.75
+  },
+  {
+    "id": "star-arkab-prior",
+    "name": "Arkab Prior",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 96.1538,
+    "magnitude": 3.96,
+    "score": 0.75
+  },
+  {
+    "id": "star-cih",
+    "name": "Cih",
+    "category": "stars",
+    "group": "Cas",
+    "subtitle": "Cas constellation",
+    "distance": 168.3502,
+    "magnitude": 2.15,
+    "score": 0.75
+  },
+  {
+    "id": "star-felixvarela",
+    "name": "Felixvarela",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 35.7015,
+    "magnitude": 9.62,
+    "score": 0.75
+  },
+  {
+    "id": "star-gar",
+    "name": "Gar",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 8.3703,
+    "magnitude": 11.39,
+    "score": 0.75
+  },
+  {
+    "id": "star-kornephoros",
+    "name": "Kornephoros",
+    "category": "stars",
+    "group": "Her",
+    "subtitle": "Her constellation",
+    "distance": 42.6621,
+    "magnitude": 2.78,
+    "score": 0.75
+  },
+  {
+    "id": "star-lilii-borea",
+    "name": "Lilii Borea",
+    "category": "stars",
+    "group": "Ari",
+    "subtitle": "Ari constellation",
+    "distance": 52.6039,
+    "magnitude": 4.52,
+    "score": 0.75
+  },
+  {
+    "id": "star-miaplacidus",
+    "name": "Miaplacidus",
+    "category": "stars",
+    "group": "Car",
+    "subtitle": "Car constellation",
+    "distance": 34.6981,
+    "magnitude": 1.67,
+    "score": 0.75
+  },
+  {
+    "id": "star-ran",
+    "name": "Ran",
+    "category": "stars",
+    "group": "Eri",
+    "subtitle": "Eri constellation",
+    "distance": 3.2161,
+    "magnitude": 3.72,
+    "score": 0.75
+  },
+  {
+    "id": "star-sol",
+    "name": "Sol",
+    "category": "stars",
+    "group": "\"",
+    "subtitle": "\" constellation",
+    "distance": null,
+    "magnitude": -26.7,
+    "score": 0.75
+  },
+  {
+    "id": "star-taiyangshou",
+    "name": "Taiyangshou",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 56.3063,
+    "magnitude": 3.69,
+    "score": 0.75
+  },
+  {
+    "id": "star-alkalurops-b",
+    "name": "Alkalurops B",
+    "category": "stars",
+    "group": "Boo",
+    "subtitle": "Boo constellation",
+    "distance": 36.062,
+    "magnitude": 6.51,
+    "score": 0.69
+  },
+  {
+    "id": "star-baten-kaitos",
+    "name": "Baten Kaitos",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 72.0461,
+    "magnitude": 3.74,
+    "score": 0.69
+  },
+  {
+    "id": "star-cor-caroli-b",
+    "name": "Cor Caroli B",
+    "category": "stars",
+    "group": "CVn",
+    "subtitle": "CVn constellation",
+    "distance": 36.9004,
+    "magnitude": 5.61,
+    "score": 0.69
+  },
+  {
+    "id": "star-deneb-algedi",
+    "name": "Deneb Algedi",
+    "category": "stars",
+    "group": "Cap",
+    "subtitle": "Cap constellation",
+    "distance": 11.8666,
+    "magnitude": 2.85,
+    "score": 0.69
+  },
+  {
+    "id": "star-fumalsamakah",
+    "name": "Fumalsamakah",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 125.1564,
+    "magnitude": 4.48,
+    "score": 0.69
+  },
+  {
+    "id": "star-kaffaljidhma",
+    "name": "Kaffaljidhma",
+    "category": "stars",
+    "group": "Cet",
+    "subtitle": "Cet constellation",
+    "distance": 24.4081,
+    "magnitude": 3.47,
+    "score": 0.69
+  },
+  {
+    "id": "star-nganurganity",
+    "name": "Nganurganity",
+    "category": "stars",
+    "group": "CMa",
+    "subtitle": "CMa constellation",
+    "distance": 343.6426,
+    "magnitude": 3.49,
+    "score": 0.69
+  },
+  {
+    "id": "star-prima-hyadum",
+    "name": "Prima Hyadum",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 49.5295,
+    "magnitude": 3.65,
+    "score": 0.69
+  },
+  {
+    "id": "star-vindemiatrix",
+    "name": "Vindemiatrix",
+    "category": "stars",
+    "group": "Vir",
+    "subtitle": "Vir constellation",
+    "distance": 33.6022,
+    "magnitude": 2.85,
+    "score": 0.69
+  },
+  {
+    "id": "star-",
+    "name": "\"",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 219.7802,
+    "magnitude": 9.1,
+    "score": 0.63
+  },
+  {
+    "id": "star-kaus-borealis",
+    "name": "Kaus Borealis",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 23.9693,
+    "magnitude": 2.82,
+    "score": 0.63
+  },
+  {
+    "id": "star-lacaille-8760",
+    "name": "Lacaille 8760",
+    "category": "stars",
+    "group": "Mic",
+    "subtitle": "Mic constellation",
+    "distance": 3.9462,
+    "magnitude": 6.69,
+    "score": 0.63
+  },
+  {
+    "id": "star-lacaille-9352",
+    "name": "Lacaille 9352",
+    "category": "stars",
+    "group": "PsA",
+    "subtitle": "PsA constellation",
+    "distance": 3.2759,
+    "magnitude": 7.35,
+    "score": 0.63
+  },
+  {
+    "id": "star-lalande-21185",
+    "name": "Lalande 21185",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 2.5469,
+    "magnitude": 7.49,
+    "score": 0.63
+  },
+  {
+    "id": "star-lucilinburhuc",
+    "name": "Lucilinburhuc",
+    "category": "stars",
+    "group": "Aur",
+    "subtitle": "Aur constellation",
+    "distance": 48.8759,
+    "magnitude": 7.89,
+    "score": 0.63
+  },
+  {
+    "id": "star-luyten-s-star",
+    "name": "Luyten's Star",
+    "category": "stars",
+    "group": "CMi",
+    "subtitle": "CMi constellation",
+    "distance": 3.8026,
+    "magnitude": 9.84,
+    "score": 0.63
+  },
+  {
+    "id": "star-red-rectangle",
+    "name": "Red Rectangle",
+    "category": "stars",
+    "group": "Mon",
+    "subtitle": "Mon constellation",
+    "distance": 440.5286,
+    "magnitude": 8.85,
+    "score": 0.63
+  },
+  {
+    "id": "star-struve-2398-a",
+    "name": "Struve 2398 A",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 3.5691,
+    "magnitude": 8.94,
+    "score": 0.63
+  },
+  {
+    "id": "star-struve-2398-b",
+    "name": "Struve 2398 B",
+    "category": "stars",
+    "group": "Dra",
+    "subtitle": "Dra constellation",
+    "distance": 3.4545,
+    "magnitude": 9.7,
+    "score": 0.63
+  },
+  {
+    "id": "star-yed-posterior",
+    "name": "Yed Posterior",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 32.6371,
+    "magnitude": 3.23,
+    "score": 0.63
+  },
+  {
+    "id": "star-zubenelgenubi",
+    "name": "Zubenelgenubi",
+    "category": "stars",
+    "group": "Lib",
+    "subtitle": "Lib constellation",
+    "distance": 23.2396,
+    "magnitude": 2.75,
+    "score": 0.63
+  },
+  {
+    "id": "star-alula-borealis",
+    "name": "Alula Borealis",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 122.399,
+    "magnitude": 3.49,
+    "score": 0.56
+  },
+  {
+    "id": "star-babcock-s-star",
+    "name": "Babcock's star",
+    "category": "stars",
+    "group": "Lac",
+    "subtitle": "Lac constellation",
+    "distance": 100000,
+    "magnitude": 8.83,
+    "score": 0.56
+  },
+  {
+    "id": "star-barnard-s-star",
+    "name": "Barnard's Star",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 1.8238,
+    "magnitude": 9.54,
+    "score": 0.56
+  },
+  {
+    "id": "star-groombridge-34",
+    "name": "Groombridge 34",
+    "category": "stars",
+    "group": "And",
+    "subtitle": "And constellation",
+    "distance": 3.5873,
+    "magnitude": 8.09,
+    "score": 0.56
+  },
+  {
+    "id": "star-kapteyn-s-star",
+    "name": "Kapteyn's Star",
+    "category": "stars",
+    "group": "Pic",
+    "subtitle": "Pic constellation",
+    "distance": 3.9114,
+    "magnitude": 8.86,
+    "score": 0.56
+  },
+  {
+    "id": "star-kaus-australis",
+    "name": "Kaus Australis",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 43.9367,
+    "magnitude": 1.79,
+    "score": 0.56
+  },
+  {
+    "id": "star-secunda-hyadum",
+    "name": "Secunda Hyadum",
+    "category": "stars",
+    "group": "Tau",
+    "subtitle": "Tau constellation",
+    "distance": 47.7099,
+    "magnitude": 3.77,
+    "score": 0.56
+  },
+  {
+    "id": "star-tania-borealis",
+    "name": "Tania Borealis",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 42.1585,
+    "magnitude": 3.45,
+    "score": 0.56
+  },
+  {
+    "id": "star-zubenelhakrabi",
+    "name": "Zubenelhakrabi",
+    "category": "stars",
+    "group": "Lib",
+    "subtitle": "Lib constellation",
+    "distance": 50.025,
+    "magnitude": 3.91,
+    "score": 0.56
+  },
+  {
+    "id": "star-zubeneschamali",
+    "name": "Zubeneschamali",
+    "category": "stars",
+    "group": "Lib",
+    "subtitle": "Lib constellation",
+    "distance": 56.7537,
+    "magnitude": 2.61,
+    "score": 0.56
+  },
+  {
+    "id": "star-alula-australis",
+    "name": "Alula Australis",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 10.4167,
+    "magnitude": 4.33,
+    "score": 0.5
+  },
+  {
+    "id": "star-arkab-posterior",
+    "name": "Arkab Posterior",
+    "category": "stars",
+    "group": "Sgr",
+    "subtitle": "Sgr constellation",
+    "distance": 41.1353,
+    "magnitude": 4.27,
+    "score": 0.5
+  },
+  {
+    "id": "star-rigil-kentaurus",
+    "name": "Rigil Kentaurus",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 1.3248,
+    "magnitude": -0.01,
+    "score": 0.5
+  },
+  {
+    "id": "star-rosali-adecastro",
+    "name": "Rosalíadecastro",
+    "category": "stars",
+    "group": "Oph",
+    "subtitle": "Oph constellation",
+    "distance": 62.0347,
+    "magnitude": 7.89,
+    "score": 0.5
+  },
+  {
+    "id": "star-tania-australis",
+    "name": "Tania Australis",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 70.6215,
+    "magnitude": 3.06,
+    "score": 0.5
+  },
+  {
+    "id": "star-asellus-borealis",
+    "name": "Asellus Borealis",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 55.5556,
+    "magnitude": 4.66,
+    "score": 0.44
+  },
+  {
+    "id": "star-groombridge-1830",
+    "name": "Groombridge 1830",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 9.0917,
+    "magnitude": 6.42,
+    "score": 0.44
+  },
+  {
+    "id": "star-proxima-centauri",
+    "name": "Proxima Centauri",
+    "category": "stars",
+    "group": "Cen",
+    "subtitle": "Cen constellation",
+    "distance": 1.2959,
+    "magnitude": 11.01,
+    "score": 0.44
+  },
+  {
+    "id": "star-alula-australis-b",
+    "name": "Alula Australis B",
+    "category": "stars",
+    "group": "UMa",
+    "subtitle": "UMa constellation",
+    "distance": 10.4167,
+    "magnitude": 4.8,
+    "score": 0.38
+  },
+  {
+    "id": "star-asellus-australis",
+    "name": "Asellus Australis",
+    "category": "stars",
+    "group": "Cnc",
+    "subtitle": "Cnc constellation",
+    "distance": 40.032,
+    "magnitude": 3.94,
+    "score": 0.38
+  },
+  {
+    "id": "star-polaris-australis",
+    "name": "Polaris Australis",
+    "category": "stars",
+    "group": "Oct",
+    "subtitle": "Oct constellation",
+    "distance": 86.1326,
+    "magnitude": 5.45,
+    "score": 0.38
+  },
+  {
+    "id": "star-van-maanen-s-star",
+    "name": "Van Maanen's Star",
+    "category": "stars",
+    "group": "Psc",
+    "subtitle": "Psc constellation",
+    "distance": 4.2626,
+    "magnitude": 12.37,
+    "score": 0.38
+  },
+  {
+    "id": "star-campbell-s-hydrogen-star",
+    "name": "Campbell's Hydrogen Star",
+    "category": "stars",
+    "group": "Cyg",
+    "subtitle": "Cyg constellation",
+    "distance": 100000,
+    "magnitude": 10,
+    "score": 0.25
+  },
+  {
+    "id": "star-ras-elased-australis",
+    "name": "Ras Elased Australis",
+    "category": "stars",
+    "group": "Leo",
+    "subtitle": "Leo constellation",
+    "distance": 75.643,
+    "magnitude": 2.97,
+    "score": 0.25
+  }
+]
