@@ -16,8 +16,9 @@
 - Pull country list/metadata from **REST Countries API** (free)
 - Filter down to a curated subset (e.g. population threshold, or exclude ultra-obscure hamlets) so you're not drowning in 4 million rows
 - Write a script that computes a **uniqueness score** per city (see below) and outputs static JSON
-- also add emoji of the country in it's details
-- can we also add a word based emoji?
+- also add emoji of the country
+- can we also add a word based emoji (are they provided or should we generate them)?
+- can we also store city tags as well (are they provided or should we generate them)?
 
 ### Phase 1 — MVP core
 

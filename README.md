@@ -1,21 +1,54 @@
-# Next.js template
+# Coolname
 
-This is a Next.js template with shadcn/ui.
+A colorful name-inspiration desk built from real city names. Browse 8,000+ curated
+places, sort them by uniqueness, translate promising words, vote, save a shortlist,
+and share a name or list.
 
-## Adding components
-
-To add components to your app, run the following command:
+## Run locally
 
 ```bash
-npx shadcn@latest add button
+pnpm install
+pnpm dev
 ```
 
-This will place the ui components in the `components` directory.
+Open [http://localhost:3000](http://localhost:3000).
 
-## Using components
+## Translation setup
 
-To use the components in your app, import them as follows:
+The translation route keeps the Google credential on the server. Add a Google Cloud
+Translation API key to `.env`:
 
-```tsx
-import { Button } from "@/components/ui/button";
+```env
+GOOGLE_CLOUD_TRANSLATE_API_KEY="your-key"
 ```
+
+The interface remains usable without a key and explains what is missing when a
+translation is requested.
+
+## Rebuild the city dataset
+
+```bash
+pnpm data:build
+```
+
+The offline script downloads GeoNames `cities15000`, reads country metadata from REST
+Countries or its open dataset fallback, removes duplicate place names, computes a
+uniqueness score, infers tags and word emojis, and writes static files under
+`public/data`.
+
+Optional limits can be changed without editing the script:
+
+```bash
+pnpm data:build --max-per-country=50 --min-population=25000
+```
+
+## Checks
+
+```bash
+pnpm lint
+pnpm typecheck
+pnpm build
+```
+
+Favorites, votes, and translation cache entries are stored in browser localStorage.
+Share links use URL parameters and do not require an account or database.
