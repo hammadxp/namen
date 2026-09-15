@@ -1,18 +1,18 @@
-# Name-Inspiration App — Implementation Roadmap
+# Name-Inspiration App: Implementation Roadmap
 
 ## Guiding principles
 
 - **Cheap first**: Nothing in the MVP should require a paid service. Stay on free tiers until real usage proves you need more.
-- **Beautiful, not generic**: This is a small, personality-driven tool — the design should feel bold and colorful, not a bootstrapped SaaS template.
+- **Beautiful, not generic**: This is a small, personality-driven tool, so the design should feel bold and colorful, not a bootstrapped SaaS template.
 - **Extensible by default**: Cities are the first category, but the data model should support more (fruits, etc.) without a rewrite.
 
 ---
 
 ## Feature list, by phase
 
-### Phase 0 — Data prep (one-time, offline)
+### Phase 0: Data prep (one-time, offline)
 
-- Pull city data from **GeoNames** (free, open, bulk-downloadable — no live API needed)
+- Pull city data from **GeoNames** (free, open, bulk-downloadable, no live API needed)
 - Pull country list/metadata from **REST Countries API** (free)
 - Filter down to a curated subset (e.g. population threshold, or exclude ultra-obscure hamlets) so you're not drowning in 4 million rows
 - Write a script that computes a **uniqueness score** per city (see below) and outputs static JSON
@@ -20,7 +20,7 @@
 - can we also add a word based emoji (are they provided or should we generate them)?
 - can we also store city tags as well (are they provided or should we generate them)?
 
-### Phase 1 — MVP core
+### Phase 1: MVP core
 
 - Country list → click into a country → see its cities
 - Cities sorted by uniqueness score by default (toggle: population, alphabetical, uniqueness)
@@ -29,13 +29,13 @@
 - country emoji is a must and should be displayed in each word's box whether it's city or country
 - also a bookmark/bucket button should be displayed to save a word
 
-### Phase 2 — Visual & UX pass
+### Phase 2: Visual & UX pass
 
-- Real design pass: typography, color palette, layout — make it feel like _your_ product, not a template
+- Real design pass: typography, color palette, layout (make it feel like _your_ product, not a template)
 - Micro-interactions (hover states, smooth sorting/filtering transitions)
 - Mobile responsiveness
 
-### Phase 3 — Translation
+### Phase 3: Translation
 
 - "Translate this word" box → up to 6 target languages via Google Cloud Translation
 - Design: disply an input box at top, then 6 boxes at bottom (3 left, 3 right), each having a "+" as a placeholder
@@ -43,26 +43,26 @@
 - Show translations as extra naming inspiration, not just a dictionary lookup
 - Cache repeated word/language lookups client-side or edge-side to avoid duplicate API calls
 
-### Phase 4 — Engagement layer
+### Phase 4: Engagement layer
 
-- "Favorite" / save a name to a personal shortlist (localStorage is fine at first — no account system needed yet)
+- "Favorite" / save a name to a personal shortlist (localStorage is fine at first, no account system needed yet)
 - Optional: simple upvote/downvote to crowd-refine "coolness" over time
 - Shareable link for a specific name or list
 
-### Phase 5 — More categories (fruits, etc.)
+### Phase 5: More categories (fruits, etc.)
 
 - Reuse the exact same schema and UI, just a new `category` value and a new data source
 - Do this only after Phase 1–4 feel solid and you've actually used the cities feature yourself for a while
 
-### Phase 6 — Domain availability (deferred, not urgent)
+### Phase 6: Domain availability (deferred, not urgent)
 
-- "Check availability" button next to a name, on-demand only (never bulk-precompute — too costly/rate-limited)
-- Use RDAP directly or a free-tier aggregator API (not Namecheap — their production API needs 20+ domains, a $50 balance, or $50 spend history, which a new project won't have)
+- "Check availability" button next to a name, on-demand only (never bulk-precompute because too costly/rate-limited)
+- Use RDAP directly or a free-tier aggregator API (not Namecheap because their production API needs 20+ domains, a $50 balance, or $50 spend history, which a new project won't have)
 
-### Phase 7 — Optional monetization (only if you want it)
+### Phase 7: Optional monetization (only if you want it)
 
-- Affiliate link to a registrar (Namecheap/Porkbun) when a user finds an available domain — small commission per signup, fits naturally
-- Possible "pro" tier later (saved lists, export, no rate limits) for power users — not necessary to plan now
+- Affiliate link to a registrar (Namecheap/Porkbun) when a user finds an available domain, small commission per signup, fits naturally
+- Possible "pro" tier later (saved lists, export, no rate limits) for power users, not necessary to plan now
 
 ---
 
@@ -82,14 +82,14 @@
 }
 ```
 
-**Uniqueness score — combine a few signals:**
+**Uniqueness score (combine a few signals):**
 
 1. Rare-letter/pattern bonus (q, x, z, j, unusual consonant clusters)
 2. Statistical "foreignness" vs. common English words (simple character n-gram model)
 3. Pronounceability bonus (short, alternating vowel-consonant pattern)
 4. Optional inverse-population weighting (smaller = feels more undiscovered)
 
-Compute this once offline in Phase 0. Don't try to make it perfect — seed it, launch, and let favorites/votes refine it later.
+Compute this once offline in Phase 0. Don't try to make it perfect, instead seed it, launch, and let favorites/votes refine it later.
 
 **Storage:** static JSON files (e.g. `/data/cities/IT.json`), one per country, generated by your Phase 0 script and shipped with the site or served from a CDN. No database needed until the dataset or traffic gets large enough to justify one (unlikely for a while).
 
@@ -102,7 +102,7 @@ Compute this once offline in Phase 0. Don't try to make it perfect — seed it, 
 | Data                   | Static JSON, precomputed offline                                                             | Free                        |
 | Translation            | Google Cloud Translation, called via a small serverless function (keeps API key server-side) | Free up to 500K chars/month |
 | Domain check (Phase 6) | RDAP or a free-tier aggregator API                                                           | Free tier                   |
-| Favorites (Phase 4)    | Browser localStorage — no backend needed at first                                            | Free                        |
+| Favorites (Phase 4)    | Browser localStorage (no backend needed at first)                                            | Free                        |
 
 You genuinely shouldn't need to pay for anything through Phase 6 at hobby-project traffic levels.
 
