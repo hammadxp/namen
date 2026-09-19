@@ -1,42 +1,35 @@
-"use client"
+"use client";
 
-import { useMemo, useState } from "react"
-import { useRouter } from "next/navigation"
-import { Search } from "lucide-react"
-import type { Category } from "@/lib/types"
+import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { Search } from "lucide-react";
+import type { Category } from "@/types/catalog";
 
 export function HomeSearch({ categories }: { categories: Category[] }) {
-  const router = useRouter()
-  const [query, setQuery] = useState("")
-  const [category, setCategory] = useState("cities")
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("cities");
   const matches = useMemo(() => {
-    const value = query.trim().toLowerCase()
-    if (!value) return []
+    const value = query.trim().toLowerCase();
+    if (!value) return [];
     return categories
       .flatMap((entry) =>
-        entry.samples
-          .filter((name) => name.toLowerCase().includes(value))
-          .map((name) => ({ name, category: entry }))
+        entry.samples.filter((name) => name.toLowerCase().includes(value)).map((name) => ({ name, category: entry }))
       )
-      .slice(0, 8)
-  }, [categories, query])
+      .slice(0, 8);
+  }, [categories, query]);
 
   function search(event: React.FormEvent) {
-    event.preventDefault()
-    const value = query.trim()
-    router.push(
-      `/categories/${category}${value ? `?q=${encodeURIComponent(value)}` : ""}`
-    )
+    event.preventDefault();
+    const value = query.trim();
+    router.push(`/categories/${category}${value ? `?q=${encodeURIComponent(value)}` : ""}`);
   }
 
   return (
     <section className="search-stage" aria-labelledby="search-title">
       <div className="search-copy">
         <h1 id="search-title">Find a name worth keeping.</h1>
-        <p>
-          Search cities, colors, fruit, stars, elements, and the language of
-          science.
-        </p>
+        <p>Search cities, colors, fruit, stars, elements, and the language of science.</p>
       </div>
       <form className="home-search" onSubmit={search}>
         <Search aria-hidden="true" size={24} />
@@ -47,11 +40,7 @@ export function HomeSearch({ categories }: { categories: Category[] }) {
           placeholder="Try Lahore, Azure, Quasar..."
           aria-label="Search names"
         />
-        <select
-          value={category}
-          onChange={(event) => setCategory(event.target.value)}
-          aria-label="Search category"
-        >
+        <select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="Search category">
           {categories
             .filter((entry) => entry.slug !== "countries")
             .map((entry) => (
@@ -67,11 +56,7 @@ export function HomeSearch({ categories }: { categories: Category[] }) {
           {matches.map((match) => (
             <button
               key={`${match.category.slug}-${match.name}`}
-              onClick={() =>
-                router.push(
-                  `/categories/${match.category.slug}?q=${encodeURIComponent(match.name)}`
-                )
-              }
+              onClick={() => router.push(`/categories/${match.category.slug}?q=${encodeURIComponent(match.name)}`)}
               type="button"
             >
               <strong>{match.name}</strong>
@@ -81,5 +66,5 @@ export function HomeSearch({ categories }: { categories: Category[] }) {
         </div>
       )}
     </section>
-  )
+  );
 }

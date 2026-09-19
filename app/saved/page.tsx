@@ -1,4 +1,7 @@
-import { SavedBrowser } from "@/components/saved-browser"
+import { SavedBrowser } from "./_components/saved-browser";
+import { pageMetadata } from "@/config/metadata";
+
+export const metadata = pageMetadata("Saved names", "Review the names saved in this browser.");
 
 export default function SavedPage() {
   return (
@@ -12,5 +15,5 @@ export default function SavedPage() {
       </section>
       <SavedBrowser />
     </main>
-  )
+  );
 }

@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #17172b;
-  --paper: #f7f5ef;
-  --paper-deep: #ede9df;
-  --orange: #ff6b35;
-  --violet: #7657ff;
-  --mint: #43c59e;
-  --lemon: #ffd166;
-  --cyan: #35b8d4;
-  --white: #ffffff;
-  --line: #aca79b;
-  --muted: #646275;
+  --ink: oklch(0.2156 0.0389 282.6);
+  --paper: oklch(0.97 0.0082 91.5);
+  --paper-deep: oklch(0.9344 0.014 88.7);
+  --orange: oklch(0.7045 0.1926 39.2);
+  --violet: oklch(0.5869 0.2363 284.9);
+  --mint: oklch(0.7424 0.1269 169.2);
+  --lemon: oklch(0.8803 0.1348 86.1);
+  --cyan: oklch(0.7254 0.1156 215.7);
+  --white: oklch(1 0 0);
+  --line: oklch(0.7291 0.0179 88);
+  --muted: oklch(0.5049 0.03 290.1);
 }
 
 * {
@@ -25,8 +25,7 @@ html {
 
 body {
   margin: 0;
-  background:
-    linear-gradient(rgb(23 23 43 / 3%) 1px, transparent 1px), var(--paper);
+  background: linear-gradient(oklch(0.2156 0.0389 282.6 / 3%) 1px, transparent 1px), var(--paper);
   background-size: 100% 32px;
   color: var(--ink);
   font-family: var(--font-body), Arial, sans-serif;
@@ -56,11 +55,7 @@ a {
   color: inherit;
 }
 
-:focus {
-  outline: none;
-}
-
-.keyboard-nav :focus-visible {
+:focus-visible {
   outline: 3px solid var(--lemon);
   outline-offset: 3px;
   box-shadow: 0 0 0 6px var(--ink);
@@ -70,7 +65,7 @@ a {
   position: sticky;
   z-index: 40;
   top: 0;
-  background: rgb(247 245 239 / 92%);
+  background: oklch(0.97 0.0082 91.5 / 92%);
   border-bottom: 2px solid var(--ink);
   backdrop-filter: blur(16px);
 }
@@ -192,8 +187,8 @@ a {
 .search-stage::after {
   inset: 0;
   background-image:
-    linear-gradient(rgb(255 255 255 / 6%) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(255 255 255 / 6%) 1px, transparent 1px);
+    linear-gradient(oklch(1 0 0 / 6%) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(1 0 0 / 6%) 1px, transparent 1px);
   background-size: 46px 46px;
   mask-image: linear-gradient(to bottom, black, transparent 90%);
 }
@@ -226,7 +221,7 @@ a {
 .search-copy p {
   max-width: 275px;
   margin: 0 0 8px;
-  color: #dedced;
+  color: oklch(0.9011 0.0231 291.3);
   font-weight: 650;
   line-height: 1.45;
 }
@@ -262,8 +257,7 @@ a {
 .select-field select {
   appearance: none;
   background-image:
-    linear-gradient(45deg, transparent 50%, var(--ink) 50%),
-    linear-gradient(135deg, var(--ink) 50%, transparent 50%);
+    linear-gradient(45deg, transparent 50%, var(--ink) 50%), linear-gradient(135deg, var(--ink) 50%, transparent 50%);
   background-position:
     calc(100% - 18px) calc(50% - 2px),
     calc(100% - 13px) calc(50% - 2px);
@@ -277,7 +271,7 @@ a {
   max-width: 205px;
   height: 48px;
   padding: 0 44px 0 14px;
-  background-color: color-mix(in srgb, var(--cyan) 25%, white);
+  background-color: color-mix(in oklch, var(--cyan) 25%, var(--white));
   border: 1px solid var(--ink);
   border-radius: 99px;
   font-weight: 800;
@@ -309,9 +303,9 @@ a {
   display: flex;
   gap: 8px;
   padding: 8px 11px;
-  background: rgb(255 255 255 / 11%);
-  color: white;
-  border: 1px solid rgb(255 255 255 / 42%);
+  background: oklch(1 0 0 / 11%);
+  color: var(--white);
+  border: 1px solid oklch(1 0 0 / 42%);
   border-radius: 99px;
 }
 
@@ -476,11 +470,11 @@ a {
   overflow: hidden;
   background: linear-gradient(
     145deg,
-    color-mix(in srgb, var(--accent) 22%, var(--paper)) 0 43%,
-    rgb(255 255 255 / 82%) 43%
+    color-mix(in oklch, var(--accent) 22%, var(--paper)) 0 43%,
+    oklch(1 0 0 / 82%) 43%
   );
   border: 2px solid var(--ink);
-  box-shadow: 5px 5px 0 color-mix(in srgb, var(--accent) 82%, var(--ink));
+  box-shadow: 5px 5px 0 color-mix(in oklch, var(--accent) 82%, var(--ink));
   transition:
     transform 180ms ease,
     box-shadow 180ms ease;
@@ -506,7 +500,7 @@ a {
 }
 
 .category-index-card:hover {
-  box-shadow: 8px 8px 0 color-mix(in srgb, var(--accent) 82%, var(--ink));
+  box-shadow: 8px 8px 0 color-mix(in oklch, var(--accent) 82%, var(--ink));
   transform: translate(-3px, -3px);
 }
 
@@ -558,7 +552,7 @@ a {
   z-index: 1;
   max-width: 500px;
   margin: 0;
-  color: #4f4d60;
+  color: oklch(0.4295 0.0312 289.8);
   line-height: 1.45;
 }
 
@@ -645,7 +639,7 @@ a {
 .page-heading > p {
   max-width: 470px;
   margin: 0 0 4px;
-  color: #4f4d60;
+  color: oklch(0.4295 0.0312 289.8);
   font-size: 1.05rem;
   line-height: 1.55;
 }
@@ -670,7 +664,7 @@ a {
   align-items: end;
   gap: 10px;
   padding: 12px;
-  background: rgb(247 245 239 / 95%);
+  background: oklch(0.97 0.0082 91.5 / 95%);
   border: 2px solid var(--ink);
   box-shadow: 5px 5px 0 var(--violet);
   backdrop-filter: blur(12px);
@@ -746,7 +740,7 @@ a {
   flex-direction: column;
   padding: 17px;
   overflow: hidden;
-  background: rgb(255 255 255 / 76%);
+  background: oklch(1 0 0 / 76%);
   border: 2px solid var(--ink);
   transition:
     transform 160ms ease,
@@ -761,8 +755,8 @@ a {
 .catalog-card.has-swatch {
   background: linear-gradient(
     135deg,
-    color-mix(in srgb, var(--swatch) 48%, white),
-    color-mix(in srgb, var(--swatch) 18%, white)
+    color-mix(in oklch, var(--swatch) 48%, var(--white)),
+    color-mix(in oklch, var(--swatch) 18%, var(--white))
   );
 }
 
@@ -797,7 +791,7 @@ a {
 .card-index {
   max-width: 72%;
   overflow: hidden;
-  color: #4f4d60;
+  color: oklch(0.4295 0.0312 289.8);
   font-size: 0.7rem;
   font-weight: 900;
   text-overflow: ellipsis;
@@ -821,14 +815,14 @@ a {
   height: 34px;
   place-items: center;
   padding: 0;
-  background: rgb(255 255 255 / 56%);
+  background: oklch(1 0 0 / 56%);
   border: 1px solid transparent;
   border-radius: 50%;
 }
 
 .card-actions button:hover {
   background: var(--ink);
-  color: white;
+  color: var(--white);
 }
 
 .catalog-card h2 {
@@ -847,8 +841,8 @@ a {
   justify-content: space-between;
   gap: 8px;
   padding-top: 10px;
-  color: #4f4d60;
-  border-top: 1px solid rgb(23 23 43 / 42%);
+  color: oklch(0.4295 0.0312 289.8);
+  border-top: 1px solid oklch(0.2156 0.0389 282.6 / 42%);
   font-size: 0.7rem;
   font-weight: 800;
 }
@@ -918,7 +912,7 @@ a {
   align-items: center;
   gap: 12px;
   padding: 15px;
-  background: rgb(255 255 255 / 72%);
+  background: oklch(1 0 0 / 72%);
   border: 2px solid var(--ink);
   text-decoration: none;
   transition:
@@ -932,15 +926,15 @@ a {
 }
 
 .country-card:nth-child(4n + 2):hover {
-  background: color-mix(in srgb, var(--cyan) 46%, white);
+  background: color-mix(in oklch, var(--cyan) 46%, var(--white));
 }
 
 .country-card:nth-child(4n + 3):hover {
-  background: color-mix(in srgb, var(--mint) 46%, white);
+  background: color-mix(in oklch, var(--mint) 46%, var(--white));
 }
 
 .country-card:nth-child(4n):hover {
-  background: color-mix(in srgb, var(--orange) 42%, white);
+  background: color-mix(in oklch, var(--orange) 42%, var(--white));
 }
 
 .country-card:hover {
@@ -987,7 +981,7 @@ a {
 .translate-intro > p {
   max-width: 390px;
   margin: 0 0 6px;
-  color: #e6e1ff;
+  color: oklch(0.9228 0.0408 293.2);
   line-height: 1.5;
 }
 
@@ -1053,7 +1047,7 @@ a {
   min-height: 80px;
   align-items: center;
   padding: 14px 20px 14px 14px;
-  background: rgb(255 255 255 / 80%);
+  background: oklch(1 0 0 / 80%);
   color: var(--ink);
   border: 2px solid var(--ink);
   text-align: left;
@@ -1103,7 +1097,7 @@ a {
   display: grid;
   place-items: center;
   padding: 18px;
-  background: rgb(23 23 43 / 76%);
+  background: oklch(0.2156 0.0389 282.6 / 76%);
 }
 
 .language-dialog {
@@ -1215,14 +1209,14 @@ a {
 
 .site-footer p {
   margin: 7px 0 0;
-  color: #c8c4d9;
+  color: oklch(0.83 0.0293 294.5);
   font-size: 0.74rem;
 }
 
 .site-footer nav {
   padding: 7px;
-  background: rgb(255 255 255 / 8%);
-  border: 1px solid rgb(255 255 255 / 24%);
+  background: oklch(1 0 0 / 8%);
+  border: 1px solid oklch(1 0 0 / 24%);
   border-radius: 99px;
 }
 
@@ -1357,7 +1351,20 @@ a {
   }
 
   .home-search {
-    grid-template-columns: auto 1fr;
+    position: relative;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .home-search > svg {
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    margin: 0;
+  }
+
+  .home-search input {
+    grid-column: 1 / -1;
+    padding-left: 58px;
   }
 
   .home-search select {
@@ -1575,5 +1582,85 @@ a {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ink: oklch(0.92 0.02 290);
+    --paper: oklch(0.17 0.025 285);
+    --paper-deep: oklch(0.22 0.025 285);
+    --white: oklch(0.24 0.025 285);
+    --line: oklch(0.48 0.02 285);
+    --muted: oklch(0.75 0.02 285);
+  }
+
+  .site-header,
+  .browser-toolbar {
+    background: oklch(0.17 0.025 285 / 95%);
+  }
+
+  .search-stage,
+  .site-footer {
+    background: oklch(0.12 0.025 285);
+    color: oklch(0.96 0.01 285);
+  }
+
+  body {
+    background: linear-gradient(oklch(0.92 0.02 290 / 5%) 1px, transparent 1px), var(--paper);
+    background-size: 100% 32px;
+  }
+
+  .quick-matches button {
+    color: oklch(0.96 0.01 285);
+  }
+
+  .quick-matches button:hover {
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .home-search input::placeholder,
+  .translation-input input::placeholder {
+    color: var(--muted);
+    opacity: 1;
+  }
+
+  .home-translate {
+    color: oklch(0.98 0.01 285);
+  }
+
+  .category-index-card {
+    background: linear-gradient(145deg, color-mix(in oklch, var(--accent) 16%, var(--paper)) 0 43%, var(--white) 43%);
+  }
+
+  .catalog-card,
+  .country-card,
+  .translation-slot {
+    background: var(--white);
+  }
+
+  .catalog-card.has-swatch {
+    background: linear-gradient(
+      135deg,
+      color-mix(in oklch, var(--swatch) 15%, var(--white)),
+      color-mix(in oklch, var(--swatch) 8%, var(--white))
+    );
+  }
+
+  .category-index-card > p,
+  .page-heading > p,
+  .card-index,
+  .card-meta {
+    color: var(--muted);
+  }
+
+  .home-search button,
+  .translation-input button,
+  .load-more,
+  .site-header nav .saved-link,
+  .country-card:hover {
+    color: oklch(0.19 0.025 285);
   }
 }

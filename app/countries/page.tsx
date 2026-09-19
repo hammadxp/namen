@@ -1,7 +1,9 @@
-import { CountriesBrowser } from "@/components/countries-browser"
-import countries from "@/public/data/countries.json"
-import type { Country } from "@/lib/types"
+import { CountriesBrowser } from "./_components/countries-browser";
+import { pageMetadata } from "@/config/metadata";
+import { getCountries } from "@/queries/catalog";
+
+export const metadata = pageMetadata("Countries", "Explore country names and the city collections behind them.");
 
 export default function CountriesPage() {
-  return <CountriesBrowser countries={countries as Country[]} />
+  return <CountriesBrowser countries={getCountries()} />;
 }

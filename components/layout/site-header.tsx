@@ -1,12 +1,6 @@
-import Link from "next/link"
-import { Bookmark } from "lucide-react"
-
-const links = [
-  ["Categories", "/categories"],
-  ["Cities", "/categories/cities"],
-  ["Countries", "/countries"],
-  ["Translate", "/translate"],
-]
+import Link from "next/link";
+import { Bookmark } from "lucide-react";
+import { primaryNavigation } from "@/config/navigation";
 
 export function SiteHeader() {
   return (
@@ -19,7 +13,7 @@ export function SiteHeader() {
           <span /> Names hiding in plain sight.
         </p>
         <nav aria-label="Primary navigation">
-          {links.map(([label, href]) => (
+          {primaryNavigation.map(({ label, href }) => (
             <Link href={href} key={href}>
               {label}
             </Link>
@@ -30,5 +24,5 @@ export function SiteHeader() {
         </nav>
       </div>
     </header>
-  )
+  );
 }

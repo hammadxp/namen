@@ -1,4 +1,4 @@
-import type { CatalogItem } from "@/lib/types"
+import type { CatalogItem } from "@/types/catalog";
 
 const CONSTELLATIONS: Record<string, string> = {
   And: "Andromeda",
@@ -89,7 +89,7 @@ const CONSTELLATIONS: Record<string, string> = {
   Vir: "Virgo",
   Vol: "Volans",
   Vul: "Vulpecula",
-}
+};
 
 const DISTINCTIVE_FRUITS = [
   "Feijoa",
@@ -108,53 +108,51 @@ const DISTINCTIVE_FRUITS = [
   "Dragon fruit",
   "Passion fruit",
   "Jackfruit",
-]
+];
 
 export function titleCase(value: string) {
   return value
     .split(/(\s+|-)/)
     .map((part) =>
-      /\p{L}/u.test(part)
-        ? `${part.slice(0, 1).toLocaleUpperCase()}${part.slice(1).toLocaleLowerCase()}`
-        : part
+      /\p{L}/u.test(part) ? `${part.slice(0, 1).toLocaleUpperCase()}${part.slice(1).toLocaleLowerCase()}` : part
     )
-    .join("")
+    .join("");
 }
 
 export function groupLabel(item: CatalogItem) {
   if (item.category === "stars") {
-    if (item.group === '"') return "Uncatalogued"
-    return CONSTELLATIONS[item.group] ?? item.group
+    if (item.group === '"') return "Uncatalogued";
+    return CONSTELLATIONS[item.group] ?? item.group;
   }
   if (["colors", "scientific-words", "elements"].includes(item.category)) {
-    return titleCase(item.group)
+    return titleCase(item.group);
   }
-  return item.group
+  return item.group;
 }
 
 export function subtitleLabel(item: CatalogItem) {
-  if (item.category === "stars") return `${groupLabel(item)} constellation`
-  return item.subtitle ? titleCase(item.subtitle) : groupLabel(item)
+  if (item.category === "stars") return `${groupLabel(item)} constellation`;
+  return item.subtitle ? titleCase(item.subtitle) : groupLabel(item);
 }
 
 export function hasShortCityName(item: CatalogItem) {
-  return item.category !== "cities" || item.name.trim().split(/\s+/).length <= 2
+  return item.category !== "cities" || item.name.trim().split(/\s+/).length <= 2;
 }
 
 export function compareDistinctiveFruits(a: CatalogItem, b: CatalogItem) {
-  const aRank = DISTINCTIVE_FRUITS.indexOf(a.name)
-  const bRank = DISTINCTIVE_FRUITS.indexOf(b.name)
+  const aRank = DISTINCTIVE_FRUITS.indexOf(a.name);
+  const bRank = DISTINCTIVE_FRUITS.indexOf(b.name);
   if (aRank !== -1 || bRank !== -1) {
-    if (aRank === -1) return 1
-    if (bRank === -1) return -1
-    return aRank - bRank
+    if (aRank === -1) return 1;
+    if (bRank === -1) return -1;
+    return aRank - bRank;
   }
-  return (b.score ?? 0) - (a.score ?? 0) || a.name.localeCompare(b.name)
+  return (b.score ?? 0) - (a.score ?? 0) || a.name.localeCompare(b.name);
 }
 
 export function distinctiveFruitNames(items: CatalogItem[], limit = 5) {
   return [...items]
     .sort(compareDistinctiveFruits)
     .slice(0, limit)
-    .map((item) => item.name)
+    .map((item) => item.name);
 }

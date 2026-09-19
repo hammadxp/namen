@@ -1,9 +1,9 @@
-import Link from "next/link"
+import Link from "next/link";
 
-type MarqueeItem = { name: string; href: string; meta?: string }
+type MarqueeItem = { name: string; href: string; meta?: string };
 
 function Track({ items }: { items: MarqueeItem[] }) {
-  const repeated = [...items, ...items]
+  const repeated = [...items, ...items];
   return (
     <div className="marquee-track">
       {repeated.map((item, index) => (
@@ -18,16 +18,10 @@ function Track({ items }: { items: MarqueeItem[] }) {
         </Link>
       ))}
     </div>
-  )
+  );
 }
 
-export function NameMarquee({
-  cities,
-  discoveries,
-}: {
-  cities: MarqueeItem[]
-  discoveries: MarqueeItem[]
-}) {
+export function NameMarquee({ cities, discoveries }: { cities: MarqueeItem[]; discoveries: MarqueeItem[] }) {
   return (
     <section className="name-marquees" aria-label="Featured names">
       <div className="marquee-row marquee-cities">
@@ -43,5 +37,5 @@ export function NameMarquee({
         </div>
       </div>
     </section>
-  )
+  );
 }

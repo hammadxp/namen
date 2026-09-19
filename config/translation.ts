@@ -1,0 +1,28 @@
+export const LANGUAGES = [
+  { code: "ar", name: "Arabic", country: "Saudi Arabia", emoji: "🇸🇦", terms: "egypt jordan saudi uae" },
+  { code: "bn", name: "Bengali", country: "Bangladesh", emoji: "🇧🇩", terms: "bangladesh india" },
+  { code: "zh-CN", name: "Chinese", country: "China", emoji: "🇨🇳", terms: "china mandarin" },
+  { code: "nl", name: "Dutch", country: "Netherlands", emoji: "🇳🇱", terms: "netherlands belgium" },
+  { code: "fr", name: "French", country: "France", emoji: "🇫🇷", terms: "france canada belgium" },
+  { code: "de", name: "German", country: "Germany", emoji: "🇩🇪", terms: "germany austria switzerland" },
+  { code: "el", name: "Greek", country: "Greece", emoji: "🇬🇷", terms: "greece" },
+  { code: "hi", name: "Hindi", country: "India", emoji: "🇮🇳", terms: "india" },
+  { code: "id", name: "Indonesian", country: "Indonesia", emoji: "🇮🇩", terms: "indonesia" },
+  { code: "it", name: "Italian", country: "Italy", emoji: "🇮🇹", terms: "italy" },
+  { code: "ja", name: "Japanese", country: "Japan", emoji: "🇯🇵", terms: "japan" },
+  { code: "ko", name: "Korean", country: "South Korea", emoji: "🇰🇷", terms: "korea" },
+  { code: "fa", name: "Persian", country: "Iran", emoji: "🇮🇷", terms: "iran farsi" },
+  { code: "pl", name: "Polish", country: "Poland", emoji: "🇵🇱", terms: "poland" },
+  { code: "pt", name: "Portuguese", country: "Portugal", emoji: "🇵🇹", terms: "portugal brazil" },
+  { code: "ro", name: "Romanian", country: "Romania", emoji: "🇷🇴", terms: "romania" },
+  { code: "ru", name: "Russian", country: "Russia", emoji: "🇷🇺", terms: "russia" },
+  { code: "es", name: "Spanish", country: "Spain", emoji: "🇪🇸", terms: "spain mexico argentina" },
+  { code: "sw", name: "Swahili", country: "Kenya", emoji: "🇰🇪", terms: "kenya tanzania" },
+  { code: "sv", name: "Swedish", country: "Sweden", emoji: "🇸🇪", terms: "sweden" },
+  { code: "tr", name: "Turkish", country: "Türkiye", emoji: "🇹🇷", terms: "turkey" },
+  { code: "uk", name: "Ukrainian", country: "Ukraine", emoji: "🇺🇦", terms: "ukraine" },
+  { code: "ur", name: "Urdu", country: "Pakistan", emoji: "🇵🇰", terms: "pakistan pk india" },
+  { code: "vi", name: "Vietnamese", country: "Vietnam", emoji: "🇻🇳", terms: "vietnam" },
+];
+
+export const TRANSLATION_LANGUAGE_CODES = new Set(LANGUAGES.map((language) => language.code));

@@ -9,5 +9,5 @@ export default function Loading() {
       </section>
       <div className="loading-state">Preparing the name index</div>
     </main>
-  )
+  );
 }

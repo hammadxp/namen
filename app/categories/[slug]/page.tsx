@@ -1,57 +1,59 @@
-import { readFile } from "node:fs/promises"
-import path from "node:path"
-import { notFound } from "next/navigation"
-import { CategoryBrowser } from "@/components/category-browser"
-import categories from "@/public/data/categories.json"
-import cityPreview from "@/public/data/categories/cities-top.json"
-import type { CatalogItem, Category } from "@/lib/types"
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { CategoryBrowser } from "./_components/category-browser";
+import { pageMetadata } from "@/config/metadata";
+import { getCategories, getCategory, getCategoryItems, getCountries } from "@/queries/catalog";
+import cityPreview from "@/public/data/categories/cities-top.json";
+import type { CatalogItem } from "@/types/catalog";
 
-const entries = categories as Category[]
+type CategoryPageProps = {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ q?: string | string[]; group?: string | string[]; country?: string | string[] }>;
+};
 
 export function generateStaticParams() {
-  return entries
+  return getCategories()
     .filter((category) => category.slug !== "countries")
-    .map((category) => ({ slug: category.slug }))
+    .map((category) => ({ slug: category.slug }));
 }
 
-export default async function CategoryPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ slug: string }>
-  searchParams: Promise<{ q?: string; country?: string }>
-}) {
-  const { slug } = await params
-  const query = await searchParams
-  const category = entries.find((entry) => entry.slug === slug)
-  if (!category || slug === "countries") notFound()
-  if (slug === "cities")
+export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const category = getCategory(slug);
+  return category ? pageMetadata(category.name, category.description) : {};
+}
+
+export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
+  const [{ slug }, query] = await Promise.all([params, searchParams]);
+  const category = getCategory(slug);
+
+  if (!category) {
+    notFound();
+  }
+
+  const initialQuery = typeof query.q === "string" ? query.q : "";
+  const initialGroup = typeof query.group === "string" ? query.group : "";
+
+  if (slug === "cities") {
+    const requestedCountry = typeof query.country === "string" ? query.country.toUpperCase() : "";
+    const country = getCountries().find((entry) => entry.code === requestedCountry);
+
     return (
       <CategoryBrowser
+        key={country?.code ?? "all"}
         category={category}
-        initialItems={query.country ? [] : (cityPreview as CatalogItem[])}
-        dataUrl={
-          query.country
-            ? `/data/cities/${encodeURIComponent(query.country.toUpperCase())}.json`
-            : "/data/categories/cities.json"
-        }
-        initialQuery={query.q}
-        initialCountry={query.country}
+        initialItems={country ? [] : (cityPreview as CatalogItem[])}
+        dataUrl={country ? `/data/cities/${country.code}.json` : "/data/categories/cities.json"}
+        initialQuery={initialQuery}
+        initialGroup={initialGroup}
+        initialCountry={country?.code}
       />
-    )
-  const file = path.join(
-    process.cwd(),
-    "public",
-    "data",
-    "categories",
-    `${slug}.json`
-  )
-  const items = JSON.parse(await readFile(file, "utf8")) as CatalogItem[]
+    );
+  }
+
+  const items = await getCategoryItems(slug);
+
   return (
-    <CategoryBrowser
-      category={category}
-      initialItems={items}
-      initialQuery={query.q}
-    />
-  )
+    <CategoryBrowser category={category} initialItems={items} initialQuery={initialQuery} initialGroup={initialGroup} />
+  );
 }
