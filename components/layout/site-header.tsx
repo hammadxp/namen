@@ -4,7 +4,7 @@ import { primaryNavigation } from "@/config/navigation";
 
 export function SiteHeader() {
   return (
-    <header className="bg-paper/92% sticky top-0 z-40 border-b-2 border-ink backdrop-blur-[16px]">
+    <header className="sticky top-0 z-40 border-b-2 border-ink bg-paper">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-1.5 bg-[linear-gradient(90deg,var(--orange)_0_20%,var(--lemon)_20%_40%,var(--mint)_40%_60%,var(--cyan)_60%_80%,var(--violet)_80%)]"

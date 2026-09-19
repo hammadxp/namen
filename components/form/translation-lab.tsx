@@ -99,14 +99,14 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
       )}
     >
       {embedded ? (
-        <div className="mx-auto mb-[30px] flex w-full max-w-[1376px] items-end justify-between gap-6 max-[560px]:flex-col max-[560px]:items-start">
+        <div className="mx-auto mb-[30px] flex w-full max-w-[980px] items-end justify-between gap-6 max-[560px]:flex-col max-[560px]:items-start">
           <div>
             <p className="mb-2 text-xs font-black text-lemon">One word, six new sounds</p>
             <h2 className="m-0 font-heading text-[clamp(2.2rem,5vw,4.5rem)] leading-[0.94] tracking-[-0.065em]">
               Try it in another language
             </h2>
           </div>
-          <p className="mb-1 max-w-[390px] leading-[1.5] text-white/85">
+          <p className="mb-1 max-w-[330px] leading-[1.5] text-white/85">
             Translate an idea to find a new rhythm, spelling, or starting point.
           </p>
         </div>
