@@ -8,7 +8,7 @@ export const metadata = pageMetadata(
 
 export default function TranslatePage() {
   return (
-    <main className="page-shell">
+    <main className="mx-auto max-w-[1500px] px-4 py-[clamp(3.625rem,7vw,6.5rem)] sm:px-[clamp(1.125rem,4vw,3.875rem)]">
       <TranslationLab />
     </main>
   );
