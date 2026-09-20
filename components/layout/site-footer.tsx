@@ -5,7 +5,7 @@ export function SiteFooter({ updatedAt }: { updatedAt: string }) {
     dateStyle: "medium",
   }).format(new Date(updatedAt));
   return (
-    <footer className="relative grid min-h-[180px] grid-cols-[1fr_auto_1fr] items-center gap-[30px] overflow-hidden bg-ink px-[clamp(1.125rem,4vw,3.875rem)] pt-11 pb-[30px] text-white max-[780px]:grid-cols-[1fr_auto] max-[560px]:grid-cols-1">
+    <footer className="relative grid min-h-45 grid-cols-[1fr_auto_1fr] items-center gap-7.5 overflow-hidden bg-ink px-[clamp(1.125rem,4vw,3.875rem)] pt-11 pb-7.5 text-white max-[780px]:grid-cols-[1fr_auto] max-[560px]:grid-cols-1">
       <div className="absolute inset-x-0 top-0 grid h-3 grid-cols-5" aria-hidden="true">
         <span className="bg-orange" />
         <span className="bg-lemon" />
@@ -15,7 +15,7 @@ export function SiteFooter({ updatedAt }: { updatedAt: string }) {
       </div>
       <div>
         <Link className="font-heading text-[1.55rem] tracking-[-0.07em] no-underline" href="/">
-          cool<span className="text-orange">name</span>
+          na<span className="text-orange">ime</span>
         </Link>
         <p className="mt-2 text-xs text-white/80">Built for names that feel found, not generated.</p>
       </div>

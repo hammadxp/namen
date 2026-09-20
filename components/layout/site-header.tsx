@@ -9,16 +9,16 @@ export function SiteHeader() {
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-1.5 bg-[linear-gradient(90deg,var(--orange)_0_20%,var(--lemon)_20%_40%,var(--mint)_40%_60%,var(--cyan)_60%_80%,var(--violet)_80%)]"
       />
-      <div className="mx-auto grid min-h-[78px] max-w-[1500px] grid-cols-[auto_1fr_auto] items-center px-[clamp(1.125rem,4vw,3.875rem)] pt-1.5 max-[780px]:min-h-[70px] max-[780px]:grid-cols-[auto_minmax(0,1fr)] max-[560px]:flex max-[560px]:min-h-[108px] max-[560px]:flex-col max-[560px]:items-start max-[560px]:justify-center max-[560px]:gap-1.5 max-[560px]:pt-2.5">
+      <div className="mx-auto grid min-h-19.5 max-w-375 grid-cols-[auto_1fr_auto] items-center px-[clamp(1.125rem,4vw,3.875rem)] pt-1.5 max-[780px]:min-h-17.5 max-[780px]:grid-cols-[auto_minmax(0,1fr)] max-[560px]:flex max-[560px]:min-h-27 max-[560px]:flex-col max-[560px]:items-start max-[560px]:justify-center max-[560px]:gap-1.5 max-[560px]:pt-2.5">
         <Link
           className="font-heading text-2xl tracking-[-0.07em] no-underline max-[560px]:text-xl"
           href="/"
-          aria-label="Coolname home"
+          aria-label="Naime home"
         >
-          cool<span className="text-orange">name</span>
+          naime
         </Link>
-        <p className="ml-[26px] flex items-center gap-2 text-xs font-extrabold text-muted-foreground max-[1050px]:hidden">
-          <span className="h-2 w-[26px] rounded-full border border-ink bg-mint" /> Names hiding in plain sight.
+        <p className="ml-6.5 flex items-center gap-2 text-xs font-extrabold text-muted-foreground max-[1050px]:hidden">
+          <span className="h-2 w-6.5 rounded-full border border-ink bg-mint" /> Names hiding in plain sight.
         </p>
         <nav
           className="flex items-center gap-1 max-[780px]:justify-self-end max-[780px]:overflow-x-auto max-[560px]:w-full max-[560px]:justify-between max-[560px]:gap-0.5 max-[560px]:overflow-visible max-[780px]:[&>a]:px-2 max-[780px]:[&>a]:py-2 max-[780px]:[&>a]:text-xs max-[780px]:[&>a]:whitespace-nowrap max-[560px]:[&>a]:flex-none max-[560px]:[&>a]:px-1 max-[560px]:[&>a]:py-1.5 max-[560px]:[&>a]:text-[0.66rem]"

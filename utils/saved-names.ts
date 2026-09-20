@@ -1,17 +1,19 @@
 import type { CatalogItem } from "@/types/catalog";
 
-const SAVED_ITEMS_KEY = "coolname:saved-items";
-const SAVED_IDS_KEY = "coolname:saved-ids";
+const SAVED_ITEMS_KEY = "naime:saved-items";
+const SAVED_IDS_KEY = "naime:saved-ids";
+const LEGACY_SAVED_ITEMS_KEY = "coolname:saved-items";
 
 export function readSavedNames(): CatalogItem[] {
   try {
-    const value: unknown = JSON.parse(localStorage.getItem(SAVED_ITEMS_KEY) ?? "[]");
+    const storedKey = localStorage.getItem(SAVED_ITEMS_KEY) ? SAVED_ITEMS_KEY : LEGACY_SAVED_ITEMS_KEY;
+    const value: unknown = JSON.parse(localStorage.getItem(storedKey) ?? "[]");
 
     if (!Array.isArray(value)) {
       return [];
     }
 
-    return value.filter(
+    const items = value.filter(
       (item): item is CatalogItem =>
         typeof item === "object" &&
         item !== null &&
@@ -20,6 +22,12 @@ export function readSavedNames(): CatalogItem[] {
         typeof item.category === "string" &&
         typeof item.group === "string"
     );
+
+    if (storedKey === LEGACY_SAVED_ITEMS_KEY) {
+      writeSavedNames(items);
+    }
+
+    return items;
   } catch {
     return [];
   }

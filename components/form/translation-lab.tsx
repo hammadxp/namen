@@ -7,6 +7,9 @@ import { cn } from "@/lib/utils";
 
 type Translation = { target: string; text: string };
 
+const TRANSLATIONS_KEY = "naime:translations";
+const LEGACY_TRANSLATIONS_KEY = "coolname:translations";
+
 export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
   const [input, setInput] = useState("");
   const [targets, setTargets] = useState<(string | null)[]>(["ur", "ar", "fr", "es", "ja", "de"]);
@@ -42,9 +45,13 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
     const cacheKey = `${input.trim().toLowerCase()}::${[...targetList].sort().join(",")}`;
     let cache: Record<string, unknown> = {};
     try {
-      const stored: unknown = JSON.parse(localStorage.getItem("coolname:translations") ?? "{}");
+      const storedKey = localStorage.getItem(TRANSLATIONS_KEY) ? TRANSLATIONS_KEY : LEGACY_TRANSLATIONS_KEY;
+      const stored: unknown = JSON.parse(localStorage.getItem(storedKey) ?? "{}");
       if (stored && typeof stored === "object" && !Array.isArray(stored)) {
         cache = stored as Record<string, unknown>;
+        if (storedKey === LEGACY_TRANSLATIONS_KEY) {
+          localStorage.setItem(TRANSLATIONS_KEY, JSON.stringify(cache));
+        }
       }
     } catch {
       // A damaged cache should not prevent a fresh translation.
@@ -76,10 +83,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
       setTranslations(next);
       cache[cacheKey] = next;
       try {
-        localStorage.setItem(
-          "coolname:translations",
-          JSON.stringify(Object.fromEntries(Object.entries(cache).slice(-50)))
-        );
+        localStorage.setItem(TRANSLATIONS_KEY, JSON.stringify(Object.fromEntries(Object.entries(cache).slice(-50))));
       } catch {
         // Storage may be disabled or full; the translation still succeeded.
       }
@@ -99,25 +103,25 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
       )}
     >
       {embedded ? (
-        <div className="mx-auto mb-[30px] flex w-full max-w-[980px] items-end justify-between gap-6 max-[560px]:flex-col max-[560px]:items-start">
+        <div className="mx-auto mb-7.5 flex w-full max-w-245 items-end justify-between gap-6 max-[560px]:flex-col max-[560px]:items-start">
           <div>
             <p className="mb-2 text-xs font-black text-lemon">One word, six new sounds</p>
             <h2 className="m-0 font-heading text-[clamp(2.2rem,5vw,4.5rem)] leading-[0.94] tracking-[-0.065em]">
               Try it in another language
             </h2>
           </div>
-          <p className="mb-1 max-w-[330px] leading-[1.5] text-white/85">
+          <p className="mb-1 max-w-82.5 leading-normal text-white/85">
             Translate an idea to find a new rhythm, spelling, or starting point.
           </p>
         </div>
       ) : (
         <section
-          className="relative mb-[42px] grid grid-cols-[1.3fr_0.7fr] items-end gap-[50px] border-b-2 border-ink pb-8 max-[780px]:grid-cols-1 max-[780px]:gap-[18px]"
+          className="relative mb-10.5 grid grid-cols-[1.3fr_0.7fr] items-end gap-12.5 border-b-2 border-ink pb-8 max-[780px]:grid-cols-1 max-[780px]:gap-4.5"
           style={{ "--accent": "var(--orange)" } as React.CSSProperties}
         >
           <span
             aria-hidden="true"
-            className="absolute inset-x-0 -bottom-0.5 h-2.5 w-[min(42%,560px)] origin-left animate-[rule-grow_620ms_100ms_cubic-bezier(0.2,0.72,0.2,1)_both] border-r-2 border-ink bg-[var(--accent)] max-[560px]:w-2/3"
+            className="absolute inset-x-0 -bottom-0.5 h-2.5 w-[min(42%,560px)] origin-left animate-[rule-grow_620ms_100ms_cubic-bezier(0.2,0.72,0.2,1)_both] border-r-2 border-ink bg-accent max-[560px]:w-2/3"
           />
           <div>
             <p className="mb-1.5 text-xs font-black text-muted-foreground">Six translations at once</p>
@@ -125,17 +129,17 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
               Translate a word
             </h1>
           </div>
-          <p className="mb-1 max-w-[470px] text-[1.05rem] leading-[1.55] text-[oklch(0.4295_0.0312_289.8)]">
+          <p className="mb-1 max-w-117.5 text-[1.05rem] leading-[1.55] text-[oklch(0.4295_0.0312_289.8)]">
             Use another language for more uniqueness. City cards stay out of this tool because place names rarely need
             translation.
           </p>
         </section>
       )}
-      <section className="mx-auto max-w-[980px]">
+      <section className="mx-auto max-w-245">
         <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center border-2 border-ink bg-white text-ink shadow-[8px_8px_0_var(--orange)] max-[560px]:grid-cols-[auto_1fr]">
-          <Languages className="ml-[18px] text-violet" size={23} />
+          <Languages className="ml-4.5 text-violet" size={23} />
           <input
-            className="h-[72px] min-w-0 border-0 bg-transparent px-4 text-[1.2rem] font-semibold outline-none max-[560px]:h-[66px]"
+            className="h-18 min-w-0 border-0 bg-transparent px-4 text-[1.2rem] font-semibold outline-none max-[560px]:h-16.5"
             value={input}
             onChange={(event) => {
               setInput(event.target.value);
@@ -146,7 +150,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
             aria-label="Word or idea to translate"
           />
           <button
-            className="grid min-h-full min-w-[140px] place-items-center self-stretch border-0 border-l-2 border-ink bg-lemon font-black transition-colors hover:bg-mint max-[560px]:col-span-full max-[560px]:min-h-[52px] max-[560px]:border-t-2 max-[560px]:border-l-0"
+            className="grid min-h-full min-w-35 place-items-center self-stretch border-0 border-l-2 border-ink bg-lemon font-black transition-colors hover:bg-mint max-[560px]:col-span-full max-[560px]:min-h-13 max-[560px]:border-t-2 max-[560px]:border-l-0"
             type="button"
             onClick={translate}
             disabled={status === "loading"}
@@ -192,10 +196,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
         )}
       </section>
       {slot !== null && (
-        <div
-          className="fixed inset-0 z-[80] grid place-items-center bg-ink/75 p-[18px]"
-          onMouseDown={() => setSlot(null)}
-        >
+        <div className="fixed inset-0 z-80 grid place-items-center bg-ink/75 p-4.5" onMouseDown={() => setSlot(null)}>
           <div
             className="max-h-[80vh] w-[min(460px,100%)] animate-[dialog-pop_180ms_ease-out_both] border-2 border-ink bg-paper p-5 text-ink shadow-[9px_9px_0_var(--orange)]"
             role="dialog"
@@ -211,7 +212,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
                 Choose a language
               </h2>
               <button
-                className="grid size-[34px] place-items-center border-0 bg-transparent"
+                className="grid size-8.5 place-items-center border-0 bg-transparent"
                 type="button"
                 onClick={() => setSlot(null)}
                 aria-label="Close"
@@ -219,7 +220,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
                 <X size={20} />
               </button>
             </div>
-            <label className="flex min-h-[50px] items-center gap-2.5 border border-ink bg-white px-3.5">
+            <label className="flex min-h-12.5 items-center gap-2.5 border border-ink bg-white px-3.5">
               <Search size={17} />
               <input
                 className="w-full min-w-0 border-0 bg-transparent outline-none"
@@ -229,10 +230,10 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
                 placeholder="Try Urdu or Pakistan"
               />
             </label>
-            <div className="mt-2.5 max-h-[430px] overflow-y-auto border border-ink">
+            <div className="mt-2.5 max-h-107.5 overflow-y-auto border border-ink">
               {options.map((language) => (
                 <button
-                  className="grid min-h-[46px] w-full grid-cols-[1fr_auto_24px] items-center border-0 border-b border-line bg-white px-3 py-2 text-left hover:bg-lemon disabled:cursor-not-allowed disabled:opacity-50"
+                  className="grid min-h-11.5 w-full grid-cols-[1fr_auto_24px] items-center border-0 border-b border-line bg-white px-3 py-2 text-left hover:bg-lemon disabled:cursor-not-allowed disabled:opacity-50"
                   type="button"
                   onClick={() => choose(language.code)}
                   key={language.code}
