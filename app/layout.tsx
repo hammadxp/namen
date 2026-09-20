@@ -1,5 +1,6 @@
 import { Archivo_Black, DM_Sans } from "next/font/google";
 import { SiteFooter } from "@/components/layout/site-footer";
+import { FocusModality } from "@/components/layout/focus-modality";
 import { SiteHeader } from "@/components/layout/site-header";
 import { siteMetadata } from "@/config/metadata";
 import dataMetadata from "@/public/data/metadata.json";
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`} data-scroll-behavior="smooth">
       <body>
+        <FocusModality />
         <SiteHeader />
         {children}
         <SiteFooter updatedAt={dataMetadata.updatedAt} />
