@@ -15,7 +15,7 @@ export function SiteFooter({ updatedAt }: { updatedAt: string }) {
       </div>
       <div>
         <Link className="font-heading text-[1.55rem] tracking-[-0.07em] no-underline" href="/">
-          na<span className="text-orange">ime</span>
+          namen
         </Link>
         <p className="mt-2 text-xs text-white/80">Built for names that feel found, not generated.</p>
       </div>
