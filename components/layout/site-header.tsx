@@ -13,9 +13,9 @@ export function SiteHeader() {
         <Link
           className="font-heading text-2xl tracking-[-0.07em] no-underline max-[560px]:text-xl"
           href="/"
-          aria-label="Naime home"
+          aria-label="Namen home"
         >
-          naime
+          namen
         </Link>
         <p className="ml-6.5 flex items-center gap-2 text-xs font-extrabold text-muted-foreground max-[1050px]:hidden">
           <span className="h-2 w-6.5 rounded-full border border-ink bg-mint" /> Names hiding in plain sight.

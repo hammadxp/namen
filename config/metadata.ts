@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const SITE_NAME = "Naime";
+const SITE_NAME = "Namen";
 const SITE_DESCRIPTION = "Search memorable names found in cities, colors, fruit, science, elements, and stars.";
 
 export const siteMetadata: Metadata = {

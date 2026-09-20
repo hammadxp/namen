@@ -1,4 +1,4 @@
-# Naime
+# Namen
 
 A searchable name collection built from cities, countries, fruit, colors, scientific
 words, periodic elements, and stars. The browser uses local static data and keeps

@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 type Translation = { target: string; text: string };
 
-const TRANSLATIONS_KEY = "naime:translations";
+const TRANSLATIONS_KEY = "namen:translations";
 const LEGACY_TRANSLATIONS_KEY = "coolname:translations";
 
 export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
@@ -208,7 +208,7 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
             onMouseDown={(event) => event.stopPropagation()}
           >
             <div className="mb-3.5 flex items-center justify-between">
-              <h2 className="m-0 font-heading tracking-[-0.05em]" id="language-dialog-title">
+              <h2 className="m-0 font-heading tracking-tighter" id="language-dialog-title">
                 Choose a language
               </h2>
               <button

@@ -1,7 +1,7 @@
 import type { CatalogItem } from "@/types/catalog";
 
-const SAVED_ITEMS_KEY = "naime:saved-items";
-const SAVED_IDS_KEY = "naime:saved-ids";
+const SAVED_ITEMS_KEY = "namen:saved-items";
+const SAVED_IDS_KEY = "namen:saved-ids";
 const LEGACY_SAVED_ITEMS_KEY = "coolname:saved-items";
 
 export function readSavedNames(): CatalogItem[] {

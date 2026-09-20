@@ -126,7 +126,7 @@ export function CategoryBrowser({
   async function share(item: CatalogItem) {
     const url = `${window.location.origin}${window.location.pathname}?q=${encodeURIComponent(item.name)}`;
     try {
-      if (navigator.share) await navigator.share({ title: `${item.name} on Naime`, url });
+      if (navigator.share) await navigator.share({ title: `${item.name} on Namen`, url });
       else {
         await navigator.clipboard.writeText(url);
         setFeedback("Link copied.");
