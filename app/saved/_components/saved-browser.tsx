@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { BookmarkX } from "lucide-react";
+import posthog from "posthog-js";
 import { CatalogCard } from "@/components/card/catalog-card";
 import type { CatalogItem } from "@/types/catalog";
 import { readSavedNames, writeSavedNames } from "@/utils/saved-names";
@@ -21,6 +22,7 @@ export function SavedBrowser() {
       return;
     }
     setItems(next);
+    posthog.capture("name_unsaved", { category: item.category });
     setError("");
   }
 

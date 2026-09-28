@@ -1,3 +1,5 @@
+import { after } from "next/server";
+import { posthogLogsLogger, posthogLogsProvider, SeverityNumber } from "@/instrumentation";
 import { TRANSLATION_LANGUAGE_CODES } from "@/config/translation";
 
 const GOOGLE_TRANSLATE_ENDPOINT = "https://translation.googleapis.com/language/translate/v2";
@@ -26,7 +28,23 @@ export async function POST(request: Request) {
   }
 
   const apiKey = process.env.GOOGLE_CLOUD_TRANSLATE_API_KEY;
+  const targetCount = targets.length;
+  const startedAt = performance.now();
+
+  after(async () => {
+    await posthogLogsProvider?.forceFlush();
+  });
+
   if (!apiKey) {
+    posthogLogsLogger?.emit({
+      body: "translation request unavailable",
+      severityNumber: SeverityNumber.WARN,
+      attributes: {
+        event: "translation.request.completed",
+        outcome: "unavailable",
+        target_count: targetCount,
+      },
+    });
     return Response.json({ error: "Translation is unavailable right now." }, { status: 503 });
   }
 
@@ -50,8 +68,28 @@ export async function POST(request: Request) {
         };
       })
     );
+    posthogLogsLogger?.emit({
+      body: "translation request completed",
+      severityNumber: SeverityNumber.INFO,
+      attributes: {
+        event: "translation.request.completed",
+        outcome: "success",
+        target_count: targetCount,
+        duration_ms: Math.round(performance.now() - startedAt),
+      },
+    });
     return Response.json({ translations });
   } catch (error) {
+    posthogLogsLogger?.emit({
+      body: "translation request completed",
+      severityNumber: SeverityNumber.ERROR,
+      attributes: {
+        event: "translation.request.completed",
+        outcome: "failed",
+        target_count: targetCount,
+        duration_ms: Math.round(performance.now() - startedAt),
+      },
+    });
     console.error("Translation request failed", error);
     return Response.json({ error: "Translation failed. Try again in a moment." }, { status: 502 });
   }

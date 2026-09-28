@@ -3,6 +3,7 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useRouter } from "next/navigation";
 import { Bookmark, LoaderCircle, Search, Share2 } from "lucide-react";
+import posthog from "posthog-js";
 import { CatalogCard } from "@/components/card/catalog-card";
 import { compareDistinctiveFruits, groupLabel, hasShortCityName } from "@/utils/catalog-display";
 import type { CatalogItem, Category, SortMode } from "@/types/catalog";
@@ -120,15 +121,19 @@ export function CategoryBrowser({
       return;
     }
     setSavedItems(next);
+    posthog.capture(isSaved ? "name_unsaved" : "name_saved", { category: category.slug });
     setFeedback(isSaved ? `${item.name} removed from saved names.` : `${item.name} saved.`);
   }
 
   async function share(item: CatalogItem) {
     const url = `${window.location.origin}${window.location.pathname}?q=${encodeURIComponent(item.name)}`;
     try {
-      if (navigator.share) await navigator.share({ title: `${item.name} on Namen`, url });
-      else {
+      if (navigator.share) {
+        await navigator.share({ title: `${item.name} on Namen`, url });
+        posthog.capture("catalog_name_shared", { category: category.slug, method: "native_share" });
+      } else {
         await navigator.clipboard.writeText(url);
+        posthog.capture("catalog_name_shared", { category: category.slug, method: "clipboard" });
         setFeedback("Link copied.");
       }
     } catch (error) {
@@ -266,7 +271,10 @@ export function CategoryBrowser({
         <button
           className="mx-auto mt-9 block h-13 min-w-47.5 border-2 border-ink bg-lemon font-black shadow-[5px_5px_0_var(--ink)] transition-colors hover:bg-mint"
           type="button"
-          onClick={() => setLimit((value) => value + PAGE_SIZE)}
+          onClick={() => {
+            posthog.capture("catalog_results_expanded", { category: category.slug });
+            setLimit((value) => value + PAGE_SIZE);
+          }}
         >
           Show {Math.min(PAGE_SIZE, filtered.length - limit)} more
         </button>

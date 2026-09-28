@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { LANGUAGES } from "@/config/translation";
 import { Check, ChevronDown, Languages, LoaderCircle, Search, X } from "lucide-react";
+import posthog from "posthog-js";
 import { cn } from "@/lib/utils";
 
 type Translation = { target: string; text: string };
@@ -42,6 +43,10 @@ export function TranslationLab({ embedded = false }: { embedded?: boolean }) {
       setError("Enter a word and choose at least one language.");
       return;
     }
+    posthog.capture("translation_requested", {
+      embedded,
+      target_count: targetList.length,
+    });
     const cacheKey = `${input.trim().toLowerCase()}::${[...targetList].sort().join(",")}`;
     let cache: Record<string, unknown> = {};
     try {

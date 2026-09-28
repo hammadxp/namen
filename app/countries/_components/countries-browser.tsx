@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useDeferredValue, useMemo, useState } from "react";
 import { Search } from "lucide-react";
+import posthog from "posthog-js";
 import { useAutoHideOnScroll } from "@/hooks/use-auto-hide";
 import type { Country } from "@/types/catalog";
 import { cn } from "@/lib/utils";
@@ -83,6 +84,7 @@ export function CountriesBrowser({ countries }: { countries: Country[] }) {
           <Link
             className="group grid min-h-[92px] grid-cols-[42px_minmax(0,1fr)_auto] items-center gap-3 border-2 border-ink bg-white/70 p-[15px] no-underline transition-[background,transform,box-shadow] duration-150 hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--ink)] [&:nth-child(4n):hover]:bg-orange/40 [&:nth-child(4n+1):hover]:bg-lemon [&:nth-child(4n+2):hover]:bg-cyan/45 [&:nth-child(4n+3):hover]:bg-mint/45"
             href={`/categories/cities?country=${country.code}`}
+            onClick={() => posthog.capture("country_collection_opened", { country_code: country.code })}
             key={country.code}
           >
             <span className="text-[1.45rem] leading-none">{country.emoji}</span>

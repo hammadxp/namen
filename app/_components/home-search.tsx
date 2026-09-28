@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
+import posthog from "posthog-js";
 import type { Category } from "@/types/catalog";
 
 export function HomeSearch({ categories }: { categories: Category[] }) {
@@ -22,6 +23,10 @@ export function HomeSearch({ categories }: { categories: Category[] }) {
   function search(event: React.FormEvent) {
     event.preventDefault();
     const value = query.trim();
+    posthog.capture("catalog_search_submitted", {
+      category,
+      has_query: Boolean(value),
+    });
     router.push(`/categories/${category}${value ? `?q=${encodeURIComponent(value)}` : ""}`);
   }
 
@@ -90,7 +95,10 @@ export function HomeSearch({ categories }: { categories: Category[] }) {
               <button
                 className="flex gap-2 rounded-full border border-white/40 bg-white/10 px-3 py-2 text-white transition-colors hover:bg-white hover:text-ink"
                 key={`${match.category.slug}-${match.name}`}
-                onClick={() => router.push(`/categories/${match.category.slug}?q=${encodeURIComponent(match.name)}`)}
+                onClick={() => {
+                  posthog.capture("quick_search_selected", { category: match.category.slug });
+                  router.push(`/categories/${match.category.slug}?q=${encodeURIComponent(match.name)}`);
+                }}
                 type="button"
               >
                 <strong>{match.name}</strong>
